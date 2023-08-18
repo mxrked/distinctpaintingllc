@@ -1,0 +1,31 @@
+.full-second {
+  transition: 1s ease-in-out !important;
+}
+
+.half-second {
+  transition: 0.5s ease-in-out !important;
+}
+
+.stay-put {
+  // transform: translateX(0) !important;
+  transition: 0s ease-in-out !important;
+  opacity: 1 !important;
+}
+
+.selected {
+  &::selection {
+    color: #eeeeee;
+    // background-color: #6639a6;
+    // background-color: #0da0da;
+    //   background-color: #e5305b;
+    // background-color: #f27d24;
+  }
+
+  &::-moz-selection {
+    color: #eeeeee;
+    // background-color: #6639a6;
+    // background-color: #0da0da;
+    //   background-color: #e5305b;
+    // background-color: #f27d24;
+  }
+}

@@ -1,0 +1,191 @@
+// @import "~@fortawesome/fontawesome-free/css/all.css";
+
+// Desktop
+
+// Responsive
+@media all and (max-width: 1995px) {
+  // .fade-up-fix {
+  //   transform: translateY(0) !important;
+  // }
+  // .fade-down-fix {
+  //   transform: translateY(0) !important;
+  // }
+  // .fade-left-fix {
+  //   transform: translateX(0) !important;
+  // }
+  // .fade-right-fix {
+  //   transform: translateX(0) !important;
+  // }
+}
+
+@media all and (max-width: 991px) {
+  .fade-up-fix {
+    transform: translateY(0) !important;
+    opacity: 1 !important;
+  }
+  .fade-down-fix {
+    transform: translateY(0) !important;
+    opacity: 1 !important;
+  }
+  .fade-left-fix {
+    transform: translateX(0) !important;
+    opacity: 1 !important;
+  }
+  .fade-right-fix {
+    transform: translateX(0) !important;
+    opacity: 1 !important;
+  }
+}
+
+@media (min-width: 992px) {
+}
+
+// Desktop Window (Smallest)
+@media all and (max-width: 768px) {
+  .fade-up-fix {
+    transform: translateY(0) !important;
+    opacity: 1 !important;
+  }
+  .fade-down-fix {
+    transform: translateY(0) !important;
+    opacity: 1 !important;
+  }
+  .fade-left-fix {
+    transform: translateX(0) !important;
+    opacity: 1 !important;
+  }
+  .fade-right-fix {
+    transform: translateX(0) !important;
+    opacity: 1 !important;
+  }
+}
+
+// Smaller Devices (Phones)
+@media all and (max-width: 419px) {
+  .fade-up-fix {
+    transform: translateY(0) !important;
+    opacity: 1 !important;
+  }
+  .fade-down-fix {
+    transform: translateY(0) !important;
+    opacity: 1 !important;
+  }
+  .fade-left-fix {
+    transform: translateX(0) !important;
+    opacity: 1 !important;
+  }
+  .fade-right-fix {
+    transform: translateX(0) !important;
+    opacity: 1 !important;
+  }
+}
+
+// Pixel 2 XL
+@media only screen and (min-device-width: 411px) and (max-device-width: 823px) and (-webkit-min-device-pixel-ratio: 2) and (orientation: landscape) {
+  .fade-up-fix {
+    transform: translateY(0) !important;
+    opacity: 1 !important;
+  }
+  .fade-down-fix {
+    transform: translateY(0) !important;
+    opacity: 1 !important;
+  }
+  .fade-left-fix {
+    transform: translateX(0) !important;
+    opacity: 1 !important;
+  }
+  .fade-right-fix {
+    transform: translateX(0) !important;
+    opacity: 1 !important;
+  }
+}
+
+// Ipad
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: portrait) and (-webkit-min-device-pixel-ratio: 1) {
+  .fade-up-fix {
+    transform: translateY(0) !important;
+    opacity: 1 !important;
+  }
+  .fade-down-fix {
+    transform: translateY(0) !important;
+    opacity: 1 !important;
+  }
+  .fade-left-fix {
+    transform: translateX(0) !important;
+    opacity: 1 !important;
+  }
+  .fade-right-fix {
+    transform: translateX(0) !important;
+    opacity: 1 !important;
+  }
+}
+
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: landscape) and (-webkit-min-device-pixel-ratio: 1) {
+  .fade-up-fix {
+    transform: translateY(0) !important;
+    opacity: 1 !important;
+  }
+  .fade-down-fix {
+    transform: translateY(0) !important;
+    opacity: 1 !important;
+  }
+  .fade-left-fix {
+    transform: translateX(0) !important;
+    opacity: 1 !important;
+  }
+  .fade-right-fix {
+    transform: translateX(0) !important;
+    opacity: 1 !important;
+  }
+}
+
+// iPad Pro
+@media only screen and (min-device-width: 1024px) and (max-device-width: 1366px) and (-webkit-min-device-pixel-ratio: 2) and (orientation: portrait) {
+  .fade-up-fix {
+    transform: translateY(0) !important;
+    opacity: 1 !important;
+  }
+  .fade-down-fix {
+    transform: translateY(0) !important;
+    opacity: 1 !important;
+  }
+  .fade-left-fix {
+    transform: translateX(0) !important;
+    opacity: 1 !important;
+  }
+  .fade-right-fix {
+    transform: translateX(0) !important;
+    opacity: 1 !important;
+  }
+}
+
+@media only screen and (min-device-width: 1024px) and (max-device-width: 1366px) and (-webkit-min-device-pixel-ratio: 2) and (orientation: landscape) {
+  // .fade-up-fix {
+  //   transform: translateY(0) !important;
+  // }
+  // .fade-down-fix {
+  //   transform: translateY(0) !important;
+  // }
+  // .fade-left-fix {
+  //   transform: translateX(0) !important;
+  // }
+  // .fade-right-fix {
+  //   transform: translateX(0) !important;
+  // }
+}
+
+// Laptops
+@media screen and (min-device-width: 1200px) and (max-device-width: 1600px) and (-webkit-min-device-pixel-ratio: 1) {
+  // .fade-up-fix {
+  //   transform: translateY(0) !important;
+  // }
+  // .fade-down-fix {
+  //   transform: translateY(0) !important;
+  // }
+  // .fade-left-fix {
+  //   transform: translateX(0) !important;
+  // }
+  // .fade-right-fix {
+  //   transform: translateX(0) !important;
+  // }
+}
