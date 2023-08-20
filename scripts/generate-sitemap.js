@@ -4,7 +4,7 @@ const SITEMAP = require("nextjs-sitemap-generator");
 const PATH = require("path");
 
 SITEMAP({
-  baseUrl: "PUT_PATH_HERE",
+  baseUrl: "distinctpaintingllc.com",
   pagesDirectory: PATH.resolve(__dirname, "../out/"),
   targetDirectory: PATH.resolve(__dirname, "../out/"),
   ignoredExtensions: [
