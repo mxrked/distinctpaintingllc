@@ -4,11 +4,13 @@
  *
  */
 
+import { FaTimes } from "react-icons/fa";
+
+import { LOGO_CUT } from "@/assets/cdns/CDNIcons";
+
 import CloseMobileNav from "@/assets/functions/dom/closers/CloseMobileNav";
 
 import styles from "../../../../styles/modules/Nav/Nav.module.css";
-import { LOGO_CUT } from "@/assets/cdns/CDNIcons";
-import { FaTimes } from "react-icons/fa";
 
 export const MobileNavMenu = (props) => {
   return (
@@ -31,6 +33,9 @@ export const MobileNavMenu = (props) => {
           <button
             id="mobileNavMenuCloser"
             className="orientation-change-element half-second"
+            onClick={() => {
+              CloseMobileNav();
+            }}
           >
             <FaTimes className={`${styles.icon}`} />
           </button>
@@ -48,7 +53,7 @@ export const MobileNavMenu = (props) => {
               <li>
                 <a
                   href="/"
-                  className={`${styles.active} half-second orientation-change-element`}
+                  className={`${styles.active} nav-link half-second orientation-change-element`}
                 >
                   <span>Home</span>
                 </a>
@@ -66,7 +71,7 @@ export const MobileNavMenu = (props) => {
               <li>
                 <a
                   href="/gallery"
-                  className={`${styles.active} half-second orientation-change-element`}
+                  className={`${styles.active} nav-link half-second orientation-change-element`}
                 >
                   <span>Gallery</span>
                 </a>
@@ -84,7 +89,7 @@ export const MobileNavMenu = (props) => {
               <li>
                 <a
                   href="/contact"
-                  className={`${styles.active} half-second orientation-change-element`}
+                  className={`${styles.active} nav-link half-second orientation-change-element`}
                 >
                   <span>Contact</span>
                 </a>
