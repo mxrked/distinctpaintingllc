@@ -111,7 +111,7 @@ export const DesktopNav = (props) => {
                     <li>
                       <a
                         href="/"
-                        className={`${styles.active} nav-link half-second orientation-change-element`}
+                        className={`${styles.active} half-second orientation-change-element`}
                       >
                         <span>Home</span>
                       </a>
@@ -129,7 +129,7 @@ export const DesktopNav = (props) => {
                     <li>
                       <a
                         href="/gallery"
-                        className={`${styles.active} nav-link half-second orientation-change-element`}
+                        className={`${styles.active} half-second orientation-change-element`}
                       >
                         <span>Gallery</span>
                       </a>
@@ -147,7 +147,7 @@ export const DesktopNav = (props) => {
                     <li>
                       <a
                         href="/contact"
-                        className={`${styles.active} nav-link half-second orientation-change-element`}
+                        className={`${styles.active} half-second orientation-change-element`}
                       >
                         <span>Contact</span>
                       </a>
