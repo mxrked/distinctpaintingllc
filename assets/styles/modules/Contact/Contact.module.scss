@@ -3,8 +3,29 @@
 @import "../../tools/themes/themes.scss";
 @import "../../tools/variables/variable.scss";
 
-// Desktop 
+// Fonts
+@font-face {
+  font-family: "Source Sans Black";
+  src: url("../../../fonts/SourceSans3-Black.ttf");
+}
+@font-face {
+  font-family: "Source Sans Extra Bold";
+  src: url("../../../fonts/SourceSans3-ExtraBold.ttf");
+}
+@font-face {
+  font-family: "Source Sans Bold";
+  src: url("../../../fonts/SourceSans3-Bold.ttf");
+}
+@font-face {
+  font-family: "Lato Bold";
+  src: url("../../../fonts/Lato-Bold.ttf");
+}
+@font-face {
+  font-family: "Lato Regular";
+  src: url("../../../fonts/Lato-Regular.ttf");
+}
 
+// Desktop
 
 // Responsive
 @media all and (max-width: 1995px) {
