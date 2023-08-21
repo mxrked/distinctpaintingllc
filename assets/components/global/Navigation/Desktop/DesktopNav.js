@@ -30,7 +30,7 @@ export const DesktopNav = (props) => {
       className={`${styles.desktop_nav} overrides_DesktopNav`}
     >
       <motion.div
-        className={`${styles.desktop_nav_inner} fm-motion fade-in fade-in-fix`}
+        className={`${styles.desktop_nav_inner} fm-motion fade-in fade-in-fix half-second`}
         ref={REF}
         initial="hidden"
         animate={CONTROLS}
@@ -44,26 +44,117 @@ export const DesktopNav = (props) => {
               <div className={`${styles.desktop_nav_inner_side_cnt}`}>
                 {props.disableLink == "/" ? (
                   <div className={`${styles.logo} ${styles.deactive}`}>
-                    <img
-                      data-src={LOGO_CUT}
-                      className="lazyload half-second"
-                      alt="Distinct Painting LLC"
-                    />
+                    <div className={`${styles.img_holder}`}>
+                      <img
+                        data-src={LOGO_CUT}
+                        className="lazyload half-second"
+                        alt="Distinct Painting LLC"
+                      />
+                    </div>
 
-                    <div></div>
+                    <div>
+                      <span
+                        className={`${styles.top_text} orientation-change-element half-second`}
+                      >
+                        Distinct Painting <span>LLC</span>
+                      </span>
+                      <span
+                        className={`${styles.bottom_text} orientation-change-element half-second`}
+                      >
+                        Painting, Pressure Washing, Dry Wall, Carpentry
+                      </span>
+                    </div>
                   </div>
                 ) : (
                   <a
                     href="/"
                     className={`${styles.logo} ${styles.active} half-second`}
-                  ></a>
+                  >
+                    <div className={`${styles.img_holder}`}>
+                      <img
+                        data-src={LOGO_CUT}
+                        className="lazyload half-second"
+                        alt="Distinct Painting LLC"
+                      />
+                    </div>
+
+                    <div>
+                      <span
+                        className={`${styles.top_text} orientation-change-element half-second`}
+                      >
+                        Distinct Painting <span>LLC</span>
+                      </span>
+                      <span
+                        className={`${styles.bottom_text} orientation-change-element half-second`}
+                      >
+                        Painting, Pressure Washing, Dry Wall, Carpentry
+                      </span>
+                    </div>
+                  </a>
                 )}
               </div>
             </div>
             <div
               className={`${styles.desktop_nav_inner_side} ${styles.desktop_nav_R} col-lg-6 col-md-6 col-sm-6 col-xs-6`}
             >
-              <div className={`${styles.desktop_nav_inner_side_cnt}`}></div>
+              <div className={`${styles.desktop_nav_inner_side_cnt}`}>
+                <ul>
+                  {props.disableLink == "/" ? (
+                    <li>
+                      <span
+                        className={`${styles.deactive} half-second orientation-change-element`}
+                      >
+                        Home
+                      </span>
+                    </li>
+                  ) : (
+                    <li>
+                      <a
+                        href="/"
+                        className={`${styles.active} nav-link half-second orientation-change-element`}
+                      >
+                        <span>Home</span>
+                      </a>
+                    </li>
+                  )}
+                  {props.disableLink == "/gallery" ? (
+                    <li>
+                      <span
+                        className={`${styles.deactive} half-second orientation-change-element`}
+                      >
+                        Gallery
+                      </span>
+                    </li>
+                  ) : (
+                    <li>
+                      <a
+                        href="/gallery"
+                        className={`${styles.active} nav-link half-second orientation-change-element`}
+                      >
+                        <span>Gallery</span>
+                      </a>
+                    </li>
+                  )}
+                  {props.disableLink == "/contact" ? (
+                    <li>
+                      <span
+                        className={`${styles.deactive} half-second orientation-change-element`}
+                      >
+                        Contact
+                      </span>
+                    </li>
+                  ) : (
+                    <li>
+                      <a
+                        href="/contact"
+                        className={`${styles.active} nav-link half-second orientation-change-element`}
+                      >
+                        <span>Contact</span>
+                      </a>
+                    </li>
+                  )}
+                </ul>
+              </div>
             </div>
           </div>
         </div>

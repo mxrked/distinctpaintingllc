@@ -26,7 +26,7 @@ export const NavTop = (props) => {
   return (
     <section id="navTop" className={`${styles.nav_top} overrides_NavTop`}>
       <motion.div
-        className={`${styles.nav_top_inner} fm-motion fade-in fade-in-fix`}
+        className={`${styles.nav_top_inner} fm-motion fade-in fade-in-fix half-second`}
         ref={REF}
         initial="hidden"
         animate={CONTROLS}
