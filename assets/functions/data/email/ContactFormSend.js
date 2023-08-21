@@ -11,6 +11,7 @@ import emailjs from "@emailjs/browser";
 
 import CheckValidEmail from "./CheckValidEmail";
 import CheckValidPhoneNumber from "./CheckValidPhoneNumber";
+import CheckValidZip from "./CheckZipCode";
 import DeclareStorageVariable from "../storage/DeclareStorageVariable";
 
 const SERVICE_ID = "service_8p72ccn";
