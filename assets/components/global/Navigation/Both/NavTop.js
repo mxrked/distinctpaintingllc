@@ -3,15 +3,35 @@
  *  This is the Nav Top
  *
  */
+import { useEffect } from "react";
 
+import { useAnimation, motion } from "framer-motion";
+import { useInView } from "react-intersection-observer";
 import { FaFacebook } from "react-icons/fa";
+
+import { FADE_IN } from "@/assets/animations/FADES";
+
+import TriggerInViewMotion from "@/assets/functions/dom/triggers/TriggerInViewMotion";
 
 import styles from "../../../../styles/modules/Nav/Nav.module.css";
 
 export const NavTop = (props) => {
+  const CONTROLS = useAnimation();
+  const [REF, INVIEW] = useInView();
+
+  useEffect(() => {
+    TriggerInViewMotion(CONTROLS, INVIEW);
+  }, [CONTROLS, INVIEW]);
+
   return (
     <section id="navTop" className={`${styles.nav_top} overrides_NavTop`}>
-      <div className={`${styles.nav_top_inner}`}>
+      <motion.div
+        className={`${styles.nav_top_inner} fm-motion fade-in fade-in-fix`}
+        ref={REF}
+        initial="hidden"
+        animate={CONTROLS}
+        variants={FADE_IN}
+      >
         <div className={`${styles.nav_top_inner_box} container-fluid`}>
           <div className={`${styles.nav_top_inner_row} row`}>
             <div
@@ -68,7 +88,7 @@ export const NavTop = (props) => {
             </div>
           </div>
         </div>
-      </div>
+      </motion.div>
     </section>
   );
 };
