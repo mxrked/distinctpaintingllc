@@ -5,9 +5,11 @@ import { useRouter } from "next/router";
 // Library Imports
 
 // Data/Functions/Images Imports
+import { TriggerExitAnimations } from "@/assets/functions/dom/triggers/TriggerExitAnimations";
 
 // Component Imports
 import { PageHead } from "@/assets/components/global/All/PageHead";
+import { NavTop } from "@/assets/components/global/Navigation/Both/NavTop";
 
 // Style Imports
 import "../assets/styles/modules/Gallery/Gallery.module.css";
@@ -29,9 +31,15 @@ export const getStaticProps = async () => {
 export default function Contact({ gallery_data }) {
   const router = useRouter();
 
+  // Triggering exit animations
+  useEffect(() => {
+    TriggerExitAnimations();
+  }, []);
+
   return (
-    <div id="PAGE" className="overrides_Gallery full-second">
+    <div id="PAGE" className="overrides_Gallery page full-second">
       <PageHead />
+      <NavTop disableLink="/gallery" />
 
       <main id="PAGE_MAIN"></main>
     </div>

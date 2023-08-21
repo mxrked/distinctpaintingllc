@@ -5,13 +5,14 @@ import { useRouter } from "next/router";
 // Library Imports
 
 // Data/Functions/Images Imports
+import { TriggerExitAnimations } from "@/assets/functions/dom/triggers/TriggerExitAnimations";
 
 // Component Imports
 import { PageHead } from "@/assets/components/global/All/PageHead";
+import { NavTop } from "@/assets/components/global/Navigation/Both/NavTop";
 
 // Style Imports
 import "../assets/styles/modules/Index/Index.module.css";
-
 export const getStaticProps = async () => {
   const INDEX_GALLERY_RES = await fetch(
     "https://raw.githubusercontent.com/mxrked/freelance_projects_CDN/main/distinct-painting-llc/json/INDEX_GALLERY.json"
@@ -29,9 +30,15 @@ export const getStaticProps = async () => {
 export default function Home({ index_gallery_data }) {
   const router = useRouter();
 
+  // Triggering exit animations
+  useEffect(() => {
+    TriggerExitAnimations();
+  }, []);
+
   return (
-    <div id="PAGE" className="overrides_Index full-second">
+    <div id="PAGE" className="overrides_Index page full-second">
       <PageHead />
+      <NavTop disableLink="/" />
 
       <main id="PAGE_MAIN"></main>
     </div>
