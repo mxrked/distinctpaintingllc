@@ -234,8 +234,14 @@ function MyApp({ Component, pageProps }) {
         document.querySelectorAll(".page").forEach((page) => {
           page.style.opacity = 1;
           page.style.visibility = "visible";
-          page.style.overflowY = "auto";
-          page.style.pointerEvents = "auto";
+
+          if (
+            !sessionStorage.getItem("Mobile Nav Opened") &&
+            !sessionStorage.getItem("Modal Opened")
+          ) {
+            page.style.overflowY = "auto";
+            page.style.pointerEvents = "auto";
+          }
         });
       }
     }, 2500);

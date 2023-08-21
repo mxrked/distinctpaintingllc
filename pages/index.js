@@ -11,6 +11,8 @@ import { TriggerExitAnimations } from "@/assets/functions/dom/triggers/TriggerEx
 import { PageHead } from "@/assets/components/global/All/PageHead";
 import { NavTop } from "@/assets/components/global/Navigation/Both/NavTop";
 import { DesktopNav } from "@/assets/components/global/Navigation/Desktop/DesktopNav";
+import { MobileNav } from "@/assets/components/global/Navigation/Mobile/MobileNav";
+import { MobileNavMenu } from "@/assets/components/global/Navigation/Mobile/MobileNavMenu";
 
 // Style Imports
 import "../assets/styles/modules/Index/Index.module.css";
@@ -41,6 +43,8 @@ export default function Home({ index_gallery_data }) {
       <PageHead />
       <NavTop disableLink="/" />
       <DesktopNav disableLink="/" />
+      <MobileNav disableLink="/" />
+      <MobileNavMenu disableLink="/" />
 
       <main id="PAGE_MAIN"></main>
     </div>
