@@ -12,7 +12,21 @@ import { PageHead } from "@/assets/components/global/All/PageHead";
 // Style Imports
 import "../assets/styles/modules/Gallery/Gallery.module.css";
 
-export default function Contact() {
+export const getStaticProps = async () => {
+  const GALLERY_RES = await fetch(
+    "https://raw.githubusercontent.com/mxrked/freelance_projects_CDN/main/distinct-painting-llc/json/GALLERY.json"
+  );
+
+  const GALLERY_RES_DATA = await GALLERY_RES.json();
+
+  return {
+    props: {
+      gallery_data: GALLERY_RES_DATA,
+    },
+  };
+};
+
+export default function Contact({ gallery_data }) {
   const router = useRouter();
 
   return (
