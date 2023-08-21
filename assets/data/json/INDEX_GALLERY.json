@@ -1,0 +1,32 @@
+[
+  {
+    "_itemID": "_G0001",
+    "_itemType": "Room",
+    "_itemImgSrc": "https://raw.githubusercontent.com/mxrked/freelance_projects_CDN/main/distinct-painting-llc/imgs/gallery/room-1.webp"
+  },
+  {
+    "_itemID": "_G0002",
+    "_itemType": "Room",
+    "_itemImgSrc": "https://raw.githubusercontent.com/mxrked/freelance_projects_CDN/main/distinct-painting-llc/imgs/gallery/room-2.webp"
+  },
+  {
+    "_itemID": "_G0003",
+    "_itemType": "Room",
+    "_itemImgSrc": "https://raw.githubusercontent.com/mxrked/freelance_projects_CDN/main/distinct-painting-llc/imgs/gallery/room-3.webp"
+  },
+  {
+    "_itemID": "_G0004",
+    "_itemType": "Outside",
+    "_itemImgSrc": "https://raw.githubusercontent.com/mxrked/freelance_projects_CDN/main/distinct-painting-llc/imgs/gallery/outside-1.webp"
+  },
+  {
+    "_itemID": "_G0005",
+    "_itemType": "Outside",
+    "_itemImgSrc": "https://raw.githubusercontent.com/mxrked/freelance_projects_CDN/main/distinct-painting-llc/imgs/gallery/outside-2.webp"
+  },
+  {
+    "_itemID": "_G0006",
+    "_itemType": "Outside",
+    "_itemImgSrc": "https://raw.githubusercontent.com/mxrked/freelance_projects_CDN/main/distinct-painting-llc/imgs/gallery/outside-3.webp"
+  }
+]
