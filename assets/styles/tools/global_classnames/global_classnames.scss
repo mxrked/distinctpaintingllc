@@ -15,6 +15,7 @@
 .selected {
   &::selection {
     color: #eeeeee;
+    background-color: #246c52;
     // background-color: #6639a6;
     // background-color: #0da0da;
     //   background-color: #e5305b;
@@ -23,6 +24,7 @@
 
   &::-moz-selection {
     color: #eeeeee;
+    background-color: #246c52;
     // background-color: #6639a6;
     // background-color: #0da0da;
     //   background-color: #e5305b;
