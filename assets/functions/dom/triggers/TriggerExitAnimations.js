@@ -56,8 +56,10 @@ function TriggerExitAnimations() {
         });
 
         setTimeout(() => {
-          document.querySelector(".page").style.opacity = 0;
-          document.querySelector(".page").style.visibility = "hidden";
+          if (document.querySelector(".page")) {
+            document.querySelector(".page").style.opacity = 0;
+            document.querySelector(".page").style.visibility = "hidden";
+          }
         }, 600);
 
         // Removing background color of navs
@@ -69,6 +71,8 @@ function TriggerExitAnimations() {
         // Route to href value
         setTimeout(() => {
           window.location.href = sessionStorage.getItem("HREF");
+          document.body.style.overflowY = "auto";
+          document.body.style.pointerEvents = "auto";
         }, 1000);
       });
     }
@@ -95,9 +99,11 @@ function TriggerExitAnimations() {
             fm.style.opacity = 0;
           });
 
-          // Hiding elements
-          document.querySelector(".page").style.opacity = 0;
-          document.querySelector(".page").style.visibility = "hidden";
+          if (document.querySelector(".page")) {
+            // Hiding elements
+            document.querySelector(".page").style.opacity = 0;
+            document.querySelector(".page").style.visibility = "hidden";
+          }
         }, 2120);
 
         // Removing background color of navs
@@ -121,9 +127,11 @@ function TriggerExitAnimations_NON_LINKS() {
   document.body.style.overflowY = "hidden";
   document.body.style.pointerEvents = "none";
 
-  // Hiding page
-  document.querySelector(".page").style.opacity = 0;
-  document.querySelector(".page").style.visibility = "hidden";
+  if (document.querySelector(".page")) {
+    // Hiding page
+    document.querySelector(".page").style.opacity = 0;
+    document.querySelector(".page").style.visibility = "hidden";
+  }
 
   // Hiding elements
   document.querySelectorAll(".fm-motion").forEach((fm) => {
