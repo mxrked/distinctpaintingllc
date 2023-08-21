@@ -13,6 +13,7 @@ export default function CloseMobileNav() {
   DARKEN.style.pointerEvents = "none";
   MAIN.style.pointerEvents = "none";
   MAIN.style.overflowY = "hidden";
+  document.getElementById("mobileNavMenuMainCnt").style.opacity = 0;
 
   setTimeout(() => {
     MAIN.style.transform = "translateX(100%)";

@@ -36,6 +36,10 @@ export default function ToggleMobileNav() {
   }, 1400);
 
   setTimeout(() => {
+    document.getElementById("mobileNavMenuMainCnt").style.opacity = 1;
+  }, 1900);
+
+  setTimeout(() => {
     DARKEN.style.pointerEvents = "auto";
     MAIN.style.overflowY = "auto";
     MAIN.style.pointerEvents = "auto";
