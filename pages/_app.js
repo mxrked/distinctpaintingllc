@@ -19,6 +19,7 @@ import CheckUserDevice from "@/assets/functions/dom/checkers/CheckUserDevice";
 import CheckMobileNavMenuStatus from "@/assets/functions/dom/checkers/CheckMobileNavMenuStatus";
 import CheckScreenOrientation from "@/assets/functions/dom/checkers/CheckScreenOrientation";
 import ManipFadeFixClasses from "@/assets/functions/dom/manip/ManipFadeFixClasses";
+import CheckPageClass from "@/assets/functions/dom/checkers/CheckPageClass";
 
 // Component Imports
 
@@ -102,7 +103,6 @@ function MyApp({ Component, pageProps }) {
     if (sessionStorage.getItem("EA Fix")) {
       const SS_VARIABLES = [
         "Mobile Nav Opened",
-        "Donation Popup Opened",
         "HREF",
         "FM Loaded",
         "Page Reload",
@@ -110,11 +110,6 @@ function MyApp({ Component, pageProps }) {
         "ph_foZTeM1AW8dh5WkaofxTYiInBhS4XzTzRqLs50kVziw_posthog",
       ];
       const LS_VARIABLES = ["ally-supports-cache"];
-
-      // Removing the Adopt Select if user is not on contact page
-      if (router.pathname !== "/contact") {
-        RemoveStorageVariable("session", "Adopt Select");
-      }
 
       SS_VARIABLES.forEach((variable) => {
         RemoveStorageVariable("session", variable);
@@ -232,15 +227,30 @@ function MyApp({ Component, pageProps }) {
     });
   }, []);
 
-  //! Showing Page after some time
+  //! Display Page after some time
   useEffect(() => {
     setTimeout(() => {
-      document.querySelectorAll(".page").forEach((page) => {
-        page.style.opacity = 1;
-        page.style.visibility = "visible";
-      });
-    }, 500);
-  }, [router]);
+      if (document.querySelector(".page")) {
+        document.querySelectorAll(".page").forEach((page) => {
+          page.style.opacity = 1;
+          page.style.visibility = "visible";
+          page.style.overflowY = "auto";
+          page.style.pointerEvents = "auto";
+        });
+      }
+    }, 2500);
+  }, []);
+
+  //! Removing/Adding Page class depending on device (THIS FIXED THE PAGE SHOW ISSUE WHEN POPSTATE CHANGES ON MOBILE DEVICES)
+  useEffect(() => {
+    window.addEventListener("load", () => {
+      CheckPageClass();
+    });
+
+    window.addEventListener("resize", () => {
+      CheckPageClass();
+    });
+  }, []);
 
   return <Component {...pageProps} />;
 }
