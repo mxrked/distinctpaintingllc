@@ -10,6 +10,7 @@ import { TriggerExitAnimations } from "@/assets/functions/dom/triggers/TriggerEx
 // Component Imports
 import { PageHead } from "@/assets/components/global/All/PageHead";
 import { NavTop } from "@/assets/components/global/Navigation/Both/NavTop";
+import { DesktopNav } from "@/assets/components/global/Navigation/Desktop/DesktopNav";
 
 // Style Imports
 import "../assets/styles/modules/Contact/Contact.module.css";
@@ -26,6 +27,7 @@ export default function Contact() {
     <div id="PAGE" className="overrides_Contact full-second">
       <PageHead />
       <NavTop disableLink="/contact" />
+      <DesktopNav disableLink="/contact" />
 
       <main id="PAGE_MAIN"></main>
     </div>

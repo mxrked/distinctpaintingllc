@@ -10,6 +10,7 @@ import { TriggerExitAnimations } from "@/assets/functions/dom/triggers/TriggerEx
 // Component Imports
 import { PageHead } from "@/assets/components/global/All/PageHead";
 import { NavTop } from "@/assets/components/global/Navigation/Both/NavTop";
+import { DesktopNav } from "@/assets/components/global/Navigation/Desktop/DesktopNav";
 
 // Style Imports
 import "../assets/styles/modules/Gallery/Gallery.module.css";
@@ -40,6 +41,7 @@ export default function Contact({ gallery_data }) {
     <div id="PAGE" className="overrides_Gallery full-second">
       <PageHead />
       <NavTop disableLink="/gallery" />
+      <DesktopNav disableLink="/gallery" />
 
       <main id="PAGE_MAIN"></main>
     </div>
