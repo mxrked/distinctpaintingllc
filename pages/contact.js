@@ -23,7 +23,7 @@ export default function Contact() {
   }, []);
 
   return (
-    <div id="PAGE" className="overrides_Contact page full-second">
+    <div id="PAGE" className="overrides_Contact full-second">
       <PageHead />
       <NavTop disableLink="/contact" />
 

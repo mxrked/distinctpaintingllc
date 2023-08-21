@@ -22,7 +22,7 @@ export default function NotFound() {
   }, []);
 
   return (
-    <div id="PAGE" className="overrides_404 page full-second">
+    <div id="PAGE" className="overrides_404 full-second">
       <PageHead />
 
       <main id="PAGE_MAIN"></main>

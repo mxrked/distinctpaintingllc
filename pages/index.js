@@ -36,7 +36,7 @@ export default function Home({ index_gallery_data }) {
   }, []);
 
   return (
-    <div id="PAGE" className="overrides_Index page full-second">
+    <div id="PAGE" className="overrides_Index full-second">
       <PageHead />
       <NavTop disableLink="/" />
 

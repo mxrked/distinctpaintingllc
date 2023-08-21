@@ -37,7 +37,7 @@ export default function Contact({ gallery_data }) {
   }, []);
 
   return (
-    <div id="PAGE" className="overrides_Gallery page full-second">
+    <div id="PAGE" className="overrides_Gallery full-second">
       <PageHead />
       <NavTop disableLink="/gallery" />
 
