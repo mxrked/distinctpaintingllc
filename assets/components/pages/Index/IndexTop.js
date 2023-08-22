@@ -66,7 +66,7 @@ export const IndexTop = () => {
         initial="hidden"
         animate={CONTROLS}
         variants={FADE_IN}
-        className={`${styles.motion_holder} fm-motion fade-in fade-in-fix half-second`}
+        className={`${styles.motion_holder} fm-motion fade-in fade-in-fix full-second`}
       >
         <Slider {...SLIDER_SETTINGS} className={`${styles.index_top_slider}`}>
           {TOP_SLIDES.map((slide) => (
