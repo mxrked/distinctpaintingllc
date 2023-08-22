@@ -33,7 +33,7 @@ export default function CloseMobileNav() {
     // Enabling page clicking and scrolling
     if (document.querySelector(".page")) {
       document.querySelectorAll(".page").forEach((page) => {
-        page.style.overflowY = "auto";
+        // page.style.overflowY = "auto";
         page.style.pointerEvents = "auto";
       });
     }

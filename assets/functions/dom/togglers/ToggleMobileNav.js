@@ -15,7 +15,7 @@ export default function ToggleMobileNav() {
   // Prevents page from being clickable and scrollable
   if (document.querySelector(".page")) {
     document.querySelectorAll(".page").forEach((page) => {
-      page.style.overflowY = "hidden";
+      // page.style.overflowY = "hidden";
       page.style.pointerEvents = "none";
     });
   }

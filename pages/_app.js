@@ -10,6 +10,9 @@ import { AnimatePresence } from "framer-motion";
 import "lazysizes";
 import "lazysizes/plugins/parent-fit/ls.parent-fit";
 
+import "slick-carousel/slick/slick.css";
+import "slick-carousel/slick/slick-theme.css";
+
 import NProgress from "nprogress";
 
 // Data/Functions/Images Imports
@@ -239,7 +242,7 @@ function MyApp({ Component, pageProps }) {
             !sessionStorage.getItem("Mobile Nav Opened") &&
             !sessionStorage.getItem("Modal Opened")
           ) {
-            page.style.overflowY = "auto";
+            // page.style.overflowY = "auto";
             page.style.pointerEvents = "auto";
           }
         });
