@@ -14,9 +14,11 @@ import { DesktopNav } from "@/assets/components/global/Navigation/Desktop/Deskto
 import { MobileNav } from "@/assets/components/global/Navigation/Mobile/MobileNav";
 import { MobileNavMenu } from "@/assets/components/global/Navigation/Mobile/MobileNavMenu";
 
+import { IndexTop } from "@/assets/components/pages/Index/IndexTop";
+import { IndexAbout } from "@/assets/components/pages/Index/IndexAbout";
+
 // Style Imports
 import "../assets/styles/modules/Index/Index.module.css";
-import { IndexTop } from "@/assets/components/pages/Index/IndexTop";
 
 export const getStaticProps = async () => {
   const INDEX_GALLERY_RES = await fetch(
@@ -50,6 +52,7 @@ export default function Home({ index_gallery_data }) {
 
       <main id="PAGE_MAIN">
         <IndexTop />
+        <IndexAbout />
       </main>
     </div>
   );
