@@ -16,6 +16,8 @@ import { MobileNavMenu } from "@/assets/components/global/Navigation/Mobile/Mobi
 
 // Style Imports
 import "../assets/styles/modules/Index/Index.module.css";
+import { IndexTop } from "@/assets/components/pages/Index/IndexTop";
+
 export const getStaticProps = async () => {
   const INDEX_GALLERY_RES = await fetch(
     "https://raw.githubusercontent.com/mxrked/freelance_projects_CDN/main/distinct-painting-llc/json/INDEX_GALLERY.json"
@@ -46,7 +48,9 @@ export default function Home({ index_gallery_data }) {
       <MobileNav disableLink="/" />
       <MobileNavMenu disableLink="/" />
 
-      <main id="PAGE_MAIN"></main>
+      <main id="PAGE_MAIN">
+        <IndexTop />
+      </main>
     </div>
   );
 }
