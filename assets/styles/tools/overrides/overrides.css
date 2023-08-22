@@ -127,7 +127,7 @@
 @media all and (max-width: 768px) {
   .overrides_IndexTop .slick-slider .slick-next,
   .overrides_IndexTop .slick-slider .slick-prev {
-    height: 99.1%;
+    height: 99.6%;
     max-width: 40px;
   }
   .overrides_IndexTop .slick-slider .slick-next::before,
