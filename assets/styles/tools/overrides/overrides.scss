@@ -1,9 +1,125 @@
-// @import "~@fortawesome/fontawesome-free/css/all.css";
+@import "~@fortawesome/fontawesome-free/css/all.css";
 
 // Desktop
+//! INDEX
+.overrides_IndexTop {
+  .slick-slider {
+    .slick-dots {
+      position: absolute;
+      width: 100%;
+      bottom: 0px;
+      right: 0;
+      max-width: 180px;
+      margin-left: auto;
+      margin-right: 140px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding-bottom: 20px;
+
+      li {
+        margin: 12px;
+
+        button {
+          border: 2px solid white;
+          border-radius: 50%;
+          width: 22px;
+          height: 22px;
+
+          &::before {
+            font-size: 22px;
+            color: white;
+            position: absolute;
+            top: 3px;
+            opacity: 1;
+            transition: 0.5s ease-in-out;
+          }
+
+          &:hover {
+            &::before {
+              color: rgb(148, 148, 148);
+            }
+          }
+        }
+      }
+
+      .slick-active {
+        button {
+          &::before {
+            color: #246c52;
+          }
+
+          &:hover {
+            &::before {
+              color: #246c52;
+            }
+          }
+        }
+      }
+    }
+
+    .slick-prev {
+      left: 0% !important;
+      z-index: 1;
+      width: 100%;
+      height: 99.5%;
+      top: 0;
+      max-width: 70px;
+      background-color: rgba(0, 0, 0, 0.3);
+      transform: translate(0, 0);
+      transition: 0.5s ease-in-out;
+
+      &:hover {
+        background-color: rgba(0, 0, 0, 0.6);
+      }
+
+      &::before {
+        font-family: "Font Awesome 5 Free";
+        content: "\f0d9";
+        font-weight: 900;
+        font-size: 50px;
+      }
+    }
+
+    .slick-disabled {
+      pointer-events: none !important;
+    }
+
+    .slick-next {
+      right: 0% !important;
+      z-index: 1;
+      width: 100%;
+      height: 99.5%;
+      top: 0;
+      max-width: 70px;
+      background-color: rgba(0, 0, 0, 0.3);
+      transform: translate(0, 0);
+      transition: 0.5s ease-in-out;
+
+      &:hover {
+        background-color: rgba(0, 0, 0, 0.6);
+      }
+
+      &::before {
+        font-family: "Font Awesome 5 Free";
+        content: "\f0da";
+        font-weight: 900;
+        font-size: 50px;
+      }
+    }
+  }
+}
 
 // Responsive
 @media all and (max-width: 1995px) {
+  .overrides_IndexTop {
+    .slick-slider {
+      .slick-next,
+      .slick-prev {
+        height: 99.4%;
+      }
+    }
+  }
   // .fade-up-fix {
   //   transform: translateY(0) !important;
   // }
@@ -19,6 +135,23 @@
 }
 
 @media all and (max-width: 991px) {
+  .overrides_IndexTop {
+    .slick-slider {
+      .slick-next,
+      .slick-prev {
+        height: 99.2%;
+      }
+
+      .slick-dots {
+        margin-left: auto;
+        margin-right: auto;
+        left: 50%;
+        right: auto;
+        transform: translateX(-50%);
+      }
+    }
+  }
+
   .fade-in-fix {
     transform: translateY(0) translateX(0) !important;
     opacity: 1 !important;
@@ -46,6 +179,28 @@
 
 // Desktop Window (Smallest)
 @media all and (max-width: 768px) {
+  .overrides_IndexTop {
+    .slick-slider {
+      .slick-next,
+      .slick-prev {
+        height: 99.1%;
+        max-width: 40px;
+
+        &::before {
+          font-size: 32px;
+        }
+      }
+
+      .slick-dots {
+        margin-left: auto;
+        margin-right: auto;
+        left: 50%;
+        right: auto;
+        transform: translateX(-50%);
+      }
+    }
+  }
+
   .fade-in-fix {
     transform: translateY(0) translateX(0) !important;
     opacity: 1 !important;
@@ -70,6 +225,22 @@
 
 // Smaller Devices (Phones)
 @media all and (max-width: 419px) {
+  .overrides_IndexTop {
+    .slick-slider {
+      .slick-dots {
+        margin-left: auto;
+        margin-right: auto;
+        left: 50%;
+        right: auto;
+        transform: translateX(-50%);
+
+        li {
+          margin: 7px;
+        }
+      }
+    }
+  }
+
   .fade-in-fix {
     transform: translateY(0) translateX(0) !important;
     opacity: 1 !important;
@@ -94,6 +265,32 @@
 
 // Pixel 2 XL
 @media only screen and (min-device-width: 411px) and (max-device-width: 823px) and (-webkit-min-device-pixel-ratio: 2) and (orientation: landscape) {
+  .overrides_IndexTop {
+    .slick-slider {
+      .slick-next,
+      .slick-prev {
+        height: 98.5%;
+        max-width: 35px;
+
+        &::before {
+          font-size: 32px;
+        }
+      }
+
+      .slick-dots {
+        margin-left: auto;
+        margin-right: auto;
+        left: 50%;
+        right: auto;
+        transform: translateX(-50%);
+
+        li {
+          margin: 7px;
+        }
+      }
+    }
+  }
+
   .fade-in-fix {
     transform: translateY(0) translateX(0) !important;
     opacity: 1 !important;
@@ -118,6 +315,28 @@
 
 // Ipad
 @media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: portrait) and (-webkit-min-device-pixel-ratio: 1) {
+  .overrides_IndexTop {
+    .slick-slider {
+      .slick-next,
+      .slick-prev {
+        height: 99%;
+        max-width: 55px;
+
+        &::before {
+          font-size: 32px;
+        }
+      }
+
+      .slick-dots {
+        margin-left: auto;
+        margin-right: auto;
+        left: 50%;
+        right: auto;
+        transform: translateX(-50%);
+      }
+    }
+  }
+
   .fade-in-fix {
     transform: translateY(0) translateX(0) !important;
     opacity: 1 !important;
@@ -165,6 +384,28 @@
 
 // iPad Pro
 @media only screen and (min-device-width: 1024px) and (max-device-width: 1366px) and (-webkit-min-device-pixel-ratio: 2) and (orientation: portrait) {
+  .overrides_IndexTop {
+    .slick-slider {
+      .slick-next,
+      .slick-prev {
+        height: 99%;
+        max-width: 55px;
+
+        &::before {
+          font-size: 32px;
+        }
+      }
+
+      .slick-dots {
+        margin-left: auto;
+        margin-right: 90px;
+        left: auto;
+        right: 0;
+        transform: none;
+      }
+    }
+  }
+
   .fade-in-fix {
     transform: translateY(0) translateX(0) !important;
     opacity: 1 !important;
@@ -188,6 +429,28 @@
 }
 
 @media only screen and (min-device-width: 1024px) and (max-device-width: 1366px) and (-webkit-min-device-pixel-ratio: 2) and (orientation: landscape) {
+  .overrides_IndexTop {
+    .slick-slider {
+      .slick-next,
+      .slick-prev {
+        height: 99%;
+        max-width: 55px;
+
+        &::before {
+          font-size: 32px;
+        }
+      }
+
+      .slick-dots {
+        margin-left: auto;
+        margin-right: 90px;
+        left: auto;
+        right: 0;
+        transform: none;
+      }
+    }
+  }
+
   // .fade-up-fix {
   //   transform: translateY(0) !important;
   // }
