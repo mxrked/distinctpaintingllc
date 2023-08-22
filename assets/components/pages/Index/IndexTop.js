@@ -47,7 +47,14 @@ export const IndexTop = () => {
     infinite: true,
     slidesToShow: 1,
     slidesToScroll: 1,
-    responsive: [],
+    responsive: [
+      {
+        breakpoint: 419,
+        settings: {
+          arrows: false,
+        },
+      },
+    ],
   };
 
   return (
