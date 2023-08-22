@@ -8,7 +8,7 @@ import { CDNBGReturn } from "./CDNReturns";
 
 // INDEX
 const INDEX_TOP_BG_1 = CDNBGReturn("index", "top-bg-1", "webp");
-const INDEX_TOP_BG_2 = CDNBGReturn("index", "top-bg-2", "webp");
+const INDEX_TOP_BG_2 = CDNBGReturn("index", "pressure-washing-2", "webp");
 const INDEX_TOP_BG_3 = CDNBGReturn("index", "top-bg-3", "webp");
 const INDEX_TOP_BG_4 = CDNBGReturn("index", "top-bg-4", "webp");
 const INDEX_PAINTING_BG = CDNBGReturn("index", "painting-bg", "webp");
