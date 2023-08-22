@@ -8,13 +8,15 @@ export default class SliderSlide {
   constructor(
     slideID,
     slideBg,
-    slideTopText,
+    slideTopTextA,
+    slideTopTextB,
     slideBottomText,
     slideServiceLink
   ) {
     this._slideID = slideID;
     this._slideBg = slideBg;
-    this._slideTopText = slideTopText;
+    this._slideTopTextA = slideTopTextA;
+    this._slideTopTextB = slideTopTextB;
     this._slideBottomText = slideBottomText;
     this._slideServiceLink = slideServiceLink;
   }
@@ -25,8 +27,11 @@ export default class SliderSlide {
   get getSlideBg() {
     return this._slideBg;
   }
-  get getSlideTopText() {
-    return this._slideTopText;
+  get getSlideTopTextA() {
+    return this._slideTopTextA;
+  }
+  get getSlideTopTextB() {
+    return this._slideTopTextB;
   }
   get getSlideBottomText() {
     return this._slideBottomText;
