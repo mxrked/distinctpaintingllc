@@ -64,7 +64,7 @@
       left: 0% !important;
       z-index: 1;
       width: 100%;
-      height: 99.5%;
+      height: 99.9%;
       top: 0;
       max-width: 70px;
       background-color: rgba(0, 0, 0, 0.3);
@@ -91,7 +91,7 @@
       right: 0% !important;
       z-index: 1;
       width: 100%;
-      height: 99.5%;
+      height: 99.9%;
       top: 0;
       max-width: 70px;
       background-color: rgba(0, 0, 0, 0.3);
@@ -118,7 +118,7 @@
     .slick-slider {
       .slick-next,
       .slick-prev {
-        height: 99.4%;
+        height: 99.8%;
       }
     }
   }
@@ -390,7 +390,7 @@
     .slick-slider {
       .slick-next,
       .slick-prev {
-        height: 99%;
+        height: 100%;
         max-width: 55px;
 
         &::before {
@@ -435,7 +435,7 @@
     .slick-slider {
       .slick-next,
       .slick-prev {
-        height: 99%;
+        height: 100%;
         max-width: 55px;
 
         &::before {

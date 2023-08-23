@@ -101,6 +101,9 @@
   background-color: #070003;
 }
 
+.index_about {
+  overflow-x: hidden;
+}
 .index_about .index_about_box {
   padding: 0;
 }
@@ -376,7 +379,7 @@
     max-width: 1400px;
     padding-left: 10px;
     padding-right: 10px;
-    padding-bottom: 25px;
+    padding-bottom: 45px;
     text-align: center;
   }
   .index_top .index_top_slider .index_top_slider_slide .darken .index_top_slider_slide_cnt h1 {
@@ -385,6 +388,7 @@
   }
   .index_top .index_top_slider .index_top_slider_slide .darken .index_top_slider_slide_cnt p {
     max-width: 92%;
+    line-height: 26px;
     font-size: 16px;
     margin-left: auto;
     margin-right: auto;
@@ -406,6 +410,48 @@
     margin-bottom: 15px;
   }
   .index_top .index_top_slider .index_top_slider_slide .darken .index_top_slider_slide_cnt div .contact_link {
+    max-width: 130px;
+  }
+  .index_about {
+    padding-left: 18px;
+    padding-right: 18px;
+  }
+  .index_about .index_about_box {
+    max-width: 800px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .index_about .index_about_box .index_about_row .index_about_side {
+    max-width: 100%;
+    width: 100%;
+    height: 100%;
+  }
+  .index_about .index_about_box .index_about_row .index_about_L {
+    height: 160px;
+    max-width: 285px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .index_about .index_about_box .index_about_row .index_about_R {
+    padding-top: 50px;
+    padding-bottom: 50px;
+  }
+  .index_about .index_about_box .index_about_row .index_about_R .index_about_side_cnt h1 {
+    font-size: 28px;
+    line-height: 30px;
+  }
+  .index_about .index_about_box .index_about_row .index_about_R .index_about_side_cnt p {
+    max-width: 95%;
+    font-size: 16px;
+    margin-left: auto;
+    margin-right: auto;
+    line-height: 26px;
+  }
+  .index_about .index_about_box .index_about_row .index_about_R .index_about_side_cnt a {
+    margin-left: auto;
+    margin-right: auto;
+    height: 37px;
+    font-size: 15px;
     max-width: 130px;
   }
 }
@@ -431,6 +477,7 @@
   .index_top .index_top_slider .index_top_slider_slide .darken .index_top_slider_slide_cnt p {
     max-width: 330px;
     font-size: 16px;
+    line-height: 25px;
     margin-left: auto;
     margin-right: auto;
     margin-bottom: 25px;
@@ -453,6 +500,49 @@
     margin-bottom: 0px;
   }
   .index_top .index_top_slider .index_top_slider_slide .darken .index_top_slider_slide_cnt div .contact_link {
+    max-width: 130px;
+  }
+  .index_about {
+    padding-left: 18px;
+    padding-right: 18px;
+  }
+  .index_about .index_about_box {
+    max-width: 800px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .index_about .index_about_box .index_about_row .index_about_side {
+    max-width: 100%;
+    width: 100%;
+    height: 100%;
+  }
+  .index_about .index_about_box .index_about_row .index_about_L {
+    height: 160px;
+    max-width: 300px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .index_about .index_about_box .index_about_row .index_about_R {
+    padding-top: 50px;
+    padding-bottom: 50px;
+  }
+  .index_about .index_about_box .index_about_row .index_about_R .index_about_side_cnt h1 {
+    font-size: 32px;
+    line-height: 34px;
+  }
+  .index_about .index_about_box .index_about_row .index_about_R .index_about_side_cnt p {
+    max-width: 480px;
+    font-size: 16px;
+    line-height: 25px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 35px;
+  }
+  .index_about .index_about_box .index_about_row .index_about_R .index_about_side_cnt a {
+    margin-left: auto;
+    margin-right: auto;
+    height: 37px;
+    font-size: 15px;
     max-width: 130px;
   }
 }
@@ -502,6 +592,49 @@
   .index_top .index_top_slider .index_top_slider_slide .darken .index_top_slider_slide_cnt div .contact_link {
     max-width: 140px;
   }
+  .index_about {
+    padding-left: 18px;
+    padding-right: 18px;
+  }
+  .index_about .index_about_box {
+    max-width: 800px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .index_about .index_about_box .index_about_row .index_about_side {
+    max-width: 100%;
+    width: 100%;
+    height: 100%;
+  }
+  .index_about .index_about_box .index_about_row .index_about_L {
+    height: 230px;
+    max-width: 400px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .index_about .index_about_box .index_about_row .index_about_R {
+    padding-top: 70px;
+    padding-bottom: 70px;
+  }
+  .index_about .index_about_box .index_about_row .index_about_R .index_about_side_cnt h1 {
+    font-size: 39px;
+    line-height: 43px;
+  }
+  .index_about .index_about_box .index_about_row .index_about_R .index_about_side_cnt p {
+    line-height: 25px;
+    max-width: 550px;
+    font-size: 18px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 35px;
+  }
+  .index_about .index_about_box .index_about_row .index_about_R .index_about_side_cnt a {
+    margin-left: auto;
+    margin-right: auto;
+    height: 40px;
+    font-size: 16px;
+    max-width: 140px;
+  }
 }
 @media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: landscape) and (-webkit-min-device-pixel-ratio: 1) {
   .index_top .index_top_slider .index_top_slider_slide {
@@ -547,6 +680,49 @@
     margin-bottom: 0px;
   }
   .index_top .index_top_slider .index_top_slider_slide .darken .index_top_slider_slide_cnt div .contact_link {
+    max-width: 140px;
+  }
+  .index_about {
+    padding-left: 18px;
+    padding-right: 18px;
+  }
+  .index_about .index_about_box {
+    max-width: 800px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .index_about .index_about_box .index_about_row .index_about_side {
+    max-width: 100%;
+    width: 100%;
+    height: 100%;
+  }
+  .index_about .index_about_box .index_about_row .index_about_L {
+    height: 230px;
+    max-width: 400px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .index_about .index_about_box .index_about_row .index_about_R {
+    padding-top: 70px;
+    padding-bottom: 70px;
+  }
+  .index_about .index_about_box .index_about_row .index_about_R .index_about_side_cnt h1 {
+    font-size: 39px;
+    line-height: 43px;
+  }
+  .index_about .index_about_box .index_about_row .index_about_R .index_about_side_cnt p {
+    line-height: 25px;
+    max-width: 550px;
+    font-size: 18px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 35px;
+  }
+  .index_about .index_about_box .index_about_row .index_about_R .index_about_side_cnt a {
+    margin-left: auto;
+    margin-right: auto;
+    height: 40px;
+    font-size: 16px;
     max-width: 140px;
   }
 }
@@ -599,6 +775,49 @@
   .index_top .index_top_slider .index_top_slider_slide .darken .index_top_slider_slide_cnt div .contact_link {
     max-width: 140px;
   }
+  .index_about {
+    padding-left: 18px;
+    padding-right: 18px;
+  }
+  .index_about .index_about_box {
+    max-width: 800px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .index_about .index_about_box .index_about_row .index_about_side {
+    max-width: 100%;
+    width: 100%;
+    height: 100%;
+  }
+  .index_about .index_about_box .index_about_row .index_about_L {
+    height: 330px;
+    max-width: 500px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .index_about .index_about_box .index_about_row .index_about_R {
+    padding-top: 70px;
+    padding-bottom: 70px;
+  }
+  .index_about .index_about_box .index_about_row .index_about_R .index_about_side_cnt h1 {
+    font-size: 47px;
+    line-height: 55px;
+  }
+  .index_about .index_about_box .index_about_row .index_about_R .index_about_side_cnt p {
+    line-height: 30px;
+    max-width: 580px;
+    font-size: 19px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 35px;
+  }
+  .index_about .index_about_box .index_about_row .index_about_R .index_about_side_cnt a {
+    margin-left: auto;
+    margin-right: auto;
+    height: 40px;
+    font-size: 16px;
+    max-width: 140px;
+  }
 }
 @media only screen and (min-device-width: 1024px) and (max-device-width: 1366px) and (-webkit-min-device-pixel-ratio: 2) and (orientation: landscape) {
   .index_top .index_top_slider .index_top_slider_slide {
@@ -649,6 +868,49 @@
   .index_top .index_top_slider .index_top_slider_slide .darken .index_top_slider_slide_cnt div .contact_link {
     max-width: 140px;
   }
+  .index_about {
+    padding-left: 0px;
+    padding-right: 5px;
+  }
+  .index_about .index_about_box {
+    max-width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .index_about .index_about_box .index_about_row .index_about_side {
+    max-width: 100%;
+    width: 100%;
+    height: 630px;
+  }
+  .index_about .index_about_box .index_about_row .index_about_L {
+    max-width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .index_about .index_about_box .index_about_row .index_about_R {
+    max-width: 50%;
+    padding-top: 70px;
+    padding-bottom: 70px;
+  }
+  .index_about .index_about_box .index_about_row .index_about_R .index_about_side_cnt h1 {
+    font-size: 43px;
+    line-height: 53px;
+  }
+  .index_about .index_about_box .index_about_row .index_about_R .index_about_side_cnt p {
+    line-height: 30px;
+    max-width: 370px;
+    font-size: 19px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 35px;
+  }
+  .index_about .index_about_box .index_about_row .index_about_R .index_about_side_cnt a {
+    margin-left: auto;
+    margin-right: auto;
+    height: 40px;
+    font-size: 16px;
+    max-width: 140px;
+  }
 }
 @media screen and (min-device-width: 1200px) and (max-device-width: 1600px) and (-webkit-min-device-pixel-ratio: 1) {
   .index_top .index_top_slider .index_top_slider_slide {
@@ -697,6 +959,49 @@
     margin-bottom: 0px;
   }
   .index_top .index_top_slider .index_top_slider_slide .darken .index_top_slider_slide_cnt div .contact_link {
+    max-width: 140px;
+  }
+  .index_about {
+    padding-left: 0px;
+    padding-right: 5px;
+  }
+  .index_about .index_about_box {
+    max-width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .index_about .index_about_box .index_about_row .index_about_side {
+    max-width: 100%;
+    width: 100%;
+    height: 630px;
+  }
+  .index_about .index_about_box .index_about_row .index_about_L {
+    max-width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .index_about .index_about_box .index_about_row .index_about_R {
+    max-width: 50%;
+    padding-top: 70px;
+    padding-bottom: 70px;
+  }
+  .index_about .index_about_box .index_about_row .index_about_R .index_about_side_cnt h1 {
+    font-size: 43px;
+    line-height: 53px;
+  }
+  .index_about .index_about_box .index_about_row .index_about_R .index_about_side_cnt p {
+    line-height: 30px;
+    max-width: 500px;
+    font-size: 19px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 35px;
+  }
+  .index_about .index_about_box .index_about_row .index_about_R .index_about_side_cnt a {
+    margin-left: auto;
+    margin-right: auto;
+    height: 40px;
+    font-size: 16px;
     max-width: 140px;
   }
 }/*# sourceMappingURL=Index.module.css.map */

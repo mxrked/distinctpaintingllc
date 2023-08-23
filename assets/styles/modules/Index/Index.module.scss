@@ -115,6 +115,8 @@
   }
 }
 .index_about {
+  overflow-x: hidden;
+
   .index_about_box {
     padding: 0;
 
@@ -462,7 +464,7 @@
             max-width: 1400px;
             padding-left: 10px;
             padding-right: 10px;
-            padding-bottom: 25px;
+            padding-bottom: 45px;
             text-align: center;
 
             h1 {
@@ -472,6 +474,7 @@
 
             p {
               max-width: 92%;
+              line-height: 26px;
               font-size: clamp(15px, 16px, 16px);
               @include quickCenter("relative");
             }
@@ -495,6 +498,55 @@
               .contact_link {
                 max-width: 130px;
               }
+            }
+          }
+        }
+      }
+    }
+  }
+  .index_about {
+    padding-left: 18px;
+    padding-right: 18px;
+
+    .index_about_box {
+      max-width: 800px;
+      @include quickCenter("relative");
+
+      .index_about_row {
+        .index_about_side {
+          max-width: 100%;
+          width: 100%;
+          height: 100%;
+        }
+
+        .index_about_L {
+          height: 160px;
+          max-width: 285px;
+          @include quickCenter("relative");
+        }
+
+        .index_about_R {
+          padding-top: 50px;
+          padding-bottom: 50px;
+
+          .index_about_side_cnt {
+            h1 {
+              font-size: clamp(27px, 28px, 28px);
+              line-height: 30px;
+            }
+
+            p {
+              max-width: 95%;
+              font-size: clamp(15px, 16px, 16px);
+              @include quickCenter("relative");
+              line-height: 26px;
+            }
+
+            a {
+              @include quickCenter("relative");
+              height: 37px;
+              font-size: clamp(14px, 15px, 15px);
+              max-width: 130px;
             }
           }
         }
@@ -533,6 +585,7 @@
             p {
               max-width: 330px;
               font-size: clamp(15px, 16px, 16px);
+              line-height: 25px;
               @include quickCenter("relative");
               margin-bottom: 25px;
             }
@@ -557,6 +610,56 @@
               .contact_link {
                 max-width: 130px;
               }
+            }
+          }
+        }
+      }
+    }
+  }
+  .index_about {
+    padding-left: 18px;
+    padding-right: 18px;
+
+    .index_about_box {
+      max-width: 800px;
+      @include quickCenter("relative");
+
+      .index_about_row {
+        .index_about_side {
+          max-width: 100%;
+          width: 100%;
+          height: 100%;
+        }
+
+        .index_about_L {
+          height: 160px;
+          max-width: 300px;
+          @include quickCenter("relative");
+        }
+
+        .index_about_R {
+          padding-top: 50px;
+          padding-bottom: 50px;
+
+          .index_about_side_cnt {
+            h1 {
+              font-size: clamp(31px, 32px, 32px);
+              line-height: 34px;
+            }
+
+            p {
+              max-width: 480px;
+              font-size: clamp(15px, 16px, 16px);
+              line-height: 25px;
+              @include quickCenter("relative");
+              margin-bottom: 35px;
+            }
+
+            a {
+              @include quickCenter("relative");
+              height: 37px;
+              font-size: clamp(14px, 15px, 15px);
+              max-width: 130px;
             }
           }
         }
@@ -625,6 +728,56 @@
       }
     }
   }
+  .index_about {
+    padding-left: 18px;
+    padding-right: 18px;
+
+    .index_about_box {
+      max-width: 800px;
+      @include quickCenter("relative");
+
+      .index_about_row {
+        .index_about_side {
+          max-width: 100%;
+          width: 100%;
+          height: 100%;
+        }
+
+        .index_about_L {
+          height: 230px;
+          max-width: 400px;
+          @include quickCenter("relative");
+        }
+
+        .index_about_R {
+          padding-top: 70px;
+          padding-bottom: 70px;
+
+          .index_about_side_cnt {
+            h1 {
+              font-size: clamp(38px, 39px, 39px);
+              line-height: 43px;
+            }
+
+            p {
+              line-height: 25px;
+              max-width: 550px;
+              font-size: clamp(17px, 18px, 18px);
+              @include quickCenter("relative");
+              margin-bottom: 35px;
+            }
+
+            a {
+              @include quickCenter("relative");
+              height: 40px;
+              font-size: clamp(15px, 16px, 16px);
+              max-width: 140px;
+            }
+          }
+        }
+      }
+    }
+  }
 }
 
 @media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: landscape) and (-webkit-min-device-pixel-ratio: 1) {
@@ -680,6 +833,56 @@
               .contact_link {
                 max-width: 140px;
               }
+            }
+          }
+        }
+      }
+    }
+  }
+  .index_about {
+    padding-left: 18px;
+    padding-right: 18px;
+
+    .index_about_box {
+      max-width: 800px;
+      @include quickCenter("relative");
+
+      .index_about_row {
+        .index_about_side {
+          max-width: 100%;
+          width: 100%;
+          height: 100%;
+        }
+
+        .index_about_L {
+          height: 230px;
+          max-width: 400px;
+          @include quickCenter("relative");
+        }
+
+        .index_about_R {
+          padding-top: 70px;
+          padding-bottom: 70px;
+
+          .index_about_side_cnt {
+            h1 {
+              font-size: clamp(38px, 39px, 39px);
+              line-height: 43px;
+            }
+
+            p {
+              line-height: 25px;
+              max-width: 550px;
+              font-size: clamp(17px, 18px, 18px);
+              @include quickCenter("relative");
+              margin-bottom: 35px;
+            }
+
+            a {
+              @include quickCenter("relative");
+              height: 40px;
+              font-size: clamp(15px, 16px, 16px);
+              max-width: 140px;
             }
           }
         }
@@ -751,6 +954,56 @@
       }
     }
   }
+  .index_about {
+    padding-left: 18px;
+    padding-right: 18px;
+
+    .index_about_box {
+      max-width: 800px;
+      @include quickCenter("relative");
+
+      .index_about_row {
+        .index_about_side {
+          max-width: 100%;
+          width: 100%;
+          height: 100%;
+        }
+
+        .index_about_L {
+          height: 330px;
+          max-width: 500px;
+          @include quickCenter("relative");
+        }
+
+        .index_about_R {
+          padding-top: 70px;
+          padding-bottom: 70px;
+
+          .index_about_side_cnt {
+            h1 {
+              font-size: clamp(46px, 47px, 47px);
+              line-height: 55px;
+            }
+
+            p {
+              line-height: 30px;
+              max-width: 580px;
+              font-size: clamp(18px, 19px, 19px);
+              @include quickCenter("relative");
+              margin-bottom: 35px;
+            }
+
+            a {
+              @include quickCenter("relative");
+              height: 40px;
+              font-size: clamp(15px, 16px, 16px);
+              max-width: 140px;
+            }
+          }
+        }
+      }
+    }
+  }
 }
 
 @media only screen and (min-device-width: 1024px) and (max-device-width: 1366px) and (-webkit-min-device-pixel-ratio: 2) and (orientation: landscape) {
@@ -809,6 +1062,56 @@
               .contact_link {
                 max-width: 140px;
               }
+            }
+          }
+        }
+      }
+    }
+  }
+  .index_about {
+    padding-left: 0px;
+    padding-right: 5px;
+
+    .index_about_box {
+      max-width: 100%;
+      @include quickCenter("relative");
+
+      .index_about_row {
+        .index_about_side {
+          max-width: 100%;
+          width: 100%;
+          height: 630px;
+        }
+
+        .index_about_L {
+          max-width: 50%;
+          @include quickCenter("relative");
+        }
+
+        .index_about_R {
+          max-width: 50%;
+          padding-top: 70px;
+          padding-bottom: 70px;
+
+          .index_about_side_cnt {
+            h1 {
+              font-size: clamp(42px, 43px, 43px);
+              line-height: 53px;
+            }
+
+            p {
+              line-height: 30px;
+              max-width: 370px;
+              font-size: clamp(18px, 19px, 19px);
+              @include quickCenter("relative");
+              margin-bottom: 35px;
+            }
+
+            a {
+              @include quickCenter("relative");
+              height: 40px;
+              font-size: clamp(15px, 16px, 16px);
+              max-width: 140px;
             }
           }
         }
@@ -874,6 +1177,56 @@
               .contact_link {
                 max-width: 140px;
               }
+            }
+          }
+        }
+      }
+    }
+  }
+  .index_about {
+    padding-left: 0px;
+    padding-right: 5px;
+
+    .index_about_box {
+      max-width: 100%;
+      @include quickCenter("relative");
+
+      .index_about_row {
+        .index_about_side {
+          max-width: 100%;
+          width: 100%;
+          height: 630px;
+        }
+
+        .index_about_L {
+          max-width: 50%;
+          @include quickCenter("relative");
+        }
+
+        .index_about_R {
+          max-width: 50%;
+          padding-top: 70px;
+          padding-bottom: 70px;
+
+          .index_about_side_cnt {
+            h1 {
+              font-size: clamp(42px, 43px, 43px);
+              line-height: 53px;
+            }
+
+            p {
+              line-height: 30px;
+              max-width: 500px;
+              font-size: clamp(18px, 19px, 19px);
+              @include quickCenter("relative");
+              margin-bottom: 35px;
+            }
+
+            a {
+              @include quickCenter("relative");
+              height: 40px;
+              font-size: clamp(15px, 16px, 16px);
+              max-width: 140px;
             }
           }
         }
