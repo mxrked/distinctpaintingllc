@@ -229,6 +229,16 @@
 @media all and (max-width: 419px) {
   .overrides_IndexTop {
     .slick-slider {
+      .slick-next,
+      .slick-prev {
+        height: 99.6%;
+        max-width: 40px;
+
+        &::before {
+          font-size: 32px;
+        }
+      }
+
       .slick-dots {
         margin-left: auto;
         margin-right: auto;
