@@ -43,7 +43,7 @@ export const DesktopNav = (props) => {
             >
               <div className={`${styles.desktop_nav_inner_side_cnt}`}>
                 {props.disableLink == "/" ? (
-                  <div className={`${styles.logo} ${styles.deactive}`}>
+                  <div className={`${styles.logo} ${styles.deactive} deactive`}>
                     <div className={`${styles.img_holder}`}>
                       <img
                         data-src={LOGO_CUT}
@@ -102,7 +102,7 @@ export const DesktopNav = (props) => {
                   {props.disableLink == "/" ? (
                     <li>
                       <span
-                        className={`${styles.deactive} half-second orientation-change-element`}
+                        className={`${styles.deactive} deactive half-second orientation-change-element`}
                       >
                         Home
                       </span>
@@ -120,7 +120,7 @@ export const DesktopNav = (props) => {
                   {props.disableLink == "/gallery" ? (
                     <li>
                       <span
-                        className={`${styles.deactive} half-second orientation-change-element`}
+                        className={`${styles.deactive} deactive half-second orientation-change-element`}
                       >
                         Gallery
                       </span>
@@ -138,7 +138,7 @@ export const DesktopNav = (props) => {
                   {props.disableLink == "/contact" ? (
                     <li>
                       <span
-                        className={`${styles.deactive} half-second orientation-change-element`}
+                        className={`${styles.deactive} deactive half-second orientation-change-element`}
                       >
                         Contact
                       </span>

@@ -44,7 +44,7 @@ export const MobileNavMenu = (props) => {
             {props.disableLink == "/" ? (
               <li>
                 <span
-                  className={`${styles.deactive} half-second orientation-change-element`}
+                  className={`${styles.deactive} deactive half-second orientation-change-element`}
                 >
                   Home
                 </span>
@@ -62,7 +62,7 @@ export const MobileNavMenu = (props) => {
             {props.disableLink == "/gallery" ? (
               <li>
                 <span
-                  className={`${styles.deactive} half-second orientation-change-element`}
+                  className={`${styles.deactive} deactive half-second orientation-change-element`}
                 >
                   Gallery
                 </span>
@@ -80,7 +80,7 @@ export const MobileNavMenu = (props) => {
             {props.disableLink == "/contact" ? (
               <li>
                 <span
-                  className={`${styles.deactive} half-second orientation-change-element`}
+                  className={`${styles.deactive} deactive half-second orientation-change-element`}
                 >
                   Contact
                 </span>

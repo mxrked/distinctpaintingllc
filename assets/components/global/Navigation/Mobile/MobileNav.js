@@ -41,7 +41,7 @@ export const MobileNav = (props) => {
             >
               <div className={`${styles.mobile_nav_inner_side_cnt}`}>
                 {props.disableLink == "/" ? (
-                  <div className={`${styles.logo} ${styles.deactive}`}>
+                  <div className={`${styles.logo} ${styles.deactive} deactive`}>
                     <div className={`${styles.img_holder}`}>
                       <img
                         data-src={LOGO_CUT}
