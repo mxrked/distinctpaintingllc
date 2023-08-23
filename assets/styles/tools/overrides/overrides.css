@@ -94,7 +94,7 @@
 @media all and (max-width: 991px) {
   .overrides_IndexTop .slick-slider .slick-next,
   .overrides_IndexTop .slick-slider .slick-prev {
-    height: 99.2%;
+    height: 99.7%;
   }
   .overrides_IndexTop .slick-slider .slick-dots {
     margin-left: auto;
@@ -127,7 +127,7 @@
 @media all and (max-width: 768px) {
   .overrides_IndexTop .slick-slider .slick-next,
   .overrides_IndexTop .slick-slider .slick-prev {
-    height: 99.6%;
+    height: 100%;
     max-width: 40px;
   }
   .overrides_IndexTop .slick-slider .slick-next::before,
@@ -206,7 +206,7 @@
 @media only screen and (min-device-width: 411px) and (max-device-width: 823px) and (-webkit-min-device-pixel-ratio: 2) and (orientation: landscape) {
   .overrides_IndexTop .slick-slider .slick-next,
   .overrides_IndexTop .slick-slider .slick-prev {
-    height: 98.5%;
+    height: 99.5%;
     max-width: 35px;
   }
   .overrides_IndexTop .slick-slider .slick-next::before,
@@ -247,7 +247,7 @@
 @media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: portrait) and (-webkit-min-device-pixel-ratio: 1) {
   .overrides_IndexTop .slick-slider .slick-next,
   .overrides_IndexTop .slick-slider .slick-prev {
-    height: 99%;
+    height: 100%;
     max-width: 55px;
   }
   .overrides_IndexTop .slick-slider .slick-next::before,

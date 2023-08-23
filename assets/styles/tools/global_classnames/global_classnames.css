@@ -11,6 +11,11 @@
   opacity: 1 !important;
 }
 
+.deactive {
+  pointer-events: none;
+  cursor: default;
+}
+
 .selected::-moz-selection {
   color: #eeeeee;
   background-color: #246c52;

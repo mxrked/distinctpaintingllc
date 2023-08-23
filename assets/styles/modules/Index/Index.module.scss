@@ -142,6 +142,7 @@
       .index_about_R {
         @include displayElement(flex, center, center);
         text-align: center;
+        background-color: rgb(247, 247, 247);
 
         .index_about_side_cnt {
           padding-left: 30px;
@@ -179,6 +180,89 @@
 
             &:hover {
               background-color: $Diesel;
+            }
+          }
+        }
+      }
+    }
+  }
+}
+.index_services {
+  margin-top: 210px;
+  margin-bottom: 120px;
+
+  .index_services_inner {
+    max-width: 1450px;
+    @include quickCenter("relative");
+    padding-left: 30px;
+    padding-right: 30px;
+
+    .index_services_inner_top {
+      text-align: center;
+      white-space: pre-wrap;
+      margin-bottom: 130px;
+
+      h1 {
+        font-family: "Source Sans Extra Bold";
+        font-size: $Heading;
+        line-height: 75px;
+      }
+
+      p {
+        font-family: "Lato Regular";
+        font-size: $Text;
+        line-height: 35px;
+        @include quickCenter("relative");
+        margin-top: 35px;
+        margin-bottom: 45px;
+      }
+    }
+
+    .index_services_inner_main {
+      @include quickCenter("relative");
+
+      .index_services_inner_main_box {
+        .index_services_inner_main_row {
+          .index_services_inner_main_side {
+            height: 300px;
+            position: relative;
+            padding: 0;
+
+            .index_services_inner_main_side_cnt {
+              position: relative;
+              width: 100%;
+              height: 100%;
+              max-width: 95%;
+              border-radius: 10px;
+              overflow: hidden;
+              @include quickCenter("relative");
+
+              .bg {
+                @include bGSU(cover, center);
+              }
+
+              a {
+                position: absolute;
+                top: 0;
+                left: 0;
+                width: 100%;
+                height: 100%;
+                background-color: rgba(0, 0, 0, 0.4);
+                @include displayElement(flex, center, center);
+                color: white;
+                font-family: "Lato Bold";
+                text-align: center;
+                text-decoration: none;
+                font-size: $Text;
+
+                span {
+                  filter: drop-shadow(0 2px 2px rgba(0, 0, 0, 0.222));
+                }
+
+                &:hover {
+                  background-color: rgba(0, 0, 0, 0.55);
+                }
+              }
             }
           }
         }
@@ -243,6 +327,27 @@
               max-width: 500px;
             }
           }
+        }
+      }
+    }
+  }
+  .index_services {
+    margin-top: 140px;
+
+    .index_services_inner {
+      max-width: 1200px;
+      padding-left: 40px;
+      padding-right: 40px;
+
+      .index_services_inner_top {
+        h1 {
+          font-size: $SubHeading;
+          line-height: 55px;
+        }
+
+        p {
+          font-size: clamp(21px, 22px, 22px);
+          max-width: 860px;
         }
       }
     }
@@ -322,6 +427,7 @@
         .index_about_R {
           padding-top: 70px;
           padding-bottom: 70px;
+          background-color: #fcfcfb;
 
           .index_about_side_cnt {
             p {
@@ -334,6 +440,36 @@
               height: 45px;
               font-size: clamp(17px, 17px, 17px);
               max-width: 150px;
+            }
+          }
+        }
+      }
+    }
+  }
+  .index_services {
+    margin-top: 90px;
+
+    .index_services_inner {
+      max-width: 800px;
+      padding-left: 40px;
+      padding-right: 40px;
+
+      .index_services_inner_top {
+        p {
+          max-width: 590px;
+          font-size: clamp(18px, 19px, 19px);
+        }
+      }
+
+      .index_services_inner_main {
+        max-width: 600px;
+        .index_services_inner_main_box {
+          .index_services_inner_main_row {
+            .index_services_inner_main_side {
+              max-width: 50%;
+              width: 100%;
+              height: 230px;
+              margin-bottom: 18px;
             }
           }
         }
@@ -447,6 +583,45 @@
       }
     }
   }
+  .index_services {
+    margin-top: 50px;
+    margin-bottom: 40px;
+
+    .index_services_inner {
+      max-width: 800px;
+      padding-left: 40px;
+      padding-right: 40px;
+
+      .index_services_inner_top {
+        margin-bottom: 60px;
+
+        h1 {
+          font-size: clamp(35px, 36px, 36px);
+          line-height: 40px;
+        }
+
+        p {
+          max-width: 85%;
+          font-size: clamp(16px, 17px, 17px);
+          line-height: 30px;
+        }
+      }
+
+      .index_services_inner_main {
+        max-width: 450px;
+        .index_services_inner_main_box {
+          .index_services_inner_main_row {
+            .index_services_inner_main_side {
+              max-width: 50%;
+              width: 100%;
+              height: 170px;
+              margin-bottom: 18px;
+            }
+          }
+        }
+      }
+    }
+  }
 }
 
 // Smaller Devices (Phones)
@@ -547,6 +722,45 @@
               height: 37px;
               font-size: clamp(14px, 15px, 15px);
               max-width: 130px;
+            }
+          }
+        }
+      }
+    }
+  }
+  .index_services {
+    margin-top: 20px;
+    margin-bottom: 30px;
+
+    .index_services_inner {
+      max-width: 800px;
+      padding-left: 20px;
+      padding-right: 20px;
+
+      .index_services_inner_top {
+        margin-bottom: 60px;
+
+        h1 {
+          font-size: clamp(27px, 28px, 28px);
+          line-height: 30px;
+        }
+
+        p {
+          max-width: 95%;
+          font-size: clamp(15px, 16px, 16px);
+          line-height: 26px;
+        }
+      }
+
+      .index_services_inner_main {
+        max-width: 250px;
+        .index_services_inner_main_box {
+          .index_services_inner_main_row {
+            .index_services_inner_main_side {
+              max-width: 100%;
+              width: 100%;
+              height: 120px;
+              margin-bottom: 18px;
             }
           }
         }
@@ -666,6 +880,46 @@
       }
     }
   }
+  .index_services {
+    margin-top: 30px;
+    margin-bottom: 30px;
+
+    .index_services_inner {
+      max-width: 800px;
+      padding-left: 20px;
+      padding-right: 20px;
+
+      .index_services_inner_top {
+        margin-bottom: 60px;
+
+        h1 {
+          font-size: clamp(31px, 32px, 32px);
+          line-height: 34px;
+        }
+
+        p {
+          max-width: 420px;
+          font-size: clamp(15px, 16px, 16px);
+          line-height: 25px;
+          margin-bottom: 35px;
+        }
+      }
+
+      .index_services_inner_main {
+        max-width: 450px;
+        .index_services_inner_main_box {
+          .index_services_inner_main_row {
+            .index_services_inner_main_side {
+              max-width: 50%;
+              width: 100%;
+              height: 120px;
+              margin-bottom: 18px;
+            }
+          }
+        }
+      }
+    }
+  }
 }
 
 // Ipad
@@ -772,6 +1026,46 @@
               height: 40px;
               font-size: clamp(15px, 16px, 16px);
               max-width: 140px;
+            }
+          }
+        }
+      }
+    }
+  }
+  .index_services {
+    margin-top: 30px;
+    margin-bottom: 30px;
+
+    .index_services_inner {
+      max-width: 800px;
+      padding-left: 20px;
+      padding-right: 20px;
+
+      .index_services_inner_top {
+        margin-bottom: 60px;
+
+        h1 {
+          font-size: clamp(38px, 39px, 39px);
+          line-height: 43px;
+        }
+
+        p {
+          line-height: 25px;
+          max-width: 550px;
+          font-size: clamp(17px, 18px, 18px);
+          margin-bottom: 35px;
+        }
+      }
+
+      .index_services_inner_main {
+        max-width: 500px;
+        .index_services_inner_main_box {
+          .index_services_inner_main_row {
+            .index_services_inner_main_side {
+              max-width: 50%;
+              width: 100%;
+              height: 160px;
+              margin-bottom: 18px;
             }
           }
         }
@@ -889,6 +1183,46 @@
       }
     }
   }
+  .index_services {
+    margin-top: 30px;
+    margin-bottom: 30px;
+
+    .index_services_inner {
+      max-width: 800px;
+      padding-left: 20px;
+      padding-right: 20px;
+
+      .index_services_inner_top {
+        margin-bottom: 60px;
+
+        h1 {
+          font-size: clamp(38px, 39px, 39px);
+          line-height: 43px;
+        }
+
+        p {
+          line-height: 25px;
+          max-width: 550px;
+          font-size: clamp(17px, 18px, 18px);
+          margin-bottom: 35px;
+        }
+      }
+
+      .index_services_inner_main {
+        max-width: 500px;
+        .index_services_inner_main_box {
+          .index_services_inner_main_row {
+            .index_services_inner_main_side {
+              max-width: 50%;
+              width: 100%;
+              height: 160px;
+              margin-bottom: 18px;
+            }
+          }
+        }
+      }
+    }
+  }
 }
 
 // iPad Pro
@@ -978,6 +1312,7 @@
         .index_about_R {
           padding-top: 70px;
           padding-bottom: 70px;
+          background-color: #fcfcfb;
 
           .index_about_side_cnt {
             h1 {
@@ -998,6 +1333,46 @@
               height: 40px;
               font-size: clamp(15px, 16px, 16px);
               max-width: 140px;
+            }
+          }
+        }
+      }
+    }
+  }
+  .index_services {
+    margin-top: 30px;
+    margin-bottom: 30px;
+
+    .index_services_inner {
+      max-width: 800px;
+      padding-left: 20px;
+      padding-right: 20px;
+
+      .index_services_inner_top {
+        margin-bottom: 60px;
+
+        h1 {
+          font-size: clamp(46px, 47px, 47px);
+          line-height: 55px;
+        }
+
+        p {
+          line-height: 30px;
+          max-width: 580px;
+          font-size: clamp(18px, 19px, 19px);
+          margin-bottom: 35px;
+        }
+      }
+
+      .index_services_inner_main {
+        max-width: 600px;
+        .index_services_inner_main_box {
+          .index_services_inner_main_row {
+            .index_services_inner_main_side {
+              max-width: 50%;
+              width: 100%;
+              height: 160px;
+              margin-bottom: 18px;
             }
           }
         }
@@ -1118,6 +1493,46 @@
       }
     }
   }
+  .index_services {
+    margin-top: 90px;
+    margin-bottom: 30px;
+
+    .index_services_inner {
+      max-width: 800px;
+      padding-left: 20px;
+      padding-right: 20px;
+
+      .index_services_inner_top {
+        margin-bottom: 60px;
+
+        h1 {
+          font-size: clamp(42px, 43px, 43px);
+          line-height: 53px;
+        }
+
+        p {
+          line-height: 30px;
+          max-width: 670px;
+          font-size: clamp(18px, 19px, 19px);
+          margin-bottom: 35px;
+        }
+      }
+
+      .index_services_inner_main {
+        max-width: 840px;
+        .index_services_inner_main_box {
+          .index_services_inner_main_row {
+            .index_services_inner_main_side {
+              max-width: 25%;
+              width: 100%;
+              height: 160px;
+              margin-bottom: 18px;
+            }
+          }
+        }
+      }
+    }
+  }
 }
 
 // Laptops
@@ -1227,6 +1642,46 @@
               height: 40px;
               font-size: clamp(15px, 16px, 16px);
               max-width: 140px;
+            }
+          }
+        }
+      }
+    }
+  }
+  .index_services {
+    margin-top: 100px;
+    margin-bottom: 70px;
+
+    .index_services_inner {
+      max-width: 1100px;
+      padding-left: 20px;
+      padding-right: 20px;
+
+      .index_services_inner_top {
+        margin-bottom: 60px;
+
+        h1 {
+          font-size: clamp(42px, 43px, 43px);
+          line-height: 53px;
+        }
+
+        p {
+          line-height: 30px;
+          max-width: 680px;
+          font-size: clamp(18px, 19px, 19px);
+          margin-bottom: 35px;
+        }
+      }
+
+      .index_services_inner_main {
+        max-width: 920px;
+        .index_services_inner_main_box {
+          .index_services_inner_main_row {
+            .index_services_inner_main_side {
+              max-width: 25%;
+              width: 100%;
+              height: 190px;
+              margin-bottom: 18px;
             }
           }
         }
