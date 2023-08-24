@@ -43,7 +43,9 @@ export const IndexGallery = (props) => {
       >
         <div className={`${styles.index_gallery_inner_top}`}>
           <h1 className="orientation-change-element half-second">
-            A Look At Our Work.
+            A Look At
+            <br />
+            <span> </span>Our Work.
           </h1>
 
           <p className="orientation-change-element half-second">
