@@ -107,6 +107,7 @@ function MyApp({ Component, pageProps }) {
       const SS_VARIABLES = [
         "Mobile Nav Opened",
         "HREF",
+        "Modal Opened",
         "FM Loaded",
         "Page Reload",
         "Submission Sent",
