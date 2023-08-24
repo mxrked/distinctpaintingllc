@@ -7,12 +7,10 @@
 export default function CheckMobileNavMenuStatus() {
   // On Desktop
   if (sessionStorage.getItem("Desktop Device")) {
-    if (!sessionStorage.getItem("Donation Popup Opened")) {
-      if (!sessionStorage.getItem("Modal Opened")) {
-        if (sessionStorage.getItem("FM Loaded")) {
-          document.body.style.overflowY = "auto";
-          document.body.style.pointerEvents = "auto";
-        }
+    if (!sessionStorage.getItem("Modal Opened")) {
+      if (sessionStorage.getItem("FM Loaded")) {
+        document.body.style.overflowY = "auto";
+        document.body.style.pointerEvents = "auto";
       }
     }
   }
@@ -21,22 +19,18 @@ export default function CheckMobileNavMenuStatus() {
   if (sessionStorage.getItem("Mobile Device")) {
     // If opened
     if (sessionStorage.getItem("Mobile Nav Opened")) {
-      if (!sessionStorage.getItem("Donation Popup Opened")) {
-        if (!sessionStorage.getItem("Modal Opened")) {
-          document.body.style.overflowY = "hidden";
-          document.body.style.pointerEvents = "none";
-        }
+      if (!sessionStorage.getItem("Modal Opened")) {
+        document.body.style.overflowY = "hidden";
+        document.body.style.pointerEvents = "none";
       }
     }
 
     // If closed
     if (!sessionStorage.getItem("Mobile Nav Opened")) {
-      if (!sessionStorage.getItem("Donation Popup Opened")) {
-        if (!sessionStorage.getItem("Modal Opened")) {
-          if (sessionStorage.getItem("FM Loaded")) {
-            document.body.style.overflowY = "auto";
-            document.body.style.pointerEvents = "auto";
-          }
+      if (!sessionStorage.getItem("Modal Opened")) {
+        if (sessionStorage.getItem("FM Loaded")) {
+          document.body.style.overflowY = "auto";
+          document.body.style.pointerEvents = "auto";
         }
       }
     }
