@@ -17,6 +17,8 @@ import { MobileNavMenu } from "@/assets/components/global/Navigation/Mobile/Mobi
 import { IndexTop } from "@/assets/components/pages/Index/IndexTop";
 import { IndexAbout } from "@/assets/components/pages/Index/IndexAbout";
 import { IndexServices } from "@/assets/components/pages/Index/IndexServices";
+import { IndexGallery } from "@/assets/components/pages/Index/IndexGallery";
+import { IndexModals } from "@/assets/components/pages/Index/IndexModals";
 
 // Style Imports
 import "../assets/styles/modules/Index/Index.module.css";
@@ -55,6 +57,8 @@ export default function Home({ index_gallery_data }) {
         <IndexTop />
         <IndexAbout />
         <IndexServices />
+        <IndexGallery galleryData={index_gallery_data} />
+        <IndexModals galleryData={index_gallery_data} />
       </main>
     </div>
   );
