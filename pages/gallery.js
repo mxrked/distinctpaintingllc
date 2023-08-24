@@ -13,6 +13,7 @@ import { NavTop } from "@/assets/components/global/Navigation/Both/NavTop";
 import { DesktopNav } from "@/assets/components/global/Navigation/Desktop/DesktopNav";
 import { MobileNav } from "@/assets/components/global/Navigation/Mobile/MobileNav";
 import { MobileNavMenu } from "@/assets/components/global/Navigation/Mobile/MobileNavMenu";
+import { Footer } from "@/assets/components/global/Footer/Footer";
 
 // Style Imports
 import "../assets/styles/modules/Gallery/Gallery.module.css";
@@ -48,6 +49,8 @@ export default function Contact({ gallery_data }) {
       <MobileNavMenu disableLink="/gallery" />
 
       <main id="PAGE_MAIN"></main>
+
+      <Footer disableLink="/gallery" />
     </div>
   );
 }

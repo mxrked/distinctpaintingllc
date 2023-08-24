@@ -13,6 +13,7 @@ import { NavTop } from "@/assets/components/global/Navigation/Both/NavTop";
 import { DesktopNav } from "@/assets/components/global/Navigation/Desktop/DesktopNav";
 import { MobileNav } from "@/assets/components/global/Navigation/Mobile/MobileNav";
 import { MobileNavMenu } from "@/assets/components/global/Navigation/Mobile/MobileNavMenu";
+import { Footer } from "@/assets/components/global/Footer/Footer";
 
 import { IndexTop } from "@/assets/components/pages/Index/IndexTop";
 import { IndexAbout } from "@/assets/components/pages/Index/IndexAbout";
@@ -62,6 +63,8 @@ export default function Home({ index_gallery_data }) {
         <IndexModals galleryData={index_gallery_data} />
         <IndexContact />
       </main>
+
+      <Footer disableLink="/" />
     </div>
   );
 }
