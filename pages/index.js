@@ -19,6 +19,7 @@ import { IndexAbout } from "@/assets/components/pages/Index/IndexAbout";
 import { IndexServices } from "@/assets/components/pages/Index/IndexServices";
 import { IndexGallery } from "@/assets/components/pages/Index/IndexGallery";
 import { IndexModals } from "@/assets/components/pages/Index/IndexModals";
+import { IndexContact } from "@/assets/components/pages/Index/IndexContact";
 
 // Style Imports
 import "../assets/styles/modules/Index/Index.module.css";
@@ -59,6 +60,7 @@ export default function Home({ index_gallery_data }) {
         <IndexServices />
         <IndexGallery galleryData={index_gallery_data} />
         <IndexModals galleryData={index_gallery_data} />
+        <IndexContact />
       </main>
     </div>
   );
