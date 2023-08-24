@@ -90,6 +90,13 @@ export const IndexGallery = (props) => {
                           document.getElementById(item._itemID).style.display =
                             "block";
 
+                          document.getElementById(
+                            item._itemID
+                          ).style.overflowY = "auto";
+                          document.getElementById(
+                            item._itemID
+                          ).style.pointerEvents = "auto";
+
                           document
                             .getElementById(item._itemID)
                             .querySelector(".darken").style.opacity = 1;
