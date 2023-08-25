@@ -20,8 +20,21 @@ import TriggerInViewMotion from "@/assets/functions/dom/triggers/TriggerInViewMo
 import styles from "../../../styles/modules/Gallery/Gallery.module.css";
 
 export const GalleryTop = () => {
+  const router = useRouter();
+
+  const CONTROLS = useAnimation();
+  const [REF, INVIEW] = useInView();
+
+  useEffect(() => {
+    TriggerInViewMotion(CONTROLS, INVIEW);
+  }, [CONTROLS, INVIEW]);
+
   return (
     <motion.section
+      ref={REF}
+      initial="hidden"
+      animate={CONTROLS}
+      variants={FADE_IN}
       id="galleryTop"
       className={`${styles.gallery_top} overrides_GalleryTop fm-motion fade-in fade-in-fix full-second`}
     >
