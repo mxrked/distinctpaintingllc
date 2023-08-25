@@ -74,6 +74,119 @@
     }
   }
 }
+.gallery_main {
+  margin-top: 100px;
+  margin-bottom: 100px;
+
+  .gallery_main_inner {
+    max-width: 1650px;
+    @include quickCenter("relative");
+    padding-left: 30px;
+    padding-right: 30px;
+    text-align: center;
+    white-space: pre-wrap;
+
+    .gallery_main_inner_box {
+      .load_more_btn {
+        margin-top: 40px;
+        height: 50px;
+        color: white;
+        font-family: "Lato Bold";
+        text-decoration: none;
+        font-size: $Link;
+        @include displayElement(flex, center, center);
+        // box-shadow: 0 2px 2px rgba(0, 0, 0, 0.115);
+        background-color: $GreenPea;
+        width: 100%;
+        max-width: 175px;
+        @include quickCenter("relative");
+
+        &:hover {
+          background-color: $Camarone;
+        }
+      }
+
+      .gallery_main_inner_row {
+        .gallery_item {
+          height: 355px;
+          margin-bottom: 20px;
+
+          .gallery_item_inner {
+            width: 100%;
+            height: 100%;
+            position: relative;
+            max-width: 99.5%;
+            @include quickCenter("relative");
+            border-radius: 10px;
+            overflow: hidden;
+
+            .bg {
+              @include bGSU(cover, center);
+            }
+
+            .darken {
+              background-color: rgba(0, 0, 0, 0.4);
+              position: absolute;
+              width: 100%;
+              height: 100%;
+              top: 0;
+              left: 0;
+              @include displayElement(flex, center, center);
+              color: white;
+              font-size: $Text;
+              filter: drop-shadow(0 2px 2px rgba(0, 0, 0, 0.222));
+
+              &:hover {
+                background-color: rgba(0, 0, 0, 0.55);
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}
+.modal {
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  z-index: 500;
+  display: none;
+
+  .darken {
+    opacity: 0;
+    visibility: hidden;
+    background-color: rgba(0, 0, 0, 0.75);
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    cursor: pointer;
+  }
+
+  .modal_inner {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    max-width: 800px;
+    max-height: 800px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
+    .bg_holder {
+      height: 100%;
+      width: 100%;
+
+      .bg {
+        @include bGSU(contain, center);
+      }
+    }
+  }
+}
 
 // Responsive
 @media all and (max-width: 1995px) {
@@ -95,6 +208,12 @@
           font-size: clamp(21px, 22px, 22px);
         }
       }
+    }
+  }
+  .modal {
+    .modal_inner {
+      max-width: 700px;
+      max-height: 700px;
     }
   }
 }
@@ -119,6 +238,12 @@
           @include quickCenter("relative");
         }
       }
+    }
+  }
+  .modal {
+    .modal_inner {
+      max-width: 600px;
+      max-height: 600px;
     }
   }
 }
@@ -149,6 +274,12 @@
       }
     }
   }
+  .modal {
+    .modal_inner {
+      max-width: 420px;
+      max-height: 420px;
+    }
+  }
 }
 
 // Smaller Devices (Phones)
@@ -174,6 +305,12 @@
           @include quickCenter("relative");
         }
       }
+    }
+  }
+  .modal {
+    .modal_inner {
+      max-width: 85%;
+      max-height: 45%;
     }
   }
 }
@@ -203,6 +340,12 @@
       }
     }
   }
+  .modal {
+    .modal_inner {
+      max-width: 55%;
+      max-height: 75%;
+    }
+  }
 }
 
 // Ipad
@@ -229,6 +372,12 @@
       }
     }
   }
+  .modal {
+    .modal_inner {
+      max-width: 65%;
+      max-height: 50%;
+    }
+  }
 }
 
 @media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: landscape) and (-webkit-min-device-pixel-ratio: 1) {
@@ -252,6 +401,12 @@
           margin-bottom: 15px;
         }
       }
+    }
+  }
+  .modal {
+    .modal_inner {
+      max-width: 45%;
+      max-height: 75%;
     }
   }
 }
@@ -280,6 +435,12 @@
       }
     }
   }
+  .modal {
+    .modal_inner {
+      max-width: 75%;
+      max-height: 55%;
+    }
+  }
 }
 
 @media only screen and (min-device-width: 1024px) and (max-device-width: 1366px) and (-webkit-min-device-pixel-ratio: 2) and (orientation: landscape) {
@@ -303,6 +464,12 @@
           margin-bottom: 15px;
         }
       }
+    }
+  }
+  .modal {
+    .modal_inner {
+      max-width: 55%;
+      max-height: 55%;
     }
   }
 }
@@ -329,6 +496,12 @@
           margin-bottom: 5px;
         }
       }
+    }
+  }
+  .modal {
+    .modal_inner {
+      max-width: 55%;
+      max-height: 75%;
     }
   }
 }
