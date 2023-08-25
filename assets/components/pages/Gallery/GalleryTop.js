@@ -1,6 +1,6 @@
 /**
  *
- *  This is the Index Top
+ *  This is the Gallery Top
  *
  */
 
