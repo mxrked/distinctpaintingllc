@@ -15,6 +15,8 @@ import { MobileNav } from "@/assets/components/global/Navigation/Mobile/MobileNa
 import { MobileNavMenu } from "@/assets/components/global/Navigation/Mobile/MobileNavMenu";
 import { Footer } from "@/assets/components/global/Footer/Footer";
 
+import { GalleryTop } from "@/assets/components/pages/Gallery/GalleryTop";
+
 // Style Imports
 import "../assets/styles/modules/Gallery/Gallery.module.css";
 
@@ -48,7 +50,9 @@ export default function Contact({ gallery_data }) {
       <MobileNav disableLink="/gallery" />
       <MobileNavMenu disableLink="/gallery" />
 
-      <main id="PAGE_MAIN"></main>
+      <main id="PAGE_MAIN">
+        <GalleryTop />
+      </main>
 
       <Footer disableLink="/gallery" />
     </div>
