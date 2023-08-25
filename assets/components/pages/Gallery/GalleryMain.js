@@ -34,6 +34,8 @@ export const GalleryMain = ({ galleryData }) => {
   );
   const [PAGE, SET_PAGE] = useState(1);
   const [HAS_MORE_ITEMS, SET_HAS_MORE_ITEMS] = useState(true);
+  const TOTAL_AVAILABLE_ITEMS = galleryData.length;
+  const TOTAL_LOADED_ITEMS = LOADED_ITEMS.length;
 
   // Loading More Items
   const LOAD_MORE_ITEMS = () => {
@@ -71,18 +73,17 @@ export const GalleryMain = ({ galleryData }) => {
                 img={item._itemImgSrc}
               />
             ))}
+          </div>
 
+          {TOTAL_LOADED_ITEMS < TOTAL_AVAILABLE_ITEMS && (
             <button
+              id="loadMoreBtn"
               className={`${styles.load_more_btn} orientation-change-element half-second`}
               onClick={LOAD_MORE_ITEMS}
-              style={{
-                opacity: HAS_MORE_ITEMS ? 1 : 0.5,
-                pointerEvents: HAS_MORE_ITEMS ? "auto" : "none",
-              }}
             >
               <span>Load More Items</span>
             </button>
-          </div>
+          )}
         </div>
       </motion.div>
     </section>
