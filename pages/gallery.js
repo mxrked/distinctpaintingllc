@@ -16,10 +16,11 @@ import { MobileNavMenu } from "@/assets/components/global/Navigation/Mobile/Mobi
 import { Footer } from "@/assets/components/global/Footer/Footer";
 
 import { GalleryTop } from "@/assets/components/pages/Gallery/GalleryTop";
+import { GalleryMain } from "@/assets/components/pages/Gallery/GalleryMain";
+import { GalleryModals } from "@/assets/components/pages/Gallery/GalleryModals";
 
 // Style Imports
 import "../assets/styles/modules/Gallery/Gallery.module.css";
-
 export const getStaticProps = async () => {
   const GALLERY_RES = await fetch(
     "https://raw.githubusercontent.com/mxrked/freelance_projects_CDN/main/distinct-painting-llc/json/GALLERY.json"
@@ -34,7 +35,7 @@ export const getStaticProps = async () => {
   };
 };
 
-export default function Contact({ gallery_data }) {
+export default function Gallery({ gallery_data }) {
   const router = useRouter();
 
   // Triggering exit animations
@@ -52,6 +53,8 @@ export default function Contact({ gallery_data }) {
 
       <main id="PAGE_MAIN">
         <GalleryTop />
+        <GalleryMain galleryData={gallery_data} />
+        <GalleryModals galleryData={gallery_data} />
       </main>
 
       <Footer disableLink="/gallery" />
