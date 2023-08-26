@@ -86,6 +86,13 @@
     text-align: center;
     white-space: pre-wrap;
 
+    .gallery_main_inner_top_btns {
+      @include displayElement(flex, space-evenly, center);
+      width: 100%;
+      max-width: 850px;
+      @include quickCenter("relative");
+    }
+
     .gallery_main_inner_box {
       .load_more_btn {
         margin-top: 40px;
