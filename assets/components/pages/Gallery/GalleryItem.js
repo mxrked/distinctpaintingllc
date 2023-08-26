@@ -2,10 +2,13 @@
  *
  *  This is the Gallery Main
  *
+ *  @param {Object} item - This is the item
  *  @param {Object} id - This is the id of the gallery item
  *  @param {Object} img - This is the url for the gallery item img
  *
  */
+
+import { useEffect } from "react";
 
 import { BackgroundImage } from "react-image-and-background-image-fade";
 import { FaHandPointer } from "react-icons/fa";
@@ -14,10 +17,10 @@ import DeclareStorageVariable from "@/assets/functions/data/storage/DeclareStora
 
 import styles from "../../../styles/modules/Gallery/Gallery.module.css";
 
-export const GalleryItem = ({ item, id, img }) => {
+export const GalleryItem = ({ item, type, id, img }) => {
   return (
     <div
-      className={`${styles.gallery_item} col-lg-4 col-md-4 col-sm-6 col-xs-12`}
+      className={`${styles.gallery_item} item_${type} gallery-item col-lg-4 col-md-4 col-sm-6 col-xs-12`}
     >
       <div className={`${styles.gallery_item_inner}`}>
         <BackgroundImage

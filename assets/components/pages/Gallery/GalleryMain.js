@@ -70,6 +70,7 @@ export const GalleryMain = ({ galleryData }) => {
                 item={item._itemID}
                 key={item._itemID}
                 id={item._itemID}
+                type={item._itemType}
                 img={item._itemImgSrc}
               />
             ))}
