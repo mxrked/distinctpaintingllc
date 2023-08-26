@@ -210,6 +210,21 @@
       }
     }
   }
+  .gallery_main {
+    .gallery_main_inner {
+      max-width: 1200px;
+      padding-left: 40px;
+      padding-right: 40px;
+
+      .gallery_main_inner_box {
+        .gallery_main_inner_row {
+          .gallery_item {
+            height: 315px;
+          }
+        }
+      }
+    }
+  }
   .modal {
     .modal_inner {
       max-width: 700px;
@@ -236,6 +251,26 @@
           max-width: 495px;
           font-size: clamp(18px, 19px, 19px);
           @include quickCenter("relative");
+        }
+      }
+    }
+  }
+  .gallery_main {
+    margin-top: 50px;
+    margin-bottom: 90px;
+
+    .gallery_main_inner {
+      max-width: 800px;
+      padding-left: 40px;
+      padding-right: 40px;
+
+      .gallery_main_inner_box {
+        .gallery_main_inner_row {
+          .gallery_item {
+            height: 225px;
+            max-width: 50%;
+            width: 100%;
+          }
         }
       }
     }
@@ -274,6 +309,26 @@
       }
     }
   }
+  .gallery_main {
+    margin-top: 70px;
+    margin-bottom: 90px;
+
+    .gallery_main_inner {
+      max-width: 800px;
+      padding-left: 40px;
+      padding-right: 40px;
+
+      .gallery_main_inner_box {
+        .gallery_main_inner_row {
+          .gallery_item {
+            height: 165px;
+            max-width: 100%;
+            width: 100%;
+          }
+        }
+      }
+    }
+  }
   .modal {
     .modal_inner {
       max-width: 420px;
@@ -303,6 +358,33 @@
           margin-bottom: 15px;
           font-size: clamp(15px, 16px, 16px);
           @include quickCenter("relative");
+        }
+      }
+    }
+  }
+  .gallery_main {
+    margin-top: 45px;
+    margin-bottom: 60px;
+
+    .gallery_main_inner {
+      max-width: 800px;
+      padding-left: 20px;
+      padding-right: 20px;
+
+      .gallery_main_inner_box {
+        .gallery_main_inner_row {
+          .gallery_item {
+            height: 155px;
+            max-width: 100%;
+            width: 100%;
+          }
+        }
+
+        .load_more_btn {
+          @include quickCenter("relative");
+          height: 40px;
+          font-size: clamp(14px, 15px, 15px);
+          max-width: 140px;
         }
       }
     }
@@ -340,6 +422,33 @@
       }
     }
   }
+  .gallery_main {
+    margin-top: 45px;
+    margin-bottom: 50px;
+
+    .gallery_main_inner {
+      max-width: 800px;
+      padding-left: 20px;
+      padding-right: 20px;
+
+      .gallery_main_inner_box {
+        .gallery_main_inner_row {
+          .gallery_item {
+            height: 125px;
+            max-width: 33.33%;
+            width: 100%;
+          }
+        }
+
+        .load_more_btn {
+          @include quickCenter("relative");
+          height: 40px;
+          font-size: clamp(14px, 15px, 15px);
+          max-width: 140px;
+        }
+      }
+    }
+  }
   .modal {
     .modal_inner {
       max-width: 55%;
@@ -372,6 +481,33 @@
       }
     }
   }
+  .gallery_main {
+    margin-top: 45px;
+    margin-bottom: 50px;
+
+    .gallery_main_inner {
+      max-width: 600px;
+      padding-left: 20px;
+      padding-right: 20px;
+
+      .gallery_main_inner_box {
+        .gallery_main_inner_row {
+          .gallery_item {
+            height: 165px;
+            max-width: 50%;
+            width: 100%;
+          }
+        }
+
+        .load_more_btn {
+          @include quickCenter("relative");
+          height: 40px;
+          font-size: clamp(15px, 16px, 16px);
+          max-width: 150px;
+        }
+      }
+    }
+  }
   .modal {
     .modal_inner {
       max-width: 65%;
@@ -399,6 +535,33 @@
           font-size: clamp(17px, 18px, 18px);
           @include quickCenter("relative");
           margin-bottom: 15px;
+        }
+      }
+    }
+  }
+  .gallery_main {
+    margin-top: 45px;
+    margin-bottom: 50px;
+
+    .gallery_main_inner {
+      max-width: 680px;
+      padding-left: 20px;
+      padding-right: 20px;
+
+      .gallery_main_inner_box {
+        .gallery_main_inner_row {
+          .gallery_item {
+            height: 145px;
+            max-width: 33.33%;
+            width: 100%;
+          }
+        }
+
+        .load_more_btn {
+          @include quickCenter("relative");
+          height: 40px;
+          font-size: clamp(15px, 16px, 16px);
+          max-width: 150px;
         }
       }
     }
@@ -435,6 +598,33 @@
       }
     }
   }
+  .gallery_main {
+    margin-top: 65px;
+    margin-bottom: 70px;
+
+    .gallery_main_inner {
+      max-width: 800px;
+      padding-left: 20px;
+      padding-right: 20px;
+
+      .gallery_main_inner_box {
+        .gallery_main_inner_row {
+          .gallery_item {
+            height: 195px;
+            max-width: 33.33%;
+            width: 100%;
+          }
+        }
+
+        .load_more_btn {
+          @include quickCenter("relative");
+          height: 40px;
+          font-size: clamp(15px, 16px, 16px);
+          max-width: 150px;
+        }
+      }
+    }
+  }
   .modal {
     .modal_inner {
       max-width: 75%;
@@ -462,6 +652,33 @@
           font-size: clamp(18px, 19px, 19px);
           @include quickCenter("relative");
           margin-bottom: 15px;
+        }
+      }
+    }
+  }
+  .gallery_main {
+    margin-top: 65px;
+    margin-bottom: 70px;
+
+    .gallery_main_inner {
+      max-width: 800px;
+      padding-left: 20px;
+      padding-right: 20px;
+
+      .gallery_main_inner_box {
+        .gallery_main_inner_row {
+          .gallery_item {
+            height: 195px;
+            max-width: 33.33%;
+            width: 100%;
+          }
+        }
+
+        .load_more_btn {
+          @include quickCenter("relative");
+          height: 40px;
+          font-size: clamp(15px, 16px, 16px);
+          max-width: 150px;
         }
       }
     }
@@ -494,6 +711,33 @@
           font-size: clamp(18px, 19px, 19px);
           @include quickCenter("relative");
           margin-bottom: 5px;
+        }
+      }
+    }
+  }
+  .gallery_main {
+    margin-top: 65px;
+    margin-bottom: 70px;
+
+    .gallery_main_inner {
+      max-width: 1000px;
+      padding-left: 20px;
+      padding-right: 20px;
+
+      .gallery_main_inner_box {
+        .gallery_main_inner_row {
+          .gallery_item {
+            height: 235px;
+            max-width: 33.33%;
+            width: 100%;
+          }
+        }
+
+        .load_more_btn {
+          @include quickCenter("relative");
+          height: 40px;
+          font-size: clamp(15px, 16px, 16px);
+          max-width: 150px;
         }
       }
     }
