@@ -47,9 +47,9 @@ export const IndexServices = () => {
         className={`${styles.index_services_inner} fm-motion fade-up fade-up-fix full-second`}
       >
         <div className={`${styles.index_services_inner_top}`}>
-          <h1 className="orientation-change-element half-second">
+          <h2 className="orientation-change-element half-second">
             Book A Service.
-          </h1>
+          </h2>
 
           <p className="orientation-change-element half-second">
             Distinct Painting LLC is your comprehensive solution for house

@@ -45,11 +45,11 @@ export const IndexContact = () => {
               variants={FADE_RIGHT}
               className={`${styles.index_contact_side_cnt} fm-motion fade-right fade-right-fix full-second`}
             >
-              <h1 className="orientation-change-element half-second">
+              <h2 className="orientation-change-element half-second">
                 Contact/Book
                 <br />
                 <span> </span>A Service.
-              </h1>
+              </h2>
 
               <p className="orientation-change-element half-second">
                 Booking your service with Distinct Painting LLC is effortless.

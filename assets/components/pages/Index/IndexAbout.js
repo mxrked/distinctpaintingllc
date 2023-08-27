@@ -64,11 +64,11 @@ export const IndexAbout = () => {
               variants={FADE_LEFT}
               className={`${styles.index_about_side_cnt} fm-motion fade-left fade-left-fix full-second`}
             >
-              <h1 className="orientation-change-element half-second">
+              <h2 className="orientation-change-element half-second">
                 About Distinct
                 <br />
                 <span> </span>Painting LLC.
-              </h1>
+              </h2>
 
               <p className="orientation-change-element half-second">
                 Welcome to Distinct Painting LLC, where we turn homes into works

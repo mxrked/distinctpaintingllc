@@ -42,11 +42,11 @@ export const IndexGallery = (props) => {
         className={`${styles.index_gallery_inner} fm-motion fade-up fade-up-fix full-second`}
       >
         <div className={`${styles.index_gallery_inner_top}`}>
-          <h1 className="orientation-change-element half-second">
+          <h2 className="orientation-change-element half-second">
             A Look At
             <br />
             <span> </span>Our Work.
-          </h1>
+          </h2>
 
           <p className="orientation-change-element half-second">
             Below you can get a view of the work we have done during the years

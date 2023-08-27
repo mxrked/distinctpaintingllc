@@ -83,9 +83,9 @@ export const IndexTop = () => {
 
               <div className={`${styles.darken}`}>
                 <div className={`${styles.index_top_slider_slide_cnt}`}>
-                  <h1 className="orientation-change-element half-second">
+                  <h2 className="orientation-change-element half-second">
                     {slide.getSlideTopTextA} <br /> {slide.getSlideTopTextB}
-                  </h1>
+                  </h2>
 
                   <p className="orientation-change-element half-second">
                     {slide.getSlideBottomText}
