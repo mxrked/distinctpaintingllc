@@ -19,11 +19,11 @@ export const PageHead = () => {
 
   //! Descriptions
   const INDEX_DESC =
-    "Distinct Painting LLC: Your trusted Triad NC painting company. Expert in residential and commercial painting, interior and exterior. Also specializing in drywall repair, pressure washing, and skilled carpentry. Contact us for estimates and exceptional service.";
+    "Distinct Painting LLC: Trusted Triad NC painters. Residential, commercial, interiors, exteriors. Drywall, pressure washing, carpentry. Contact for estimates & exceptional service.";
   const GALLERY_DESC =
-    "Discover the Distinct Painting LLC Gallery: See our completed projects, painting transformations, and more. Explore our professional craftsmanship and painting excellence on display.";
+    "Explore Distinct Painting LLC's Gallery: Completed projects, transformations, craftsmanship displayed.";
   const CONTACT_DESC =
-    "Get in touch with Distinct Painting LLC: Use our contact form to reach out, ask questions, or discuss your project. We're here to help with painting, pressure washing, drywall repair, and carpentry services.";
+    "Contact Distinct Painting LLC: Reach out via form for questions or projects. We offer painting, pressure washing, drywall, carpentry services.";
   const DESCS = [INDEX_DESC, GALLERY_DESC, CONTACT_DESC];
 
   let desc;
@@ -87,6 +87,8 @@ export const PageHead = () => {
 
   return (
     <Head id="pageHead">
+      <html lang="en" />
+
       <title>{title}</title>
 
       <meta name="keywords" content={kws} />
