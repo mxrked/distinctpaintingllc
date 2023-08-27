@@ -87,8 +87,6 @@ export const PageHead = () => {
 
   return (
     <Head id="pageHead">
-      <html lang="en" />
-
       <title>{title}</title>
 
       <meta name="keywords" content={kws} />
