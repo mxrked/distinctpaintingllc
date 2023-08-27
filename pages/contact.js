@@ -15,6 +15,9 @@ import { MobileNav } from "@/assets/components/global/Navigation/Mobile/MobileNa
 import { MobileNavMenu } from "@/assets/components/global/Navigation/Mobile/MobileNavMenu";
 import { Footer } from "@/assets/components/global/Footer/Footer";
 
+import { ContactTop } from "@/assets/components/pages/Contact/ContactTop";
+import ContactMain from "@/assets/components/pages/Contact/ContactMain";
+
 // Style Imports
 import "../assets/styles/modules/Contact/Contact.module.css";
 
@@ -34,7 +37,10 @@ export default function Contact() {
       <MobileNav disableLink="/contact" />
       <MobileNavMenu disableLink="/contact" />
 
-      <main id="PAGE_MAIN"></main>
+      <main id="PAGE_MAIN">
+        <ContactTop />
+        <ContactMain />
+      </main>
 
       <Footer disableLink="/contact" />
     </div>
