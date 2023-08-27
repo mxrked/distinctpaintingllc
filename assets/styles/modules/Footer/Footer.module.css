@@ -135,7 +135,7 @@
 }
 .footer .footer_top .footer_top_inner .footer_top_inner_box .footer_top_inner_row .footer_R .footer_top_inner_side_cnt .footer_contact .socials {
   display: flex;
-  justify-content: flex-end;
+  justify-content: space-between;
   align-items: center;
   width: 100%;
   max-width: 65px;
@@ -254,7 +254,8 @@
     margin-left: auto;
     margin-right: auto;
     text-align: center;
-    justify-content: center;
+    justify-content: space-evenly;
+    max-width: 75px;
   }
   .footer .footer_top .footer_top_inner .footer_top_inner_box .footer_top_inner_row .footer_R .footer_top_inner_side_cnt .footer_contact .contact {
     text-align: center;
@@ -341,7 +342,8 @@
     margin-left: auto;
     margin-right: auto;
     text-align: center;
-    justify-content: center;
+    justify-content: space-evenly;
+    max-width: 75px;
   }
   .footer .footer_top .footer_top_inner .footer_top_inner_box .footer_top_inner_row .footer_R .footer_top_inner_side_cnt .footer_contact .socials li {
     font-size: 18px;
@@ -443,7 +445,8 @@
     margin-left: auto;
     margin-right: auto;
     text-align: center;
-    justify-content: center;
+    justify-content: space-evenly;
+    max-width: 75px;
   }
   .footer .footer_top .footer_top_inner .footer_top_inner_box .footer_top_inner_row .footer_R .footer_top_inner_side_cnt .footer_contact .socials li {
     font-size: 18px;
@@ -546,7 +549,8 @@
     margin-left: auto;
     margin-right: auto;
     text-align: center;
-    justify-content: center;
+    justify-content: space-evenly;
+    max-width: 75px;
   }
   .footer .footer_top .footer_top_inner .footer_top_inner_box .footer_top_inner_row .footer_R .footer_top_inner_side_cnt .footer_contact .socials li {
     font-size: 18px;
@@ -649,7 +653,8 @@
     margin-left: auto;
     margin-right: auto;
     text-align: center;
-    justify-content: center;
+    justify-content: space-evenly;
+    max-width: 75px;
   }
   .footer .footer_top .footer_top_inner .footer_top_inner_box .footer_top_inner_row .footer_R .footer_top_inner_side_cnt .footer_contact .socials li {
     font-size: 18px;
@@ -753,7 +758,8 @@
     margin-left: auto;
     margin-right: auto;
     text-align: center;
-    justify-content: center;
+    justify-content: space-evenly;
+    max-width: 75px;
   }
   .footer .footer_top .footer_top_inner .footer_top_inner_box .footer_top_inner_row .footer_R .footer_top_inner_side_cnt .footer_contact .socials li {
     font-size: 18px;
@@ -862,7 +868,8 @@
     margin-left: auto;
     margin-right: auto;
     text-align: center;
-    justify-content: center;
+    justify-content: space-evenly;
+    max-width: 75px;
   }
   .footer .footer_top .footer_top_inner .footer_top_inner_box .footer_top_inner_row .footer_R .footer_top_inner_side_cnt .footer_contact .socials li {
     font-size: 18px;
@@ -971,7 +978,8 @@
     margin-left: auto;
     margin-right: auto;
     text-align: center;
-    justify-content: center;
+    justify-content: space-evenly;
+    max-width: 75px;
   }
   .footer .footer_top .footer_top_inner .footer_top_inner_box .footer_top_inner_row .footer_R .footer_top_inner_side_cnt .footer_contact .socials li {
     font-size: 18px;
