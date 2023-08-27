@@ -7,7 +7,7 @@ import { useEffect } from "react";
 
 import { useAnimation, motion } from "framer-motion";
 import { useInView } from "react-intersection-observer";
-import { FaCopyright, FaFacebook } from "react-icons/fa";
+import { FaCopyright, FaFacebook, FaInstagram } from "react-icons/fa";
 
 import { LOGO_CUT } from "@/assets/cdns/CDNIcons";
 import { FADE_IN } from "@/assets/animations/FADES";
@@ -177,6 +177,17 @@ export const Footer = (props) => {
                               "_self"
                             );
                           }}
+                        />
+                      </li>
+                      <li>
+                        <FaInstagram
+                          onClick={() => {
+                            window.open(
+                              "https://www.instagram.com/distinctpaintingllc/?hl=en",
+                              "_self"
+                            );
+                          }}
+                          className={`${styles.icon} orientation-change-element half-second`}
                         />
                       </li>
                     </ul>

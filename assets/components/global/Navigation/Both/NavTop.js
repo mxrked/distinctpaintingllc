@@ -7,7 +7,7 @@ import { useEffect } from "react";
 
 import { useAnimation, motion } from "framer-motion";
 import { useInView } from "react-intersection-observer";
-import { FaFacebook } from "react-icons/fa";
+import { FaFacebook, FaInstagram } from "react-icons/fa";
 
 import { FADE_IN } from "@/assets/animations/FADES";
 
@@ -77,6 +77,17 @@ export const NavTop = (props) => {
                       onClick={() => {
                         window.open(
                           "https://www.facebook.com/Distinctpaintingllc",
+                          "_self"
+                        );
+                      }}
+                      className={`${styles.icon} orientation-change-element half-second`}
+                    />
+                  </li>
+                  <li>
+                    <FaInstagram
+                      onClick={() => {
+                        window.open(
+                          "https://www.instagram.com/distinctpaintingllc/?hl=en",
                           "_self"
                         );
                       }}
