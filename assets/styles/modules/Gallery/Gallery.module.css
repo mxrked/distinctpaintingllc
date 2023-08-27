@@ -46,7 +46,7 @@
   padding-left: 30px;
   padding-right: 30px;
 }
-.gallery_top .gallery_top_overlay .gallery_top_overlay_cnt h1 {
+.gallery_top .gallery_top_overlay .gallery_top_overlay_cnt h2 {
   font-family: "Source Sans Black";
   font-size: clamp(3.81rem, 5.18vw + 2.52rem, 6.66rem);
   line-height: 115px;
@@ -193,7 +193,7 @@
     padding-left: 20px;
     padding-right: 20px;
   }
-  .gallery_top .gallery_top_overlay .gallery_top_overlay_cnt h1 {
+  .gallery_top .gallery_top_overlay .gallery_top_overlay_cnt h2 {
     font-size: clamp(3.05rem, 3.54vw + 2.17rem, 5rem);
     line-height: 85px;
   }
@@ -222,7 +222,7 @@
     padding-left: 20px;
     padding-right: 20px;
   }
-  .gallery_top .gallery_top_overlay .gallery_top_overlay_cnt h1 {
+  .gallery_top .gallery_top_overlay .gallery_top_overlay_cnt h2 {
     font-size: clamp(2.44rem, 2.38vw + 1.85rem, 3.75rem);
     line-height: 55px;
   }
@@ -259,7 +259,7 @@
     padding-left: 20px;
     padding-right: 20px;
   }
-  .gallery_top .gallery_top_overlay .gallery_top_overlay_cnt h1 {
+  .gallery_top .gallery_top_overlay .gallery_top_overlay_cnt h2 {
     font-size: 33px;
     line-height: 40px;
   }
@@ -296,7 +296,7 @@
     padding-left: 10px;
     padding-right: 10px;
   }
-  .gallery_top .gallery_top_overlay .gallery_top_overlay_cnt h1 {
+  .gallery_top .gallery_top_overlay .gallery_top_overlay_cnt h2 {
     font-size: 28px;
     line-height: 34px;
   }
@@ -342,7 +342,7 @@
     padding-left: 10px;
     padding-right: 10px;
   }
-  .gallery_top .gallery_top_overlay .gallery_top_overlay_cnt h1 {
+  .gallery_top .gallery_top_overlay .gallery_top_overlay_cnt h2 {
     font-size: 32px;
     line-height: 34px;
   }
@@ -388,7 +388,7 @@
     padding-left: 10px;
     padding-right: 10px;
   }
-  .gallery_top .gallery_top_overlay .gallery_top_overlay_cnt h1 {
+  .gallery_top .gallery_top_overlay .gallery_top_overlay_cnt h2 {
     font-size: 43px;
     line-height: 47px;
   }
@@ -433,7 +433,7 @@
     padding-left: 10px;
     padding-right: 10px;
   }
-  .gallery_top .gallery_top_overlay .gallery_top_overlay_cnt h1 {
+  .gallery_top .gallery_top_overlay .gallery_top_overlay_cnt h2 {
     font-size: 48px;
     line-height: 57px;
   }
@@ -478,7 +478,7 @@
     padding-left: 10px;
     padding-right: 10px;
   }
-  .gallery_top .gallery_top_overlay .gallery_top_overlay_cnt h1 {
+  .gallery_top .gallery_top_overlay .gallery_top_overlay_cnt h2 {
     font-size: 57px;
     line-height: 65px;
   }
@@ -523,7 +523,7 @@
     padding-left: 10px;
     padding-right: 10px;
   }
-  .gallery_top .gallery_top_overlay .gallery_top_overlay_cnt h1 {
+  .gallery_top .gallery_top_overlay .gallery_top_overlay_cnt h2 {
     font-size: 57px;
     line-height: 65px;
   }
@@ -568,7 +568,7 @@
     padding-left: 10px;
     padding-right: 10px;
   }
-  .gallery_top .gallery_top_overlay .gallery_top_overlay_cnt h1 {
+  .gallery_top .gallery_top_overlay .gallery_top_overlay_cnt h2 {
     font-size: 67px;
     line-height: 75px;
   }
