@@ -27,6 +27,7 @@ const GALLERY_TOP_BG = CDNBGReturn("gallery", "carpentry-1-min", "webp");
 
 // CONTACT
 const CONTACT_TOP_BG = CDNBGReturn("contact", "painter-1-min", "webp");
+const CONTACT_MAP_BG = CDNBGReturn("contact", "map", "webp");
 
 export {
   INDEX_ABOUT_BG,
@@ -41,4 +42,4 @@ export {
   INDEX_TOP_BG_4,
 };
 export { GALLERY_TOP_BG };
-export { CONTACT_TOP_BG };
+export { CONTACT_TOP_BG, CONTACT_MAP_BG };
