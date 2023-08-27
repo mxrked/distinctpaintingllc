@@ -55,7 +55,7 @@
           padding-left: 30px;
           padding-right: 30px;
 
-          h1 {
+          h2 {
             font-family: "Source Sans Black";
             font-size: $MajorHeading;
             line-height: 115px;
@@ -152,7 +152,7 @@
           max-width: 900px;
           @include quickCenter("relative");
 
-          h1 {
+          h2 {
             font-family: "Source Sans Extra Bold";
             font-size: $Heading;
             line-height: 75px;
@@ -203,7 +203,7 @@
       white-space: pre-wrap;
       margin-bottom: 130px;
 
-      h1 {
+      h2 {
         font-family: "Source Sans Extra Bold";
         font-size: $Heading;
         line-height: 75px;
@@ -284,7 +284,7 @@
     white-space: pre-wrap;
 
     .index_gallery_inner_top {
-      h1 {
+      h2 {
         font-family: "Source Sans Extra Bold";
         font-size: $Heading;
         line-height: 75px;
@@ -433,7 +433,7 @@
           max-width: 900px;
           @include quickCenter("relative");
 
-          h1 {
+          h2 {
             font-family: "Source Sans Extra Bold";
             font-size: $Heading;
             line-height: 75px;
@@ -497,7 +497,7 @@
             padding-left: 40px;
             padding-right: 40px;
 
-            h1 {
+            h2 {
               font-size: $Heading;
               line-height: 85px;
             }
@@ -527,7 +527,7 @@
 
         .index_about_R {
           .index_about_side_cnt {
-            h1 {
+            h2 {
               font-size: $SubHeading;
               line-height: 55px;
             }
@@ -550,7 +550,7 @@
       padding-right: 40px;
 
       .index_services_inner_top {
-        h1 {
+        h2 {
           font-size: $SubHeading;
           line-height: 55px;
         }
@@ -571,7 +571,7 @@
       padding-right: 40px;
 
       .index_gallery_inner_top {
-        h1 {
+        h2 {
           font-size: $SubHeading;
           line-height: 55px;
         }
@@ -617,7 +617,7 @@
 
         .index_contact_L {
           .index_contact_side_cnt {
-            h1 {
+            h2 {
               font-size: $SubHeading;
               line-height: 55px;
             }
@@ -649,7 +649,7 @@
             padding-right: 20px;
             text-align: center;
 
-            h1 {
+            h2 {
               font-size: $SubHeading;
               line-height: 55px;
             }
@@ -766,7 +766,7 @@
       padding-right: 40px;
 
       .index_gallery_inner_top {
-        h1 {
+        h2 {
           font-size: $SubHeading;
           line-height: 55px;
         }
@@ -872,7 +872,7 @@
             padding-right: 20px;
             text-align: center;
 
-            h1 {
+            h2 {
               font-size: clamp(32px, 33px, 33px);
               line-height: 40px;
             }
@@ -934,7 +934,7 @@
           padding-bottom: 70px;
 
           .index_about_side_cnt {
-            h1 {
+            h2 {
               font-size: clamp(35px, 36px, 36px);
               line-height: 40px;
             }
@@ -969,7 +969,7 @@
       .index_services_inner_top {
         margin-bottom: 60px;
 
-        h1 {
+        h2 {
           font-size: clamp(35px, 36px, 36px);
           line-height: 40px;
         }
@@ -1006,7 +1006,7 @@
       padding-right: 40px;
 
       .index_gallery_inner_top {
-        h1 {
+        h2 {
           font-size: clamp(35px, 36px, 36px);
           line-height: 40px;
         }
@@ -1075,7 +1075,7 @@
           padding-bottom: 70px;
 
           .index_contact_side_cnt {
-            h1 {
+            h2 {
               font-size: clamp(35px, 36px, 36px);
               line-height: 40px;
             }
@@ -1118,7 +1118,7 @@
             padding-bottom: 45px;
             text-align: center;
 
-            h1 {
+            h2 {
               font-size: clamp(27px, 28px, 28px);
               line-height: 34px;
             }
@@ -1181,7 +1181,7 @@
           padding-bottom: 50px;
 
           .index_about_side_cnt {
-            h1 {
+            h2 {
               font-size: clamp(27px, 28px, 28px);
               line-height: 30px;
             }
@@ -1216,7 +1216,7 @@
       .index_services_inner_top {
         margin-bottom: 60px;
 
-        h1 {
+        h2 {
           font-size: clamp(27px, 28px, 28px);
           line-height: 30px;
         }
@@ -1253,7 +1253,7 @@
       padding-right: 20px;
 
       .index_gallery_inner_top {
-        h1 {
+        h2 {
           font-size: clamp(27px, 28px, 28px);
           line-height: 30px;
         }
@@ -1322,7 +1322,7 @@
           padding-bottom: 50px;
 
           .index_contact_side_cnt {
-            h1 {
+            h2 {
               font-size: clamp(27px, 28px, 28px);
               line-height: 30px;
             }
@@ -1365,7 +1365,7 @@
             padding-bottom: 35px;
             text-align: center;
 
-            h1 {
+            h2 {
               font-size: clamp(31px, 32px, 32px);
               line-height: 34px;
 
@@ -1434,7 +1434,7 @@
           padding-bottom: 50px;
 
           .index_about_side_cnt {
-            h1 {
+            h2 {
               font-size: clamp(31px, 32px, 32px);
               line-height: 34px;
             }
@@ -1470,7 +1470,7 @@
       .index_services_inner_top {
         margin-bottom: 60px;
 
-        h1 {
+        h2 {
           font-size: clamp(31px, 32px, 32px);
           line-height: 34px;
         }
@@ -1508,7 +1508,7 @@
       padding-right: 20px;
 
       .index_gallery_inner_top {
-        h1 {
+        h2 {
           font-size: clamp(31px, 32px, 32px);
           line-height: 34px;
         }
@@ -1578,7 +1578,7 @@
           padding-bottom: 50px;
 
           .index_contact_side_cnt {
-            h1 {
+            h2 {
               font-size: clamp(31px, 32px, 32px);
               line-height: 34px;
             }
@@ -1622,7 +1622,7 @@
             padding-bottom: 35px;
             text-align: center;
 
-            h1 {
+            h2 {
               font-size: clamp(42px, 43px, 43px);
               line-height: 47px;
 
@@ -1690,7 +1690,7 @@
           padding-bottom: 70px;
 
           .index_about_side_cnt {
-            h1 {
+            h2 {
               font-size: clamp(38px, 39px, 39px);
               line-height: 43px;
             }
@@ -1726,7 +1726,7 @@
       .index_services_inner_top {
         margin-bottom: 60px;
 
-        h1 {
+        h2 {
           font-size: clamp(38px, 39px, 39px);
           line-height: 43px;
         }
@@ -1764,7 +1764,7 @@
       padding-right: 20px;
 
       .index_gallery_inner_top {
-        h1 {
+        h2 {
           font-size: clamp(38px, 39px, 39px);
           line-height: 43px;
         }
@@ -1834,7 +1834,7 @@
           padding-bottom: 70px;
 
           .index_contact_side_cnt {
-            h1 {
+            h2 {
               font-size: clamp(38px, 39px, 39px);
               line-height: 43px;
             }
@@ -1877,7 +1877,7 @@
             padding-bottom: 35px;
             text-align: center;
 
-            h1 {
+            h2 {
               font-size: clamp(47px, 48px, 48px);
               line-height: 57px;
 
@@ -1945,7 +1945,7 @@
           padding-bottom: 70px;
 
           .index_about_side_cnt {
-            h1 {
+            h2 {
               font-size: clamp(38px, 39px, 39px);
               line-height: 43px;
             }
@@ -1981,7 +1981,7 @@
       .index_services_inner_top {
         margin-bottom: 60px;
 
-        h1 {
+        h2 {
           font-size: clamp(38px, 39px, 39px);
           line-height: 43px;
         }
@@ -2019,7 +2019,7 @@
       padding-right: 20px;
 
       .index_gallery_inner_top {
-        h1 {
+        h2 {
           font-size: clamp(38px, 39px, 39px);
           line-height: 43px;
         }
@@ -2089,7 +2089,7 @@
           padding-bottom: 70px;
 
           .index_contact_side_cnt {
-            h1 {
+            h2 {
               font-size: clamp(38px, 39px, 39px);
               line-height: 43px;
             }
@@ -2133,7 +2133,7 @@
             padding-bottom: 35px;
             text-align: left;
 
-            h1 {
+            h2 {
               font-size: clamp(56px, 57px, 57px);
               line-height: 65px;
 
@@ -2206,7 +2206,7 @@
           background-color: #fcfcfb;
 
           .index_about_side_cnt {
-            h1 {
+            h2 {
               font-size: clamp(46px, 47px, 47px);
               line-height: 55px;
             }
@@ -2242,7 +2242,7 @@
       .index_services_inner_top {
         margin-bottom: 60px;
 
-        h1 {
+        h2 {
           font-size: clamp(46px, 47px, 47px);
           line-height: 55px;
         }
@@ -2280,7 +2280,7 @@
       padding-right: 20px;
 
       .index_gallery_inner_top {
-        h1 {
+        h2 {
           font-size: clamp(46px, 47px, 47px);
           line-height: 55px;
         }
@@ -2352,7 +2352,7 @@
           background-color: #fcfcfb;
 
           .index_contact_side_cnt {
-            h1 {
+            h2 {
               font-size: clamp(46px, 47px, 47px);
               line-height: 55px;
             }
@@ -2395,7 +2395,7 @@
             padding-bottom: 35px;
             text-align: left;
 
-            h1 {
+            h2 {
               font-size: clamp(56px, 57px, 57px);
               line-height: 65px;
 
@@ -2466,7 +2466,7 @@
           padding-bottom: 70px;
 
           .index_about_side_cnt {
-            h1 {
+            h2 {
               font-size: clamp(42px, 43px, 43px);
               line-height: 53px;
             }
@@ -2502,7 +2502,7 @@
       .index_services_inner_top {
         margin-bottom: 60px;
 
-        h1 {
+        h2 {
           font-size: clamp(42px, 43px, 43px);
           line-height: 53px;
         }
@@ -2540,7 +2540,7 @@
       padding-right: 20px;
 
       .index_gallery_inner_top {
-        h1 {
+        h2 {
           font-size: clamp(42px, 43px, 43px);
           line-height: 53px;
         }
@@ -2610,7 +2610,7 @@
           padding-bottom: 70px;
 
           .index_contact_side_cnt {
-            h1 {
+            h2 {
               font-size: clamp(42px, 43px, 43px);
               line-height: 53px;
             }
@@ -2654,7 +2654,7 @@
             padding-bottom: 35px;
             text-align: left;
 
-            h1 {
+            h2 {
               font-size: clamp(66px, 67px, 67px);
               line-height: 75px;
 
@@ -2725,7 +2725,7 @@
           padding-bottom: 70px;
 
           .index_about_side_cnt {
-            h1 {
+            h2 {
               font-size: clamp(42px, 43px, 43px);
               line-height: 53px;
             }
@@ -2761,7 +2761,7 @@
       .index_services_inner_top {
         margin-bottom: 60px;
 
-        h1 {
+        h2 {
           font-size: clamp(42px, 43px, 43px);
           line-height: 53px;
         }
@@ -2799,7 +2799,7 @@
       padding-right: 20px;
 
       .index_gallery_inner_top {
-        h1 {
+        h2 {
           font-size: clamp(42px, 43px, 43px);
           line-height: 53px;
         }
@@ -2869,7 +2869,7 @@
           padding-bottom: 70px;
 
           .index_contact_side_cnt {
-            h1 {
+            h2 {
               font-size: clamp(42px, 43px, 43px);
               line-height: 53px;
             }

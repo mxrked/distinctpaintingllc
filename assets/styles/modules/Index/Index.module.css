@@ -49,7 +49,7 @@
   padding-left: 30px;
   padding-right: 30px;
 }
-.index_top .index_top_slider .index_top_slider_slide .darken .index_top_slider_slide_cnt h1 {
+.index_top .index_top_slider .index_top_slider_slide .darken .index_top_slider_slide_cnt h2 {
   font-family: "Source Sans Black";
   font-size: clamp(3.81rem, 5.18vw + 2.52rem, 6.66rem);
   line-height: 115px;
@@ -139,7 +139,7 @@
   margin-left: auto;
   margin-right: auto;
 }
-.index_about .index_about_box .index_about_row .index_about_R .index_about_side_cnt h1 {
+.index_about .index_about_box .index_about_row .index_about_R .index_about_side_cnt h2 {
   font-family: "Source Sans Extra Bold";
   font-size: clamp(3.05rem, 3.54vw + 2.17rem, 5rem);
   line-height: 75px;
@@ -187,7 +187,7 @@
   white-space: pre-wrap;
   margin-bottom: 130px;
 }
-.index_services .index_services_inner .index_services_inner_top h1 {
+.index_services .index_services_inner .index_services_inner_top h2 {
   font-family: "Source Sans Extra Bold";
   font-size: clamp(3.05rem, 3.54vw + 2.17rem, 5rem);
   line-height: 75px;
@@ -261,7 +261,7 @@
   text-align: center;
   white-space: pre-wrap;
 }
-.index_gallery .index_gallery_inner .index_gallery_inner_top h1 {
+.index_gallery .index_gallery_inner .index_gallery_inner_top h2 {
   font-family: "Source Sans Extra Bold";
   font-size: clamp(3.05rem, 3.54vw + 2.17rem, 5rem);
   line-height: 75px;
@@ -405,7 +405,7 @@
   margin-left: auto;
   margin-right: auto;
 }
-.index_contact .index_contact_box .index_contact_row .index_contact_L .index_contact_side_cnt h1 {
+.index_contact .index_contact_box .index_contact_row .index_contact_L .index_contact_side_cnt h2 {
   font-family: "Source Sans Extra Bold";
   font-size: clamp(3.05rem, 3.54vw + 2.17rem, 5rem);
   line-height: 75px;
@@ -459,7 +459,7 @@
     padding-left: 40px;
     padding-right: 40px;
   }
-  .index_top .index_top_slider .index_top_slider_slide .darken .index_top_slider_slide_cnt h1 {
+  .index_top .index_top_slider .index_top_slider_slide .darken .index_top_slider_slide_cnt h2 {
     font-size: clamp(3.05rem, 3.54vw + 2.17rem, 5rem);
     line-height: 85px;
   }
@@ -474,7 +474,7 @@
   .index_about .index_about_box .index_about_row .index_about_side {
     height: 800px;
   }
-  .index_about .index_about_box .index_about_row .index_about_R .index_about_side_cnt h1 {
+  .index_about .index_about_box .index_about_row .index_about_R .index_about_side_cnt h2 {
     font-size: clamp(2.44rem, 2.38vw + 1.85rem, 3.75rem);
     line-height: 55px;
   }
@@ -490,7 +490,7 @@
     padding-left: 40px;
     padding-right: 40px;
   }
-  .index_services .index_services_inner .index_services_inner_top h1 {
+  .index_services .index_services_inner .index_services_inner_top h2 {
     font-size: clamp(2.44rem, 2.38vw + 1.85rem, 3.75rem);
     line-height: 55px;
   }
@@ -506,7 +506,7 @@
     padding-left: 40px;
     padding-right: 40px;
   }
-  .index_gallery .index_gallery_inner .index_gallery_inner_top h1 {
+  .index_gallery .index_gallery_inner .index_gallery_inner_top h2 {
     font-size: clamp(2.44rem, 2.38vw + 1.85rem, 3.75rem);
     line-height: 55px;
   }
@@ -533,7 +533,7 @@
   .index_contact .index_contact_box .index_contact_row .index_contact_side {
     height: 800px;
   }
-  .index_contact .index_contact_box .index_contact_row .index_contact_L .index_contact_side_cnt h1 {
+  .index_contact .index_contact_box .index_contact_row .index_contact_L .index_contact_side_cnt h2 {
     font-size: clamp(2.44rem, 2.38vw + 1.85rem, 3.75rem);
     line-height: 55px;
   }
@@ -556,7 +556,7 @@
     padding-right: 20px;
     text-align: center;
   }
-  .index_top .index_top_slider .index_top_slider_slide .darken .index_top_slider_slide_cnt h1 {
+  .index_top .index_top_slider .index_top_slider_slide .darken .index_top_slider_slide_cnt h2 {
     font-size: clamp(2.44rem, 2.38vw + 1.85rem, 3.75rem);
     line-height: 55px;
   }
@@ -648,7 +648,7 @@
     padding-left: 40px;
     padding-right: 40px;
   }
-  .index_gallery .index_gallery_inner .index_gallery_inner_top h1 {
+  .index_gallery .index_gallery_inner .index_gallery_inner_top h2 {
     font-size: clamp(2.44rem, 2.38vw + 1.85rem, 3.75rem);
     line-height: 55px;
   }
@@ -727,7 +727,7 @@
     padding-right: 20px;
     text-align: center;
   }
-  .index_top .index_top_slider .index_top_slider_slide .darken .index_top_slider_slide_cnt h1 {
+  .index_top .index_top_slider .index_top_slider_slide .darken .index_top_slider_slide_cnt h2 {
     font-size: 33px;
     line-height: 40px;
   }
@@ -780,7 +780,7 @@
     padding-top: 70px;
     padding-bottom: 70px;
   }
-  .index_about .index_about_box .index_about_row .index_about_R .index_about_side_cnt h1 {
+  .index_about .index_about_box .index_about_row .index_about_R .index_about_side_cnt h2 {
     font-size: 36px;
     line-height: 40px;
   }
@@ -810,7 +810,7 @@
   .index_services .index_services_inner .index_services_inner_top {
     margin-bottom: 60px;
   }
-  .index_services .index_services_inner .index_services_inner_top h1 {
+  .index_services .index_services_inner .index_services_inner_top h2 {
     font-size: 36px;
     line-height: 40px;
   }
@@ -837,7 +837,7 @@
     padding-left: 40px;
     padding-right: 40px;
   }
-  .index_gallery .index_gallery_inner .index_gallery_inner_top h1 {
+  .index_gallery .index_gallery_inner .index_gallery_inner_top h2 {
     font-size: 36px;
     line-height: 40px;
   }
@@ -892,7 +892,7 @@
     padding-top: 70px;
     padding-bottom: 70px;
   }
-  .index_contact .index_contact_box .index_contact_row .index_contact_L .index_contact_side_cnt h1 {
+  .index_contact .index_contact_box .index_contact_row .index_contact_L .index_contact_side_cnt h2 {
     font-size: 36px;
     line-height: 40px;
   }
@@ -926,7 +926,7 @@
     padding-bottom: 45px;
     text-align: center;
   }
-  .index_top .index_top_slider .index_top_slider_slide .darken .index_top_slider_slide_cnt h1 {
+  .index_top .index_top_slider .index_top_slider_slide .darken .index_top_slider_slide_cnt h2 {
     font-size: 28px;
     line-height: 34px;
   }
@@ -980,7 +980,7 @@
     padding-top: 50px;
     padding-bottom: 50px;
   }
-  .index_about .index_about_box .index_about_row .index_about_R .index_about_side_cnt h1 {
+  .index_about .index_about_box .index_about_row .index_about_R .index_about_side_cnt h2 {
     font-size: 28px;
     line-height: 30px;
   }
@@ -1010,7 +1010,7 @@
   .index_services .index_services_inner .index_services_inner_top {
     margin-bottom: 60px;
   }
-  .index_services .index_services_inner .index_services_inner_top h1 {
+  .index_services .index_services_inner .index_services_inner_top h2 {
     font-size: 28px;
     line-height: 30px;
   }
@@ -1037,7 +1037,7 @@
     padding-left: 20px;
     padding-right: 20px;
   }
-  .index_gallery .index_gallery_inner .index_gallery_inner_top h1 {
+  .index_gallery .index_gallery_inner .index_gallery_inner_top h2 {
     font-size: 28px;
     line-height: 30px;
   }
@@ -1092,7 +1092,7 @@
     padding-top: 50px;
     padding-bottom: 50px;
   }
-  .index_contact .index_contact_box .index_contact_row .index_contact_L .index_contact_side_cnt h1 {
+  .index_contact .index_contact_box .index_contact_row .index_contact_L .index_contact_side_cnt h2 {
     font-size: 28px;
     line-height: 30px;
   }
@@ -1126,7 +1126,7 @@
     padding-bottom: 35px;
     text-align: center;
   }
-  .index_top .index_top_slider .index_top_slider_slide .darken .index_top_slider_slide_cnt h1 {
+  .index_top .index_top_slider .index_top_slider_slide .darken .index_top_slider_slide_cnt h2 {
     font-size: 32px;
     line-height: 34px;
   }
@@ -1182,7 +1182,7 @@
     padding-top: 50px;
     padding-bottom: 50px;
   }
-  .index_about .index_about_box .index_about_row .index_about_R .index_about_side_cnt h1 {
+  .index_about .index_about_box .index_about_row .index_about_R .index_about_side_cnt h2 {
     font-size: 32px;
     line-height: 34px;
   }
@@ -1213,7 +1213,7 @@
   .index_services .index_services_inner .index_services_inner_top {
     margin-bottom: 60px;
   }
-  .index_services .index_services_inner .index_services_inner_top h1 {
+  .index_services .index_services_inner .index_services_inner_top h2 {
     font-size: 32px;
     line-height: 34px;
   }
@@ -1241,7 +1241,7 @@
     padding-left: 20px;
     padding-right: 20px;
   }
-  .index_gallery .index_gallery_inner .index_gallery_inner_top h1 {
+  .index_gallery .index_gallery_inner .index_gallery_inner_top h2 {
     font-size: 32px;
     line-height: 34px;
   }
@@ -1297,7 +1297,7 @@
     padding-top: 50px;
     padding-bottom: 50px;
   }
-  .index_contact .index_contact_box .index_contact_row .index_contact_L .index_contact_side_cnt h1 {
+  .index_contact .index_contact_box .index_contact_row .index_contact_L .index_contact_side_cnt h2 {
     font-size: 32px;
     line-height: 34px;
   }
@@ -1332,7 +1332,7 @@
     padding-bottom: 35px;
     text-align: center;
   }
-  .index_top .index_top_slider .index_top_slider_slide .darken .index_top_slider_slide_cnt h1 {
+  .index_top .index_top_slider .index_top_slider_slide .darken .index_top_slider_slide_cnt h2 {
     font-size: 43px;
     line-height: 47px;
   }
@@ -1387,7 +1387,7 @@
     padding-top: 70px;
     padding-bottom: 70px;
   }
-  .index_about .index_about_box .index_about_row .index_about_R .index_about_side_cnt h1 {
+  .index_about .index_about_box .index_about_row .index_about_R .index_about_side_cnt h2 {
     font-size: 39px;
     line-height: 43px;
   }
@@ -1418,7 +1418,7 @@
   .index_services .index_services_inner .index_services_inner_top {
     margin-bottom: 60px;
   }
-  .index_services .index_services_inner .index_services_inner_top h1 {
+  .index_services .index_services_inner .index_services_inner_top h2 {
     font-size: 39px;
     line-height: 43px;
   }
@@ -1446,7 +1446,7 @@
     padding-left: 20px;
     padding-right: 20px;
   }
-  .index_gallery .index_gallery_inner .index_gallery_inner_top h1 {
+  .index_gallery .index_gallery_inner .index_gallery_inner_top h2 {
     font-size: 39px;
     line-height: 43px;
   }
@@ -1502,7 +1502,7 @@
     padding-top: 70px;
     padding-bottom: 70px;
   }
-  .index_contact .index_contact_box .index_contact_row .index_contact_L .index_contact_side_cnt h1 {
+  .index_contact .index_contact_box .index_contact_row .index_contact_L .index_contact_side_cnt h2 {
     font-size: 39px;
     line-height: 43px;
   }
@@ -1537,7 +1537,7 @@
     padding-bottom: 35px;
     text-align: center;
   }
-  .index_top .index_top_slider .index_top_slider_slide .darken .index_top_slider_slide_cnt h1 {
+  .index_top .index_top_slider .index_top_slider_slide .darken .index_top_slider_slide_cnt h2 {
     font-size: 48px;
     line-height: 57px;
   }
@@ -1592,7 +1592,7 @@
     padding-top: 70px;
     padding-bottom: 70px;
   }
-  .index_about .index_about_box .index_about_row .index_about_R .index_about_side_cnt h1 {
+  .index_about .index_about_box .index_about_row .index_about_R .index_about_side_cnt h2 {
     font-size: 39px;
     line-height: 43px;
   }
@@ -1623,7 +1623,7 @@
   .index_services .index_services_inner .index_services_inner_top {
     margin-bottom: 60px;
   }
-  .index_services .index_services_inner .index_services_inner_top h1 {
+  .index_services .index_services_inner .index_services_inner_top h2 {
     font-size: 39px;
     line-height: 43px;
   }
@@ -1651,7 +1651,7 @@
     padding-left: 20px;
     padding-right: 20px;
   }
-  .index_gallery .index_gallery_inner .index_gallery_inner_top h1 {
+  .index_gallery .index_gallery_inner .index_gallery_inner_top h2 {
     font-size: 39px;
     line-height: 43px;
   }
@@ -1707,7 +1707,7 @@
     padding-top: 55px;
     padding-bottom: 70px;
   }
-  .index_contact .index_contact_box .index_contact_row .index_contact_L .index_contact_side_cnt h1 {
+  .index_contact .index_contact_box .index_contact_row .index_contact_L .index_contact_side_cnt h2 {
     font-size: 39px;
     line-height: 43px;
   }
@@ -1742,7 +1742,7 @@
     padding-bottom: 35px;
     text-align: left;
   }
-  .index_top .index_top_slider .index_top_slider_slide .darken .index_top_slider_slide_cnt h1 {
+  .index_top .index_top_slider .index_top_slider_slide .darken .index_top_slider_slide_cnt h2 {
     font-size: 57px;
     line-height: 65px;
   }
@@ -1802,7 +1802,7 @@
     padding-bottom: 70px;
     background-color: #fcfcfb;
   }
-  .index_about .index_about_box .index_about_row .index_about_R .index_about_side_cnt h1 {
+  .index_about .index_about_box .index_about_row .index_about_R .index_about_side_cnt h2 {
     font-size: 47px;
     line-height: 55px;
   }
@@ -1833,7 +1833,7 @@
   .index_services .index_services_inner .index_services_inner_top {
     margin-bottom: 60px;
   }
-  .index_services .index_services_inner .index_services_inner_top h1 {
+  .index_services .index_services_inner .index_services_inner_top h2 {
     font-size: 47px;
     line-height: 55px;
   }
@@ -1861,7 +1861,7 @@
     padding-left: 20px;
     padding-right: 20px;
   }
-  .index_gallery .index_gallery_inner .index_gallery_inner_top h1 {
+  .index_gallery .index_gallery_inner .index_gallery_inner_top h2 {
     font-size: 47px;
     line-height: 55px;
   }
@@ -1919,7 +1919,7 @@
     padding-bottom: 70px;
     background-color: #fcfcfb;
   }
-  .index_contact .index_contact_box .index_contact_row .index_contact_L .index_contact_side_cnt h1 {
+  .index_contact .index_contact_box .index_contact_row .index_contact_L .index_contact_side_cnt h2 {
     font-size: 47px;
     line-height: 55px;
   }
@@ -1954,7 +1954,7 @@
     padding-bottom: 35px;
     text-align: left;
   }
-  .index_top .index_top_slider .index_top_slider_slide .darken .index_top_slider_slide_cnt h1 {
+  .index_top .index_top_slider .index_top_slider_slide .darken .index_top_slider_slide_cnt h2 {
     font-size: 57px;
     line-height: 65px;
   }
@@ -2012,7 +2012,7 @@
     padding-top: 70px;
     padding-bottom: 70px;
   }
-  .index_about .index_about_box .index_about_row .index_about_R .index_about_side_cnt h1 {
+  .index_about .index_about_box .index_about_row .index_about_R .index_about_side_cnt h2 {
     font-size: 43px;
     line-height: 53px;
   }
@@ -2043,7 +2043,7 @@
   .index_services .index_services_inner .index_services_inner_top {
     margin-bottom: 60px;
   }
-  .index_services .index_services_inner .index_services_inner_top h1 {
+  .index_services .index_services_inner .index_services_inner_top h2 {
     font-size: 43px;
     line-height: 53px;
   }
@@ -2071,7 +2071,7 @@
     padding-left: 20px;
     padding-right: 20px;
   }
-  .index_gallery .index_gallery_inner .index_gallery_inner_top h1 {
+  .index_gallery .index_gallery_inner .index_gallery_inner_top h2 {
     font-size: 43px;
     line-height: 53px;
   }
@@ -2127,7 +2127,7 @@
     padding-top: 70px;
     padding-bottom: 70px;
   }
-  .index_contact .index_contact_box .index_contact_row .index_contact_L .index_contact_side_cnt h1 {
+  .index_contact .index_contact_box .index_contact_row .index_contact_L .index_contact_side_cnt h2 {
     font-size: 43px;
     line-height: 53px;
   }
@@ -2162,7 +2162,7 @@
     padding-bottom: 35px;
     text-align: left;
   }
-  .index_top .index_top_slider .index_top_slider_slide .darken .index_top_slider_slide_cnt h1 {
+  .index_top .index_top_slider .index_top_slider_slide .darken .index_top_slider_slide_cnt h2 {
     font-size: 67px;
     line-height: 75px;
   }
@@ -2220,7 +2220,7 @@
     padding-top: 70px;
     padding-bottom: 70px;
   }
-  .index_about .index_about_box .index_about_row .index_about_R .index_about_side_cnt h1 {
+  .index_about .index_about_box .index_about_row .index_about_R .index_about_side_cnt h2 {
     font-size: 43px;
     line-height: 53px;
   }
@@ -2251,7 +2251,7 @@
   .index_services .index_services_inner .index_services_inner_top {
     margin-bottom: 60px;
   }
-  .index_services .index_services_inner .index_services_inner_top h1 {
+  .index_services .index_services_inner .index_services_inner_top h2 {
     font-size: 43px;
     line-height: 53px;
   }
@@ -2279,7 +2279,7 @@
     padding-left: 20px;
     padding-right: 20px;
   }
-  .index_gallery .index_gallery_inner .index_gallery_inner_top h1 {
+  .index_gallery .index_gallery_inner .index_gallery_inner_top h2 {
     font-size: 43px;
     line-height: 53px;
   }
@@ -2335,7 +2335,7 @@
     padding-top: 70px;
     padding-bottom: 70px;
   }
-  .index_contact .index_contact_box .index_contact_row .index_contact_L .index_contact_side_cnt h1 {
+  .index_contact .index_contact_box .index_contact_row .index_contact_L .index_contact_side_cnt h2 {
     font-size: 43px;
     line-height: 53px;
   }
