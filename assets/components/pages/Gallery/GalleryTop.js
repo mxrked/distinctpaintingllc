@@ -47,9 +47,9 @@ export const GalleryTop = () => {
 
       <div className={`${styles.gallery_top_overlay}`}>
         <div className={`${styles.gallery_top_overlay_cnt}`}>
-          <h1 className="orientation-change-element half-second">
+          <h2 className="orientation-change-element half-second">
             Our Work/Gallery.
-          </h1>
+          </h2>
 
           <p className="orientation-change-element half-second">
             Below you can get a view of the work we have done during the years

@@ -46,10 +46,10 @@ export const ContactTop = () => {
 
       <div className={`${styles.contact_top_overlay}`}>
         <div className={`${styles.contact_top_overlay_cnt}`}>
-          <h1 className="orientation-change-element half-second">
+          <h2 className="orientation-change-element half-second">
             Book A <br />
             <span> </span>Service/Contact.
-          </h1>
+          </h2>
 
           <p className="orientation-change-element half-second">
             Easily book services with Distinct Painting LLC for house
