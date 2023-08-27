@@ -52,8 +52,10 @@ export const GalleryTop = () => {
           </h2>
 
           <p className="orientation-change-element half-second">
-            Below you can get a view of the work we have done during the years
-            Distinct Painting LLC has been in business.
+            Discover Distinct Painting LLC's journey through our gallery.
+            Witness years of diverse projects reflecting vibrant colors,
+            enduring craftsmanship, and transformative beauty in every space we
+            touch.
           </p>
         </div>
       </div>

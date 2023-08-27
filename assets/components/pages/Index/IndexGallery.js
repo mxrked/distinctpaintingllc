@@ -49,9 +49,11 @@ export const IndexGallery = (props) => {
           </h2>
 
           <p className="orientation-change-element half-second">
-            Below you can get a view of the work we have done during the years
-            Distinct Painting LLC has been in business. All of which can be
-            viewed on our Gallery page.
+            Discover our journey through the years at Distinct Painting LLC. Our
+            Gallery page showcases the exceptional projects we've completed over
+            time. Witness the evolution of our craftsmanship and explore vibrant
+            colors, flawless surfaces, and artistic beauty that have left a mark
+            on numerous spaces.
           </p>
 
           <a href="/gallery" className="orientation-change-element half-second">

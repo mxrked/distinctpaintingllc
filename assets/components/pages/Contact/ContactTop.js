@@ -52,9 +52,10 @@ export const ContactTop = () => {
           </h2>
 
           <p className="orientation-change-element half-second">
-            Easily book services with Distinct Painting LLC for house
-            improvement projects. Contact us on our website or by phone to
-            discuss and plan. Your home dreams, our mission.
+            Book your house improvement projects with ease at Distinct Painting
+            LLC. Contact us online or by phone to discuss and plan your vision.
+            Your home dreams are our mission, and we're dedicated to bringing
+            them to life.
           </p>
         </div>
       </div>

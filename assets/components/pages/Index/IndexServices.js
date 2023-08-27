@@ -52,10 +52,12 @@ export const IndexServices = () => {
           </h2>
 
           <p className="orientation-change-element half-second">
-            Distinct Painting LLC is your comprehensive solution for house
-            painting, pressure washing, drywall repair, and carpentry needs. We
-            enhance and transform your spaces with skill, precision, and
-            creativity.
+            Distinct Painting LLC is your all-in-one solution for house
+            painting, pressure washing, drywall repair, and carpentry. We
+            transform spaces with skill, precision, and creativity. Whether
+            revitalizing interiors, restoring surfaces, or adding functional
+            beauty, we bring your vision to life. Experience the Distinct
+            difference - where excellence meets artistry.
           </p>
         </div>
 
