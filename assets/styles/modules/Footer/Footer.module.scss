@@ -399,17 +399,19 @@
                     @include quickCenter("relative");
 
                     li {
-                      margin: 8px;
+                      margin: 5px;
                     }
 
                     .active,
                     .deactive {
+                      font-size: clamp(16px, 17px, 17px);
+
                       a {
-                        font-size: clamp(13px, 13px, 13px);
+                        font-size: clamp(16px, 17px, 17px);
                       }
 
                       span {
-                        font-size: clamp(13px, 13px, 13px);
+                        font-size: clamp(16px, 17px, 17px);
                       }
                     }
                   }
@@ -422,7 +424,7 @@
                   .socials {
                     @include quickCenter("relative");
                     text-align: center;
-                    justify-content: space-between;
+                    justify-content: center;
 
                     li {
                       font-size: clamp(18px, 18px, 18px);
