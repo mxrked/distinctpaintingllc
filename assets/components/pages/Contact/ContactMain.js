@@ -16,6 +16,8 @@ import { CONTACT_MAP_BG } from "@/assets/cdns/CDNBgs";
 
 import TriggerInViewMotion from "@/assets/functions/dom/triggers/TriggerInViewMotion";
 import EmailSend from "@/assets/functions/data/email/EmailSend";
+import ManipElement from "@/assets/functions/dom/manip/ManipElement";
+import CheckServiceTypeSelect from "@/assets/functions/dom/checkers/CheckServiceTypeSelect";
 
 import styles from "../../../styles/modules/Contact/Contact.module.css";
 
@@ -28,6 +30,38 @@ const ContactMain = () => {
   useEffect(() => {
     TriggerInViewMotion(CONTROLS, INVIEW);
   }, [CONTROLS, INVIEW]);
+
+  // Selecting service based on url
+  useEffect(() => {
+    CheckServiceTypeSelect(
+      router,
+      "painting",
+      document.getElementById("emailServiceLabel"),
+      document.getElementById("emailService"),
+      2
+    );
+    CheckServiceTypeSelect(
+      router,
+      "pressure_washing",
+      document.getElementById("emailServiceLabel"),
+      document.getElementById("emailService"),
+      3
+    );
+    CheckServiceTypeSelect(
+      router,
+      "drywall_repair",
+      document.getElementById("emailServiceLabel"),
+      document.getElementById("emailService"),
+      4
+    );
+    CheckServiceTypeSelect(
+      router,
+      "carpentry",
+      document.getElementById("emailServiceLabel"),
+      document.getElementById("emailService"),
+      5
+    );
+  }, []);
 
   const SERVICES_ARRAY = [
     "Help/Contact",
@@ -122,13 +156,24 @@ const ContactMain = () => {
                   onSubmit={(e) => {
                     EmailSend(router, e);
                   }}
+                  onReset={() => {
+                    ManipElement(
+                      document.getElementById("emailServiceLabel"),
+                      "enable"
+                    );
+                    ManipElement(
+                      document.getElementById("emailService"),
+                      "enable"
+                    );
+                    document.getElementById("emailService").selectedIndex = 0;
+                  }}
                 >
                   <div className={`${styles.form_inner}`}>
                     <span
                       id="formNotice"
                       className={`${styles.form_notice} orientation-change-element half-second`}
                     >
-                      INSERT_MESSAGE_HERE
+                      - Type in the correct information below.
                     </span>
 
                     <div className={`${styles.form_inner_box} container-fluid`}>
@@ -136,7 +181,7 @@ const ContactMain = () => {
                         className={`${styles.form_inner_row} ${styles.double_row} row`}
                       >
                         <div
-                          className={`${styles.form_inner_side} col-lg-6 col-md-6 col-sm-6 col-xs-12`}
+                          className={`${styles.form_inner_side} ${styles.side_L} col-lg-6 col-md-6 col-sm-6 col-xs-12`}
                         >
                           <div className={`${styles.form_inner_side_cnt}`}>
                             <label
@@ -156,7 +201,7 @@ const ContactMain = () => {
                           </div>
                         </div>
                         <div
-                          className={`${styles.form_inner_side} col-lg-6 col-md-6 col-sm-6 col-xs-12`}
+                          className={`${styles.form_inner_side} ${styles.side_R} col-lg-6 col-md-6 col-sm-6 col-xs-12`}
                         >
                           <div className={`${styles.form_inner_side_cnt}`}>
                             <label
@@ -180,7 +225,7 @@ const ContactMain = () => {
                         className={`${styles.form_inner_row} ${styles.double_row} row`}
                       >
                         <div
-                          className={`${styles.form_inner_side} col-lg-6 col-md-6 col-sm-6 col-xs-12`}
+                          className={`${styles.form_inner_side} ${styles.side_L} col-lg-6 col-md-6 col-sm-6 col-xs-12`}
                         >
                           <div className={`${styles.form_inner_side_cnt}`}>
                             <label
@@ -200,7 +245,7 @@ const ContactMain = () => {
                           </div>
                         </div>
                         <div
-                          className={`${styles.form_inner_side} col-lg-6 col-md-6 col-sm-6 col-xs-12`}
+                          className={`${styles.form_inner_side} ${styles.side_R} col-lg-6 col-md-6 col-sm-6 col-xs-12`}
                         >
                           <div className={`${styles.form_inner_side_cnt}`}>
                             <label
@@ -224,7 +269,7 @@ const ContactMain = () => {
                         className={`${styles.form_inner_row} ${styles.double_row} row`}
                       >
                         <div
-                          className={`${styles.form_inner_side} col-lg-6 col-md-6 col-sm-6 col-xs-12`}
+                          className={`${styles.form_inner_side} ${styles.side_L} col-lg-6 col-md-6 col-sm-6 col-xs-12`}
                         >
                           <div className={`${styles.form_inner_side_cnt}`}>
                             <label
@@ -244,7 +289,7 @@ const ContactMain = () => {
                           </div>
                         </div>
                         <div
-                          className={`${styles.form_inner_side} col-lg-6 col-md-6 col-sm-6 col-xs-12`}
+                          className={`${styles.form_inner_side} ${styles.side_R} col-lg-6 col-md-6 col-sm-6 col-xs-12`}
                         >
                           <div className={`${styles.form_inner_side_cnt}`}>
                             <label
@@ -268,7 +313,7 @@ const ContactMain = () => {
                         className={`${styles.form_inner_row} ${styles.double_row} row`}
                       >
                         <div
-                          className={`${styles.form_inner_side} col-lg-6 col-md-6 col-sm-6 col-xs-12`}
+                          className={`${styles.form_inner_side} ${styles.side_L} col-lg-6 col-md-6 col-sm-6 col-xs-12`}
                         >
                           <div className={`${styles.form_inner_side_cnt}`}>
                             <label
@@ -293,7 +338,7 @@ const ContactMain = () => {
                           </div>
                         </div>
                         <div
-                          className={`${styles.form_inner_side} col-lg-6 col-md-6 col-sm-6 col-xs-12`}
+                          className={`${styles.form_inner_side} ${styles.side_R} col-lg-6 col-md-6 col-sm-6 col-xs-12`}
                         >
                           <div className={`${styles.form_inner_side_cnt}`}>
                             <label
