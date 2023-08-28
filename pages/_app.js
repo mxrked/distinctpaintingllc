@@ -218,6 +218,7 @@ function MyApp({ Component, pageProps }) {
       "select",
       "input",
       "textarea",
+      ':contains("&nbsp;")',
     ];
 
     ELEMENT_TYPES.forEach((eT) => {
