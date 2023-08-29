@@ -63,6 +63,15 @@ const ContactMain = () => {
     );
   }, []);
 
+  // Trigger successful message
+  useEffect(() => {
+    if (sessionStorage.getItem("Submission Sent")) {
+      document.getElementById("formNotice").innerText =
+        "Email Sent Successfully!";
+      document.getElementById("formNotice").style.color = "green";
+    }
+  }, []);
+
   const SERVICES_ARRAY = [
     "Help/Contact",
     "House Painting",
@@ -145,6 +154,7 @@ const ContactMain = () => {
               <div className={`${styles.contact_main_inner_side_cnt}`}>
                 <span
                   className={`${styles.section_name} orientation-change-element half-second`}
+                  id="sectionName"
                 >
                   Contact Form
                 </span>
@@ -166,6 +176,10 @@ const ContactMain = () => {
                       "enable"
                     );
                     document.getElementById("emailService").selectedIndex = 0;
+
+                    document.querySelectorAll(".form-item").forEach((item) => {
+                      item.style.borderColor = "rgba(238, 238, 238, 0.546)";
+                    });
                   }}
                 >
                   <div className={`${styles.form_inner}`}>
@@ -196,7 +210,7 @@ const ContactMain = () => {
                               type="text"
                               id="emailFirstName"
                               name="email_first_name"
-                              className="orientation-change-element half-second"
+                              className="orientation-change-element half-second form-item"
                             />
                           </div>
                         </div>
@@ -216,7 +230,7 @@ const ContactMain = () => {
                               type="text"
                               id="emailLastName"
                               name="email_last_name"
-                              className="orientation-change-element half-second"
+                              className="orientation-change-element half-second form-item"
                             />
                           </div>
                         </div>
@@ -240,7 +254,7 @@ const ContactMain = () => {
                               type="email"
                               id="emailClientEmail"
                               name="email_client_email"
-                              className="orientation-change-element half-second"
+                              className="orientation-change-element half-second form-item"
                             />
                           </div>
                         </div>
@@ -260,7 +274,7 @@ const ContactMain = () => {
                               type="tel"
                               id="emailPhoneNumber"
                               name="email_phone_number"
-                              className="orientation-change-element half-second"
+                              className="orientation-change-element half-second form-item"
                             />
                           </div>
                         </div>
@@ -284,7 +298,7 @@ const ContactMain = () => {
                               type="text"
                               id="emailStreetAddress"
                               name="email_street_address"
-                              className="orientation-change-element half-second"
+                              className="orientation-change-element half-second form-item"
                             />
                           </div>
                         </div>
@@ -304,7 +318,7 @@ const ContactMain = () => {
                               type="text"
                               id="emailCity"
                               name="email_city"
-                              className="orientation-change-element half-second"
+                              className="orientation-change-element half-second form-item"
                             />
                           </div>
                         </div>
@@ -327,7 +341,7 @@ const ContactMain = () => {
                             <select
                               id="emailState"
                               name="email_state"
-                              className="orientation-change-element half-second"
+                              className="orientation-change-element half-second form-item"
                             >
                               <option>-- NOT SELECTED --</option>
 
@@ -353,7 +367,7 @@ const ContactMain = () => {
                               type="text"
                               id="emailZipCode"
                               name="email_zip_code"
-                              className="orientation-change-element half-second"
+                              className="orientation-change-element half-second form-item"
                             />
                           </div>
                         </div>
@@ -376,7 +390,7 @@ const ContactMain = () => {
                             <select
                               id="emailService"
                               name="email_service"
-                              className="orientation-change-element half-second"
+                              className="orientation-change-element half-second form-item"
                             >
                               <option>-- NOT SELECTED --</option>
 
@@ -405,7 +419,7 @@ const ContactMain = () => {
                             <textarea
                               id="emailMessage"
                               name="email_message"
-                              className="orientation-change-element half-second"
+                              className="orientation-change-element half-second form-item"
                             />
                           </div>
                         </div>
