@@ -6,7 +6,9 @@
 
 import { CDNImgReturn } from "./CDNReturns";
 
-const PLACEHOLDER_GREEN = ("placeholders", "green", "webp");
+const PLACEHOLDER_GREEN = CDNImgReturn("placeholders", "green", "webp");
+
+const PAINTER_ROLLER_404 = CDNImgReturn("combo", "painter-roller", "webp");
 
 const OUTSIDE_IMG_1 = CDNImgReturn("gallery", "outside-1", "webp");
 const OUTSIDE_IMG_2 = CDNImgReturn("gallery", "outside-2", "webp");
@@ -89,6 +91,7 @@ const ROOM_IMG_49 = CDNImgReturn("gallery", "room-49", "webp");
 const ROOM_IMG_50 = CDNImgReturn("gallery", "room-50", "webp");
 
 export { PLACEHOLDER_GREEN };
+export { PAINTER_ROLLER_404 };
 export {
   OUTSIDE_IMG_1,
   OUTSIDE_IMG_2,
