@@ -699,7 +699,7 @@
 }
 @media only screen and (min-device-width: 411px) and (max-device-width: 823px) and (-webkit-min-device-pixel-ratio: 2) and (orientation: landscape) {
   .contact_top {
-    height: 240px;
+    height: 300px;
   }
   .contact_top .contact_top_overlay .contact_top_overlay_cnt {
     padding-left: 10px;
