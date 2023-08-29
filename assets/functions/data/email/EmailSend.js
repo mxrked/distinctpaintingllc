@@ -35,23 +35,27 @@ function ManipFormNotice(formNotice, color, text) {
   formNotice.innerText = text;
 }
 
-function AppendSpaceInputToArray(spaceChecker, array) {
-  /**
-    This is used to add a space checker to an array to keep up with
-    which input has a space as the first character  
-  */
-
-  if (spaceChecker) {
-    const ARRAY_INDEX = array.indexOf(spaceChecker);
-
-    if (ARRAY_INDEX > -1) {
-      array.splice(ARRAY_INDEX, 1);
-      array.push(spaceChecker);
-    } else {
-      array.push(spaceChecker);
-    }
-  }
+function ManipFormItem(formItem, borderColor) {
+  formItem.style.borderColor = borderColor;
 }
+
+// function AppendSpaceInputToArray(spaceChecker, array) {
+//   /**
+//     This is used to add a space checker to an array to keep up with
+//     which input has a space as the first character
+//   */
+
+//   if (spaceChecker) {
+//     const ARRAY_INDEX = array.indexOf(spaceChecker);
+
+//     if (ARRAY_INDEX > -1) {
+//       array.splice(ARRAY_INDEX, 1);
+//       array.push(spaceChecker);
+//     } else {
+//       array.push(spaceChecker);
+//     }
+//   }
+// }
 
 export default function EmailSend(rooter, formTarget) {
   const FORM_NOTICE = document.getElementById("formNotice");
@@ -96,14 +100,14 @@ export default function EmailSend(rooter, formTarget) {
   const SPACE_ZIP = CheckForSpaceInFirstCharacter(ZIP_CODE);
 
   // Appending space checkers to array
-  const SPACE_AS_FIRST_INPUTS = [];
-  AppendSpaceInputToArray(SPACE_FIRST_NAME, SPACE_AS_FIRST_INPUTS);
-  AppendSpaceInputToArray(SPACE_LAST_NAME, SPACE_AS_FIRST_INPUTS);
-  AppendSpaceInputToArray(SPACE_EMAIL, SPACE_AS_FIRST_INPUTS);
-  AppendSpaceInputToArray(SPACE_STREET, SPACE_AS_FIRST_INPUTS);
-  AppendSpaceInputToArray(SPACE_PHONE_NUMBER, SPACE_AS_FIRST_INPUTS);
-  AppendSpaceInputToArray(SPACE_CITY, SPACE_AS_FIRST_INPUTS);
-  AppendSpaceInputToArray(SPACE_ZIP, SPACE_AS_FIRST_INPUTS);
+  // const SPACE_AS_FIRST_INPUTS = [];
+  // AppendSpaceInputToArray(SPACE_FIRST_NAME, SPACE_AS_FIRST_INPUTS);
+  // AppendSpaceInputToArray(SPACE_LAST_NAME, SPACE_AS_FIRST_INPUTS);
+  // AppendSpaceInputToArray(SPACE_EMAIL, SPACE_AS_FIRST_INPUTS);
+  // AppendSpaceInputToArray(SPACE_STREET, SPACE_AS_FIRST_INPUTS);
+  // AppendSpaceInputToArray(SPACE_PHONE_NUMBER, SPACE_AS_FIRST_INPUTS);
+  // AppendSpaceInputToArray(SPACE_CITY, SPACE_AS_FIRST_INPUTS);
+  // AppendSpaceInputToArray(SPACE_ZIP, SPACE_AS_FIRST_INPUTS);
 
   // Validation checkers
   let nonEmptyInputs = false;
@@ -131,14 +135,31 @@ export default function EmailSend(rooter, formTarget) {
   ) {
     nonEmptyInputs = true;
 
+    ManipFormItem(FIRST_NAME, "rgba(238, 238, 238, 0.546)");
+    ManipFormItem(LAST_NAME, "rgba(238, 238, 238, 0.546)");
+    ManipFormItem(EMAIL_ADDRESS, "rgba(238, 238, 238, 0.546)");
+    ManipFormItem(PHONE_NUMBER, "rgba(238, 238, 238, 0.546)");
+    ManipFormItem(ZIP_CODE, "rgba(238, 238, 238, 0.546)");
+    ManipFormItem(CITY, "rgba(238, 238, 238, 0.546)");
+    ManipFormItem(STATE, "rgba(238, 238, 238, 0.546)");
+    ManipFormItem(STREET_ADDRESS, "rgba(238, 238, 238, 0.546)");
+    ManipFormItem(SERVICE, "rgba(238, 238, 238, 0.546)");
+    ManipFormItem(MESSAGE, "rgba(238, 238, 238, 0.546)");
+
     if (CHECK_EMAIL) {
       validEmail = true;
+
+      EMAIL_ADDRESS.style.borderColor = "rgba(238, 238, 238, 0.546)";
 
       if (CHECK_PHONE_NUMBER) {
         validPhone = true;
 
+        PHONE_NUMBER.style.borderColor = "rgba(238, 238, 238, 0.546)";
+
         if (CHECK_ZIP) {
           validZip = true;
+
+          ZIP_CODE.style.borderColor = "rgba(238, 238, 238, 0.546)";
 
           if (
             !SPACE_FIRST_NAME &&
@@ -174,29 +195,97 @@ export default function EmailSend(rooter, formTarget) {
               });
           } else {
             // Adding a red border around input with a space as first character
-            if (SPACE_AS_FIRST_INPUTS.length > 0) {
-              for (let i = 0; i < SPACE_AS_FIRST_INPUTS.length; i++) {
-                SPACE_AS_FIRST_INPUTS[i].style.border = "2px solid red";
-              }
-            } else {
-              console.log("There are no items in the space checker array..");
+            // if (SPACE_AS_FIRST_INPUTS.length > 0) {
+            //   for (let i = 0; i < SPACE_AS_FIRST_INPUTS.length; i++) {
+            //     SPACE_AS_FIRST_INPUTS[i].style.border = "2px solid red";
+            //   }
+            // } else {
+            //   console.log("There are no items in the space checker array..");
+            // }
+
+            noSpacesAsFirstCharacter = false;
+
+            if (SPACE_FIRST_NAME) {
+              ManipFormItem(FIRST_NAME, "red");
+            }
+            if (SPACE_LAST_NAME) {
+              ManipFormItem(LAST_NAME, "red");
+            }
+            if (SPACE_CITY) {
+              ManipFormItem(CITY, "red");
+            }
+            if (SPACE_EMAIL) {
+              ManipFormItem(EMAIL_ADDRESS, "red");
+            }
+            if (SPACE_PHONE_NUMBER) {
+              ManipFormItem(PHONE_NUMBER, "red");
+            }
+            if (SPACE_STREET) {
+              ManipFormItem(STREET_ADDRESS, "red");
+            }
+            if (SPACE_ZIP) {
+              ManipFormItem(ZIP_CODE, "red");
             }
           }
         } else {
           validZip = false;
           ManipFormNotice(FORM_NOTICE, "red", "Error: Invalid ZIP Code..");
+
+          ZIP_CODE.style.borderColor = "red";
+
+          document.getElementById("sectionName").scrollIntoView();
         }
       } else {
         validPhone = false;
         ManipFormNotice(FORM_NOTICE, "red", "Error: Invalid Phone Number..");
+
+        PHONE_NUMBER.style.borderColor = "red";
+
+        document.getElementById("sectionName").scrollIntoView();
       }
     } else {
       validEmail = false;
       ManipFormNotice(FORM_NOTICE, "red", "Error: Invalid Email Address..");
+
+      EMAIL_ADDRESS.style.borderColor = "red";
+
+      document.getElementById("sectionName").scrollIntoView();
     }
   } else {
     nonEmptyInputs = false;
-
     ManipFormNotice(FORM_NOTICE, "red", "Error: Cannot have empty inputs..");
+
+    if (FIRST_NAME.value.length == 0) {
+      ManipFormItem(FIRST_NAME, "red");
+    }
+    if (LAST_NAME.value.length == 0) {
+      ManipFormItem(LAST_NAME, "red");
+    }
+    if (EMAIL_ADDRESS.value.length == 0) {
+      ManipFormItem(EMAIL_ADDRESS, "red");
+    }
+    if (PHONE_NUMBER.value.length == 0) {
+      ManipFormItem(PHONE_NUMBER, "red");
+    }
+    if (CITY.value.length == 0) {
+      ManipFormItem(CITY, "red");
+    }
+    if (ZIP_CODE.value.length == 0) {
+      ManipFormItem(ZIP_CODE, "red");
+    }
+    if (STATE.value == "-- NOT SELECTED --") {
+      ManipFormItem(STATE, "red");
+    }
+    if (STREET_ADDRESS.value.length == 0) {
+      ManipFormItem(STREET_ADDRESS, "red");
+    }
+    if (SERVICE.value == "-- NOT SELECTED --") {
+      ManipFormItem(SERVICE, "red");
+    }
+    if (MESSAGE.value.length == 0) {
+      ManipFormItem(MESSAGE, "red");
+    }
+
+    document.getElementById("sectionName").scrollIntoView();
   }
 }
