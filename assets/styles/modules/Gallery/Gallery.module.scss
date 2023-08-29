@@ -362,7 +362,7 @@
         p {
           max-width: 85%;
           line-height: 26px;
-          margin-bottom: 15px;
+          margin-bottom: 0px;
           font-size: clamp(15px, 16px, 16px);
           @include quickCenter("relative");
         }
