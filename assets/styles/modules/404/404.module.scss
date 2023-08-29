@@ -26,12 +26,94 @@
 }
 
 // Desktop
+.not_found_main {
+  height: 100%;
+  position: fixed;
+  width: 100%;
+  top: 0;
+  left: 0;
+  @include displayElement(flex, center, center);
+  text-align: center;
+  white-space: pre-wrap;
+
+  .not_found_main_cnt {
+    padding-left: 20px;
+    padding-right: 20px;
+
+    img {
+      max-width: 450px;
+      max-height: 450px;
+    }
+
+    div {
+      h1 {
+        font-family: "Source Sans Extra Bold";
+        font-size: clamp(3rem, 3.5vw, 3.5rem);
+        line-height: 55px;
+        color: $Diesel;
+        @include quickCenter("relative");
+      }
+
+      p {
+        font-family: "Lato Regular";
+        font-size: $Text;
+        line-height: 35px;
+        @include quickCenter("relative");
+        margin-top: 35px;
+        margin-bottom: 45px;
+        max-width: 750px;
+      }
+
+      a {
+        height: 50px;
+        color: white;
+        font-family: "Lato Bold";
+        text-decoration: none;
+        font-size: $Link;
+        @include displayElement(flex, center, center);
+        // box-shadow: 0 2px 2px rgba(0, 0, 0, 0.115);
+        background-color: $GreenPea;
+        width: 100%;
+        max-width: 165px;
+        @include quickCenter("relative");
+
+        &:hover {
+          background-color: $Camarone;
+        }
+      }
+    }
+  }
+}
 
 // Responsive
 @media all and (max-width: 1995px) {
 }
 
 @media all and (max-width: 991px) {
+  .not_found_main {
+    .not_found_main_cnt {
+      img {
+        max-width: 320px;
+        max-height: 320px;
+      }
+
+      div {
+        h1 {
+          max-width: 510px;
+          font-size: clamp(34px, 38px, 38px);
+        }
+
+        p {
+          max-width: 450px;
+          font-size: clamp(19px, 20px, 20px);
+        }
+
+        a {
+          max-width: 140px;
+        }
+      }
+    }
+  }
 }
 
 @media (min-width: 992px) {
@@ -39,28 +121,230 @@
 
 // Desktop Window (Smallest)
 @media all and (max-width: 768px) {
+  .not_found_main {
+    .not_found_main_cnt {
+      img {
+        max-width: 320px;
+        max-height: 320px;
+      }
+
+      div {
+        h1 {
+          max-width: 510px;
+          font-size: clamp(31px, 32px, 32px);
+        }
+
+        p {
+          max-width: 410px;
+          font-size: clamp(17px, 19px, 19px);
+        }
+
+        a {
+          max-width: 130px;
+          height: 40px;
+        }
+      }
+    }
+  }
 }
 
 // Smaller Devices (Phones)
 @media all and (max-width: 419px) {
+  .not_found_main {
+    .not_found_main_cnt {
+      img {
+        max-width: 65%;
+        max-height: 65%;
+      }
+
+      div {
+        h1 {
+          max-width: 220px;
+          font-size: clamp(26px, 28px, 28px);
+          line-height: 40px;
+        }
+
+        p {
+          max-width: 250px;
+          font-size: clamp(15px, 16px, 16px);
+          line-height: 27px;
+        }
+
+        a {
+          max-width: 130px;
+          height: 40px;
+        }
+      }
+    }
+  }
 }
 
 // Pixel 2 XL
 @media only screen and (min-device-width: 411px) and (max-device-width: 823px) and (-webkit-min-device-pixel-ratio: 2) and (orientation: landscape) {
+  .not_found_main {
+    .not_found_main_cnt {
+      img {
+        max-width: 150px;
+        max-height: 150px;
+      }
+
+      div {
+        h1 {
+          max-width: 400px;
+          font-size: clamp(23px, 25px, 25px);
+          line-height: 30px;
+        }
+
+        p {
+          max-width: 400px;
+          font-size: clamp(15px, 16px, 16px);
+          line-height: 27px;
+          margin-top: 15px;
+          margin-bottom: 30px;
+        }
+
+        a {
+          max-width: 120px;
+          height: 35px;
+          font-size: clamp(13px, 14px, 14px);
+        }
+      }
+    }
+  }
 }
 
 // Ipad
 @media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: portrait) and (-webkit-min-device-pixel-ratio: 1) {
+  .not_found_main {
+    .not_found_main_cnt {
+      img {
+        max-width: 250px;
+        max-height: 250px;
+      }
+
+      div {
+        h1 {
+          max-width: 670px;
+          font-size: clamp(35px, 38px, 38px);
+          line-height: 50px;
+        }
+
+        p {
+          max-width: 500px;
+          font-size: clamp(18px, 19px, 19px);
+          line-height: 27px;
+          margin-top: 35px;
+          margin-bottom: 50px;
+        }
+
+        a {
+          max-width: 140px;
+          height: 45px;
+          font-size: clamp(16px, 17px, 17px);
+        }
+      }
+    }
+  }
 }
 
 @media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: landscape) and (-webkit-min-device-pixel-ratio: 1) {
+  .not_found_main {
+    .not_found_main_cnt {
+      img {
+        max-width: 150px;
+        max-height: 150px;
+      }
+
+      div {
+        h1 {
+          max-width: 400px;
+          font-size: clamp(23px, 25px, 25px);
+          line-height: 30px;
+        }
+
+        p {
+          max-width: 400px;
+          font-size: clamp(15px, 16px, 16px);
+          line-height: 27px;
+          margin-top: 15px;
+          margin-bottom: 30px;
+        }
+
+        a {
+          max-width: 120px;
+          height: 35px;
+          font-size: clamp(13px, 14px, 14px);
+        }
+      }
+    }
+  }
 }
 
 // iPad Pro
 @media only screen and (min-device-width: 1024px) and (max-device-width: 1366px) and (-webkit-min-device-pixel-ratio: 2) and (orientation: portrait) {
+  .not_found_main {
+    .not_found_main_cnt {
+      img {
+        max-width: 320px;
+        max-height: 320px;
+      }
+
+      div {
+        h1 {
+          max-width: 670px;
+          font-size: clamp(38px, 42px, 42px);
+          line-height: 65px;
+        }
+
+        p {
+          max-width: 500px;
+          font-size: clamp(20px, 22px, 22px);
+          line-height: 27px;
+          margin-top: 35px;
+          margin-bottom: 50px;
+        }
+
+        a {
+          max-width: 160px;
+          height: 45px;
+          font-size: clamp(18px, 19px, 19px);
+        }
+      }
+    }
+  }
 }
 
 @media only screen and (min-device-width: 1024px) and (max-device-width: 1366px) and (-webkit-min-device-pixel-ratio: 2) and (orientation: landscape) {
+  .not_found_main {
+    .not_found_main_cnt {
+      img {
+        max-width: 320px;
+        max-height: 320px;
+      }
+
+      div {
+        h1 {
+          max-width: 670px;
+          font-size: clamp(38px, 42px, 42px);
+          line-height: 65px;
+        }
+
+        p {
+          max-width: 500px;
+          font-size: clamp(20px, 22px, 22px);
+          line-height: 27px;
+          margin-top: 35px;
+          margin-bottom: 50px;
+        }
+
+        a {
+          max-width: 160px;
+          height: 45px;
+          font-size: clamp(18px, 19px, 19px);
+        }
+      }
+    }
+  }
 }
 
 // Laptops
