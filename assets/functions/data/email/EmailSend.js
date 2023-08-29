@@ -58,6 +58,9 @@ function ManipFormItem(formItem, borderColor) {
 // }
 
 export default function EmailSend(rooter, formTarget) {
+  const COMPANY_NAME = "Distinct Painting LLC";
+  const RECEIVER_EMAIL = "distinctpaintingllc@gmail.com";
+
   const FORM_NOTICE = document.getElementById("formNotice");
   const FIRST_NAME = document.getElementById("emailFirstName");
   const LAST_NAME = document.getElementById("emailLastName");
@@ -73,6 +76,8 @@ export default function EmailSend(rooter, formTarget) {
   const MESSAGE = document.getElementById("emailMessage");
 
   const TEMPLATE_PARAMS = {
+    company_name: COMPANY_NAME,
+    reciever_email: RECEIVER_EMAIL,
     email_first_name: FIRST_NAME.value,
     email_last_name: LAST_NAME.value,
     email_phone_number: PHONE_NUMBER.value,
