@@ -15,7 +15,7 @@ import { PAINTER_ROLLER_404 } from "@/assets/cdns/CDNImgs";
 
 import TriggerInViewMotion from "@/assets/functions/dom/triggers/TriggerInViewMotion";
 
-import styles from "../../../styles/modules/Contact/Contact.module.css";
+import styles from "../../../styles/modules/404/404.module.css";
 
 export const NotFoundMain = () => {
   const router = useRouter();
