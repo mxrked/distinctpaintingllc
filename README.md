@@ -22,7 +22,7 @@ Demo: distinctpaintingllc.com
 
 ## Started Developement - 8/18/2023
 
-## Ended Development - In Progress
+## Ended Development - 8/29/2023
 
 ## Status
 
