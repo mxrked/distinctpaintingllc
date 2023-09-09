@@ -59,6 +59,7 @@ export const GalleryItem = ({ item, type, id, img }) => {
             }
           }}
           id={id}
+          name={`itemToggler_${id}`}
           className={`${styles.darken} orientation-change-element half-second`}
         >
           <FaHandPointer className={`${styles.icon}`} />
