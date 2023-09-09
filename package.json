@@ -42,5 +42,10 @@
     "react-slick": "^0.29.0",
     "slick-carousel": "^1.8.1",
     "tls": "0.0.1"
+  },
+  "devDependencies": {
+    "@fullhuman/postcss-purgecss": "^5.0.0",
+    "postcss": "^8.4.29",
+    "postcss-preset-env": "^9.1.3"
   }
 }
