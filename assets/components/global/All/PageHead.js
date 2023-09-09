@@ -137,6 +137,88 @@ export const PageHead = () => {
         sizes="16x16"
         href="https://raw.githubusercontent.com/mxrked/freelance_projects_CDN/main/distinct-painting-llc/icons/tab-icons/favicon-16x16.png"
       />
+
+      {/** PRELOADING IMAGES */}
+      <link
+        rel="preload"
+        as="image"
+        href="https://raw.githubusercontent.com/mxrked/freelance_projects_CDN/main/distinct-painting-llc/bgs/index/top-bg-4.webp"
+      />
+      <link
+        rel="preload"
+        as="image"
+        href="https://raw.githubusercontent.com/mxrked/freelance_projects_CDN/main/distinct-painting-llc/bgs/index/top-bg-1.webp"
+      />
+      <link
+        rel="preload"
+        as="image"
+        href="https://raw.githubusercontent.com/mxrked/freelance_projects_CDN/main/distinct-painting-llc/bgs/index/carpentry-bg.webp"
+      />
+      <link
+        rel="preload"
+        as="image"
+        href="https://raw.githubusercontent.com/mxrked/freelance_projects_CDN/main/distinct-painting-llc/bgs/index/about-bg.webp"
+      />
+      <link
+        rel="preload"
+        as="image"
+        href="https://raw.githubusercontent.com/mxrked/freelance_projects_CDN/main/distinct-painting-llc/bgs/index/top-bg-3.webp"
+      />
+      <link
+        rel="preload"
+        as="image"
+        href="https://raw.githubusercontent.com/mxrked/freelance_projects_CDN/main/distinct-painting-llc/bgs/index/pressure-washing-2.webp"
+      />
+      <link
+        rel="preload"
+        as="image"
+        href="https://raw.githubusercontent.com/mxrked/freelance_projects_CDN/main/distinct-painting-llc/bgs/index/pressure-washing-bg.webp"
+      />
+      <link
+        rel="preload"
+        as="image"
+        href="https://raw.githubusercontent.com/mxrked/freelance_projects_CDN/main/distinct-painting-llc/bgs/index/contact-bg.webp"
+      />
+      <link
+        rel="preload"
+        as="image"
+        href="https://raw.githubusercontent.com/mxrked/freelance_projects_CDN/main/distinct-painting-llc/bgs/index/painting-bg.webp"
+      />
+      <link
+        rel="preload"
+        as="image"
+        href="https://raw.githubusercontent.com/mxrked/freelance_projects_CDN/main/distinct-painting-llc/bgs/index/dry-wall-bg.webp"
+      />
+      <link
+        rel="preload"
+        as="image"
+        href="https://raw.githubusercontent.com/mxrked/freelance_projects_CDN/main/distinct-painting-llc/imgs/gallery/room-3.webp"
+      />
+      <link
+        rel="preload"
+        as="image"
+        href="https://raw.githubusercontent.com/mxrked/freelance_projects_CDN/main/distinct-painting-llc/imgs/gallery/room-2.webp"
+      />
+      <link
+        rel="preload"
+        as="image"
+        href="https://raw.githubusercontent.com/mxrked/freelance_projects_CDN/main/distinct-painting-llc/imgs/gallery/room-1.webp"
+      />
+      <link
+        rel="preload"
+        as="image"
+        href="https://raw.githubusercontent.com/mxrked/freelance_projects_CDN/main/distinct-painting-llc/imgs/gallery/outside-2.webp"
+      />
+      <link
+        rel="preload"
+        as="image"
+        href="https://raw.githubusercontent.com/mxrked/freelance_projects_CDN/main/distinct-painting-llc/imgs/gallery/outside-1.webp"
+      />
+      <link
+        rel="preload"
+        as="image"
+        href="https://raw.githubusercontent.com/mxrked/freelance_projects_CDN/main/distinct-painting-llc/icons/logo/logo-cut.webp"
+      />
     </Head>
   );
 };
