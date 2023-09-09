@@ -88,7 +88,7 @@
                     color: white;
 
                     span {
-                      color: $GreenPea;
+                      color: white;
                     }
                   }
 
@@ -144,7 +144,7 @@
 
                   .deactive {
                     opacity: 0.5;
-                    color: $Camarone;
+                    color: white;
                     padding-bottom: 0px;
                   }
 
@@ -212,11 +212,11 @@
 
         span {
           text-decoration: underline;
-          color: $GreenPea;
+          color: white;
           cursor: pointer;
 
           &:hover {
-            color: $Camarone;
+            color: white;
           }
         }
       }

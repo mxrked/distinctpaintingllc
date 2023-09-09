@@ -76,7 +76,7 @@
   color: white;
 }
 .footer .footer_top .footer_top_inner .footer_top_inner_box .footer_top_inner_row .footer_L .footer_top_inner_side_cnt .logo div .top_text span {
-  color: #246c52;
+  color: white;
 }
 .footer .footer_top .footer_top_inner .footer_top_inner_box .footer_top_inner_row .footer_L .footer_top_inner_side_cnt .logo div .bottom_text {
   font-family: "Lato Bold", sans-serif;
@@ -124,7 +124,7 @@
 }
 .footer .footer_top .footer_top_inner .footer_top_inner_box .footer_top_inner_row .footer_R .footer_top_inner_side_cnt .footer_links ul .deactive {
   opacity: 0.5;
-  color: #017414;
+  color: white;
   padding-bottom: 0px;
 }
 .footer .footer_top .footer_top_inner .footer_top_inner_box .footer_top_inner_row .footer_R .footer_top_inner_side_cnt .footer_links ul .active {
@@ -181,11 +181,11 @@
 }
 .footer .footer_bottom .footer_bottom_inner span span {
   text-decoration: underline;
-  color: #246c52;
+  color: white;
   cursor: pointer;
 }
 .footer .footer_bottom .footer_bottom_inner span span:hover {
-  color: #017414;
+  color: white;
 }
 
 @media all and (max-width: 991px) {
