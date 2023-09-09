@@ -7,22 +7,27 @@
 @font-face {
   font-family: "Source Sans Black";
   src: url("../../../fonts/SourceSans3-Black.ttf");
+  font-display: swap;
 }
 @font-face {
   font-family: "Source Sans Extra Bold";
   src: url("../../../fonts/SourceSans3-ExtraBold.ttf");
+  font-display: swap;
 }
 @font-face {
   font-family: "Source Sans Bold";
   src: url("../../../fonts/SourceSans3-Bold.ttf");
+  font-display: swap;
 }
 @font-face {
   font-family: "Lato Bold";
   src: url("../../../fonts/Lato-Bold.ttf");
+  font-display: swap;
 }
 @font-face {
   font-family: "Lato Regular";
   src: url("../../../fonts/Lato-Regular.ttf");
+  font-display: swap;
 }
 
 // Desktop
@@ -47,7 +52,7 @@
 
     div {
       h1 {
-        font-family: "Source Sans Extra Bold";
+        font-family: "Source Sans Extra Bold", sans-serif;
         font-size: clamp(3rem, 3.5vw, 3.5rem);
         line-height: 55px;
         color: $Diesel;
@@ -55,7 +60,7 @@
       }
 
       p {
-        font-family: "Lato Regular";
+        font-family: "Lato Regular", sans-serif;
         font-size: $Text;
         line-height: 35px;
         @include quickCenter("relative");
@@ -67,7 +72,7 @@
       a {
         height: 50px;
         color: white;
-        font-family: "Lato Bold";
+        font-family: "Lato Bold", sans-serif;
         text-decoration: none;
         font-size: $Link;
         @include displayElement(flex, center, center);

@@ -1,22 +1,27 @@
 @font-face {
   font-family: "Source Sans Black";
   src: url("../../../fonts/SourceSans3-Black.ttf");
+  font-display: swap;
 }
 @font-face {
   font-family: "Source Sans Extra Bold";
   src: url("../../../fonts/SourceSans3-ExtraBold.ttf");
+  font-display: swap;
 }
 @font-face {
   font-family: "Source Sans Bold";
   src: url("../../../fonts/SourceSans3-Bold.ttf");
+  font-display: swap;
 }
 @font-face {
   font-family: "Lato Bold";
   src: url("../../../fonts/Lato-Bold.ttf");
+  font-display: swap;
 }
 @font-face {
   font-family: "Lato Regular";
   src: url("../../../fonts/Lato-Regular.ttf");
+  font-display: swap;
 }
 .footer .footer_top {
   background-color: #101010;
@@ -66,7 +71,7 @@
   white-space: pre-wrap;
 }
 .footer .footer_top .footer_top_inner .footer_top_inner_box .footer_top_inner_row .footer_L .footer_top_inner_side_cnt .logo div .top_text {
-  font-family: "Source Sans Black";
+  font-family: "Source Sans Black", sans-serif;
   font-size: clamp(1.44rem, 2vw + 1.25rem, 2.15rem);
   color: white;
 }
@@ -74,7 +79,7 @@
   color: #246c52;
 }
 .footer .footer_top .footer_top_inner .footer_top_inner_box .footer_top_inner_row .footer_L .footer_top_inner_side_cnt .logo div .bottom_text {
-  font-family: "Lato Bold";
+  font-family: "Lato Bold", sans-serif;
   font-size: 15px;
   margin-top: -5px;
   color: white;
@@ -86,7 +91,7 @@
   align-items: center;
   font-size: 13px;
   color: white;
-  font-family: "Lato Bold";
+  font-family: "Lato Bold", sans-serif;
   margin-top: 32px;
   opacity: 0.7;
 }
@@ -107,7 +112,7 @@
   text-align: right;
   width: 100%;
   max-width: 300px;
-  font-family: "Lato Bold";
+  font-family: "Lato Bold", sans-serif;
   font-size: clamp(1rem, 0.34vw + 0.91rem, 1.19rem);
   margin-right: 30px;
 }
@@ -153,7 +158,7 @@
 }
 .footer .footer_top .footer_top_inner .footer_top_inner_box .footer_top_inner_row .footer_R .footer_top_inner_side_cnt .footer_contact .contact {
   text-align: right;
-  font-family: "Lato Bold";
+  font-family: "Lato Bold", sans-serif;
   margin-top: 20px;
 }
 .footer .footer_top .footer_top_inner .footer_top_inner_box .footer_top_inner_row .footer_R .footer_top_inner_side_cnt .footer_contact .contact li {
@@ -170,7 +175,7 @@
   align-items: center;
 }
 .footer .footer_bottom .footer_bottom_inner span {
-  font-family: "Lato Bold";
+  font-family: "Lato Bold", sans-serif;
   font-size: 16px;
   color: white;
 }

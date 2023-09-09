@@ -7,22 +7,27 @@
 @font-face {
   font-family: "Source Sans Black";
   src: url("../../../fonts/SourceSans3-Black.ttf");
+  font-display: swap;
 }
 @font-face {
   font-family: "Source Sans Extra Bold";
   src: url("../../../fonts/SourceSans3-ExtraBold.ttf");
+  font-display: swap;
 }
 @font-face {
   font-family: "Source Sans Bold";
   src: url("../../../fonts/SourceSans3-Bold.ttf");
+  font-display: swap;
 }
 @font-face {
   font-family: "Lato Bold";
   src: url("../../../fonts/Lato-Bold.ttf");
+  font-display: swap;
 }
 @font-face {
   font-family: "Lato Regular";
   src: url("../../../fonts/Lato-Regular.ttf");
+  font-display: swap;
 }
 
 // Desktop
@@ -56,7 +61,7 @@
           padding-right: 30px;
 
           h2 {
-            font-family: "Source Sans Black";
+            font-family: "Source Sans Black", sans-serif;
             font-size: $MajorHeading;
             line-height: 115px;
             color: white;
@@ -64,7 +69,7 @@
           }
 
           p {
-            font-family: "Lato Regular";
+            font-family: "Lato Regular", sans-serif;
             font-size: $Text;
             color: white;
             line-height: 29px;
@@ -82,7 +87,7 @@
             a {
               height: 50px;
               color: white;
-              font-family: "Lato Bold";
+              font-family: "Lato Bold", sans-serif;
               text-decoration: none;
               font-size: $Link;
               @include displayElement(flex, center, center);
@@ -153,13 +158,13 @@
           @include quickCenter("relative");
 
           h2 {
-            font-family: "Source Sans Extra Bold";
+            font-family: "Source Sans Extra Bold", sans-serif;
             font-size: $Heading;
             line-height: 75px;
           }
 
           p {
-            font-family: "Lato Regular";
+            font-family: "Lato Regular", sans-serif;
             font-size: $Text;
             line-height: 35px;
             margin-top: 35px;
@@ -169,7 +174,7 @@
           a {
             height: 50px;
             color: white;
-            font-family: "Lato Bold";
+            font-family: "Lato Bold", sans-serif;
             text-decoration: none;
             font-size: $Link;
             @include displayElement(flex, center, center);
@@ -204,13 +209,13 @@
       margin-bottom: 130px;
 
       h2 {
-        font-family: "Source Sans Extra Bold";
+        font-family: "Source Sans Extra Bold", sans-serif;
         font-size: $Heading;
         line-height: 75px;
       }
 
       p {
-        font-family: "Lato Regular";
+        font-family: "Lato Regular", sans-serif;
         font-size: $Text;
         line-height: 35px;
         @include quickCenter("relative");
@@ -251,7 +256,7 @@
                 background-color: rgba(0, 0, 0, 0.4);
                 @include displayElement(flex, center, center);
                 color: white;
-                font-family: "Lato Bold";
+                font-family: "Lato Bold", sans-serif;
                 text-align: center;
                 text-decoration: none;
                 font-size: $Text;
@@ -285,13 +290,13 @@
 
     .index_gallery_inner_top {
       h2 {
-        font-family: "Source Sans Extra Bold";
+        font-family: "Source Sans Extra Bold", sans-serif;
         font-size: $Heading;
         line-height: 75px;
       }
 
       p {
-        font-family: "Lato Regular";
+        font-family: "Lato Regular", sans-serif;
         font-size: $Text;
         line-height: 35px;
         @include quickCenter("relative");
@@ -303,7 +308,7 @@
       a {
         height: 50px;
         color: white;
-        font-family: "Lato Bold";
+        font-family: "Lato Bold", sans-serif;
         text-decoration: none;
         font-size: $Link;
         @include displayElement(flex, center, center);
@@ -434,13 +439,13 @@
           @include quickCenter("relative");
 
           h2 {
-            font-family: "Source Sans Extra Bold";
+            font-family: "Source Sans Extra Bold", sans-serif;
             font-size: $Heading;
             line-height: 75px;
           }
 
           p {
-            font-family: "Lato Regular";
+            font-family: "Lato Regular", sans-serif;
             font-size: $Text;
             line-height: 35px;
             margin-top: 35px;
@@ -450,7 +455,7 @@
           a {
             height: 50px;
             color: white;
-            font-family: "Lato Bold";
+            font-family: "Lato Bold", sans-serif;
             text-decoration: none;
             font-size: $Link;
             @include displayElement(flex, center, center);

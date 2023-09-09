@@ -7,22 +7,27 @@
 @font-face {
   font-family: "Source Sans Black";
   src: url("../../../fonts/SourceSans3-Black.ttf");
+  font-display: swap;
 }
 @font-face {
   font-family: "Source Sans Extra Bold";
   src: url("../../../fonts/SourceSans3-ExtraBold.ttf");
+  font-display: swap;
 }
 @font-face {
   font-family: "Source Sans Bold";
   src: url("../../../fonts/SourceSans3-Bold.ttf");
+  font-display: swap;
 }
 @font-face {
   font-family: "Lato Bold";
   src: url("../../../fonts/Lato-Bold.ttf");
+  font-display: swap;
 }
 @font-face {
   font-family: "Lato Regular";
   src: url("../../../fonts/Lato-Regular.ttf");
+  font-display: swap;
 }
 
 .nav_top {
@@ -42,7 +47,7 @@
           height: 70px;
           display: flex;
           align-items: center;
-          font-family: "Lato Bold";
+          font-family: "Lato Bold", sans-serif;
         }
 
         .nav_top_L {
@@ -162,7 +167,7 @@
                 text-align: left;
 
                 .top_text {
-                  font-family: "Source Sans Black";
+                  font-family: "Source Sans Black", sans-serif;
                   font-size: $Logo;
                   color: $Diesel;
 
@@ -172,7 +177,7 @@
                 }
 
                 .bottom_text {
-                  font-family: "Lato Bold";
+                  font-family: "Lato Bold", sans-serif;
                   font-size: clamp(14px, 15px, 15px);
                   margin-top: -5px;
                   color: $Diesel;
@@ -193,7 +198,7 @@
             ul {
               @include displayElement(flex, space-between, center);
               width: 100%;
-              font-family: "Lato Bold";
+              font-family: "Lato Bold", sans-serif;
               font-size: clamp(17px, 18px, 18px);
               text-transform: uppercase;
 
@@ -276,7 +281,7 @@
                 text-align: left;
 
                 .top_text {
-                  font-family: "Source Sans Black";
+                  font-family: "Source Sans Black", sans-serif;
                   font-size: clamp(23px, 24px, 24px);
                   color: $Diesel;
 
@@ -286,7 +291,7 @@
                 }
 
                 .bottom_text {
-                  font-family: "Lato Bold";
+                  font-family: "Lato Bold", sans-serif;
                   font-size: clamp(9px, 10px, 10px);
                   margin-top: -2px;
                   color: $Diesel;
@@ -407,7 +412,7 @@
 
       ul {
         width: 100%;
-        font-family: "Lato Bold";
+        font-family: "Lato Bold", sans-serif;
         font-size: clamp(21px, 22px, 22px);
         text-transform: uppercase;
 

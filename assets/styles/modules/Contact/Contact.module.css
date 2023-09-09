@@ -1,22 +1,27 @@
 @font-face {
   font-family: "Source Sans Black";
   src: url("../../../fonts/SourceSans3-Black.ttf");
+  font-display: swap;
 }
 @font-face {
   font-family: "Source Sans Extra Bold";
   src: url("../../../fonts/SourceSans3-ExtraBold.ttf");
+  font-display: swap;
 }
 @font-face {
   font-family: "Source Sans Bold";
   src: url("../../../fonts/SourceSans3-Bold.ttf");
+  font-display: swap;
 }
 @font-face {
   font-family: "Lato Bold";
   src: url("../../../fonts/Lato-Bold.ttf");
+  font-display: swap;
 }
 @font-face {
   font-family: "Lato Regular";
   src: url("../../../fonts/Lato-Regular.ttf");
+  font-display: swap;
 }
 .contact_top {
   height: 680px;
@@ -47,7 +52,7 @@
   padding-right: 30px;
 }
 .contact_top .contact_top_overlay .contact_top_overlay_cnt h2 {
-  font-family: "Source Sans Black";
+  font-family: "Source Sans Black", sans-serif;
   font-size: clamp(3.81rem, 5.18vw + 2.52rem, 6.66rem);
   line-height: 115px;
   color: white;
@@ -60,7 +65,7 @@
   display: none;
 }
 .contact_top .contact_top_overlay .contact_top_overlay_cnt p {
-  font-family: "Lato Regular";
+  font-family: "Lato Regular", sans-serif;
   font-size: clamp(1.25rem, 0.61vw + 1.1rem, 1.58rem);
   color: white;
   line-height: 29px;
@@ -102,7 +107,7 @@
   width: 100%;
 }
 .contact_main .contact_main_inner .contact_main_inner_box .contact_main_inner_row .contact_main_L .contact_main_inner_side_cnt .section_name {
-  font-family: "Source Sans Extra Bold";
+  font-family: "Source Sans Extra Bold", sans-serif;
   font-size: clamp(2.44rem, 2.38vw + 1.85rem, 3.75rem);
   display: block;
   margin-bottom: 20px;
@@ -125,7 +130,7 @@
   margin-right: auto;
 }
 .contact_main .contact_main_inner .contact_main_inner_box .contact_main_inner_row .contact_main_L .contact_main_inner_side_cnt form .form_inner .form_notice {
-  font-family: "Lato Bold";
+  font-family: "Lato Bold", sans-serif;
   font-size: 17px;
   display: block;
   margin-bottom: 40px;
@@ -146,7 +151,7 @@
   margin-right: auto;
 }
 .contact_main .contact_main_inner .contact_main_inner_box .contact_main_inner_row .contact_main_L .contact_main_inner_side_cnt form .form_inner .form_inner_box .form_inner_row .form_inner_side .form_inner_side_cnt label {
-  font-family: "Source Sans Bold";
+  font-family: "Source Sans Bold", sans-serif;
   font-size: 19px;
   color: #070003;
   opacity: 0.85;
@@ -160,7 +165,7 @@
   height: 36px;
   width: 100%;
   background-color: rgba(238, 238, 238, 0.546);
-  font-family: "Lato Regular";
+  font-family: "Lato Regular", sans-serif;
   color: #070003;
   padding-left: 4px;
   padding-right: 4px;
@@ -170,7 +175,7 @@
   height: 36px;
   width: 100%;
   background-color: rgba(238, 238, 238, 0.546);
-  font-family: "Lato Regular";
+  font-family: "Lato Regular", sans-serif;
   color: #070003;
   padding-left: 4px;
   padding-right: 4px;
@@ -180,7 +185,7 @@
   height: 115px;
   width: 100%;
   background-color: rgba(238, 238, 238, 0.546);
-  font-family: "Lato Regular";
+  font-family: "Lato Regular", sans-serif;
   color: #070003;
   padding: 4px;
   resize: none;
@@ -213,7 +218,7 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  font-family: "Lato Bold";
+  font-family: "Lato Bold", sans-serif;
   font-size: 19px;
   color: white;
   width: 100%;
@@ -244,13 +249,13 @@
   margin-bottom: 65px;
 }
 .contact_main .contact_main_inner .contact_main_inner_box .contact_main_inner_row .contact_main_R .contact_main_inner_side_cnt .contact_info .section_name {
-  font-family: "Source Sans Extra Bold";
+  font-family: "Source Sans Extra Bold", sans-serif;
   font-size: clamp(2rem, 3vw, 3rem);
   display: block;
   margin-bottom: 20px;
 }
 .contact_main .contact_main_inner .contact_main_inner_box .contact_main_inner_row .contact_main_R .contact_main_inner_side_cnt .contact_info ul {
-  font-family: "Lato Regular";
+  font-family: "Lato Regular", sans-serif;
   font-size: 19px;
 }
 .contact_main .contact_main_inner .contact_main_inner_box .contact_main_inner_row .contact_main_R .contact_main_inner_side_cnt .contact_info ul li {
@@ -262,13 +267,13 @@
   margin-bottom: 60px;
 }
 .contact_main .contact_main_inner .contact_main_inner_box .contact_main_inner_row .contact_main_R .contact_main_inner_side_cnt .working_hours .section_name {
-  font-family: "Source Sans Extra Bold";
+  font-family: "Source Sans Extra Bold", sans-serif;
   font-size: clamp(2rem, 3vw, 3rem);
   display: block;
   margin-bottom: 20px;
 }
 .contact_main .contact_main_inner .contact_main_inner_box .contact_main_inner_row .contact_main_R .contact_main_inner_side_cnt .working_hours ul {
-  font-family: "Lato Regular";
+  font-family: "Lato Regular", sans-serif;
   font-size: 19px;
 }
 .contact_main .contact_main_inner .contact_main_inner_box .contact_main_inner_row .contact_main_R .contact_main_inner_side_cnt .working_hours ul li {
@@ -279,7 +284,7 @@
   text-align: right;
 }
 .contact_main .contact_main_inner .contact_main_inner_box .contact_main_inner_row .contact_main_R .contact_main_inner_side_cnt .location .section_name {
-  font-family: "Source Sans Extra Bold";
+  font-family: "Source Sans Extra Bold", sans-serif;
   font-size: clamp(2rem, 3vw, 3rem);
   display: block;
   margin-bottom: 20px;
@@ -301,7 +306,7 @@
   transform: scale(1.4);
 }
 .contact_main .contact_main_inner .contact_main_inner_box .contact_main_inner_row .contact_main_R .contact_main_inner_side_cnt .location p {
-  font-family: "Lato Bold";
+  font-family: "Lato Bold", sans-serif;
   font-size: 17px;
 }
 

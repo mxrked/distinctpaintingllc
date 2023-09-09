@@ -1,22 +1,27 @@
 @font-face {
   font-family: "Source Sans Black";
   src: url("../../../fonts/SourceSans3-Black.ttf");
+  font-display: swap;
 }
 @font-face {
   font-family: "Source Sans Extra Bold";
   src: url("../../../fonts/SourceSans3-ExtraBold.ttf");
+  font-display: swap;
 }
 @font-face {
   font-family: "Source Sans Bold";
   src: url("../../../fonts/SourceSans3-Bold.ttf");
+  font-display: swap;
 }
 @font-face {
   font-family: "Lato Bold";
   src: url("../../../fonts/Lato-Bold.ttf");
+  font-display: swap;
 }
 @font-face {
   font-family: "Lato Regular";
   src: url("../../../fonts/Lato-Regular.ttf");
+  font-display: swap;
 }
 .not_found_main {
   height: 100%;
@@ -39,7 +44,7 @@
   max-height: 450px;
 }
 .not_found_main .not_found_main_cnt div h1 {
-  font-family: "Source Sans Extra Bold";
+  font-family: "Source Sans Extra Bold", sans-serif;
   font-size: clamp(3rem, 3.5vw, 3.5rem);
   line-height: 55px;
   color: #070003;
@@ -47,7 +52,7 @@
   margin-right: auto;
 }
 .not_found_main .not_found_main_cnt div p {
-  font-family: "Lato Regular";
+  font-family: "Lato Regular", sans-serif;
   font-size: clamp(1.25rem, 0.61vw + 1.1rem, 1.58rem);
   line-height: 35px;
   margin-left: auto;
@@ -59,7 +64,7 @@
 .not_found_main .not_found_main_cnt div a {
   height: 50px;
   color: white;
-  font-family: "Lato Bold";
+  font-family: "Lato Bold", sans-serif;
   text-decoration: none;
   font-size: clamp(1rem, 0.34vw + 0.91rem, 1.19rem);
   display: flex;

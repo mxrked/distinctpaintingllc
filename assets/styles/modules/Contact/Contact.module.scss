@@ -7,22 +7,27 @@
 @font-face {
   font-family: "Source Sans Black";
   src: url("../../../fonts/SourceSans3-Black.ttf");
+  font-display: swap;
 }
 @font-face {
   font-family: "Source Sans Extra Bold";
   src: url("../../../fonts/SourceSans3-ExtraBold.ttf");
+  font-display: swap;
 }
 @font-face {
   font-family: "Source Sans Bold";
   src: url("../../../fonts/SourceSans3-Bold.ttf");
+  font-display: swap;
 }
 @font-face {
   font-family: "Lato Bold";
   src: url("../../../fonts/Lato-Bold.ttf");
+  font-display: swap;
 }
 @font-face {
   font-family: "Lato Regular";
   src: url("../../../fonts/Lato-Regular.ttf");
+  font-display: swap;
 }
 
 // Desktop
@@ -52,7 +57,7 @@
       padding-right: 30px;
 
       h2 {
-        font-family: "Source Sans Black";
+        font-family: "Source Sans Black", sans-serif;
         font-size: $MajorHeading;
         line-height: 115px;
         color: white;
@@ -68,7 +73,7 @@
       }
 
       p {
-        font-family: "Lato Regular";
+        font-family: "Lato Regular", sans-serif;
         font-size: $Text;
         color: white;
         line-height: 29px;
@@ -114,7 +119,7 @@
             width: 100%;
 
             .section_name {
-              font-family: "Source Sans Extra Bold";
+              font-family: "Source Sans Extra Bold", sans-serif;
               font-size: $SubHeading;
               display: block;
               margin-bottom: 20px;
@@ -137,7 +142,7 @@
                 @include quickCenter("relative");
 
                 .form_notice {
-                  font-family: "Lato Bold";
+                  font-family: "Lato Bold", sans-serif;
                   font-size: clamp(16px, 17px, 17px);
                   display: block;
                   margin-bottom: 40px;
@@ -159,7 +164,7 @@
                         @include quickCenter("relative");
 
                         label {
-                          font-family: "Source Sans Bold";
+                          font-family: "Source Sans Bold", sans-serif;
                           font-size: clamp(18px, 19px, 19px);
                           color: $Diesel;
                           opacity: 0.85;
@@ -175,7 +180,7 @@
                           height: 36px;
                           width: 100%;
                           background-color: rgba(238, 238, 238, 0.546);
-                          font-family: "Lato Regular";
+                          font-family: "Lato Regular", sans-serif;
                           color: $Diesel;
                           padding-left: 4px;
                           padding-right: 4px;
@@ -186,7 +191,7 @@
                           height: 36px;
                           width: 100%;
                           background-color: rgba(238, 238, 238, 0.546);
-                          font-family: "Lato Regular";
+                          font-family: "Lato Regular", sans-serif;
                           color: $Diesel;
                           padding-left: 4px;
                           padding-right: 4px;
@@ -197,7 +202,7 @@
                           height: 115px;
                           width: 100%;
                           background-color: rgba(238, 238, 238, 0.546);
-                          font-family: "Lato Regular";
+                          font-family: "Lato Regular", sans-serif;
                           color: $Diesel;
                           padding: 4px;
                           resize: none;
@@ -244,7 +249,7 @@
                   .btn {
                     height: 50px;
                     @include displayElement(flex, center, center);
-                    font-family: "Lato Bold";
+                    font-family: "Lato Bold", sans-serif;
                     font-size: clamp(18px, 19px, 19px);
                     color: white;
                     width: 100%;
@@ -284,14 +289,14 @@
               margin-bottom: 65px;
 
               .section_name {
-                font-family: "Source Sans Extra Bold";
+                font-family: "Source Sans Extra Bold", sans-serif;
                 font-size: clamp(2rem, 3vw, 3rem);
                 display: block;
                 margin-bottom: 20px;
               }
 
               ul {
-                font-family: "Lato Regular";
+                font-family: "Lato Regular", sans-serif;
                 font-size: clamp(18px, 19px, 19px);
 
                 li {
@@ -306,14 +311,14 @@
               margin-bottom: 60px;
 
               .section_name {
-                font-family: "Source Sans Extra Bold";
+                font-family: "Source Sans Extra Bold", sans-serif;
                 font-size: clamp(2rem, 3vw, 3rem);
                 display: block;
                 margin-bottom: 20px;
               }
 
               ul {
-                font-family: "Lato Regular";
+                font-family: "Lato Regular", sans-serif;
                 font-size: clamp(18px, 19px, 19px);
 
                 li {
@@ -327,7 +332,7 @@
               text-align: right;
 
               .section_name {
-                font-family: "Source Sans Extra Bold";
+                font-family: "Source Sans Extra Bold", sans-serif;
                 font-size: clamp(2rem, 3vw, 3rem);
                 display: block;
                 margin-bottom: 20px;
@@ -349,7 +354,7 @@
               }
 
               p {
-                font-family: "Lato Bold";
+                font-family: "Lato Bold", sans-serif;
                 font-size: clamp(16px, 17px, 17px);
               }
             }

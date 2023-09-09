@@ -1,22 +1,27 @@
 @font-face {
   font-family: "Source Sans Black";
   src: url("../../../fonts/SourceSans3-Black.ttf");
+  font-display: swap;
 }
 @font-face {
   font-family: "Source Sans Extra Bold";
   src: url("../../../fonts/SourceSans3-ExtraBold.ttf");
+  font-display: swap;
 }
 @font-face {
   font-family: "Source Sans Bold";
   src: url("../../../fonts/SourceSans3-Bold.ttf");
+  font-display: swap;
 }
 @font-face {
   font-family: "Lato Bold";
   src: url("../../../fonts/Lato-Bold.ttf");
+  font-display: swap;
 }
 @font-face {
   font-family: "Lato Regular";
   src: url("../../../fonts/Lato-Regular.ttf");
+  font-display: swap;
 }
 .gallery_top {
   height: 680px;
@@ -47,14 +52,14 @@
   padding-right: 30px;
 }
 .gallery_top .gallery_top_overlay .gallery_top_overlay_cnt h2 {
-  font-family: "Source Sans Black";
+  font-family: "Source Sans Black", sans-serif;
   font-size: clamp(3.81rem, 5.18vw + 2.52rem, 6.66rem);
   line-height: 115px;
   color: white;
   filter: drop-shadow(0 2px 2px rgba(0, 0, 0, 0.222));
 }
 .gallery_top .gallery_top_overlay .gallery_top_overlay_cnt p {
-  font-family: "Lato Regular";
+  font-family: "Lato Regular", sans-serif;
   font-size: clamp(1.25rem, 0.61vw + 1.1rem, 1.58rem);
   color: white;
   line-height: 29px;
@@ -93,7 +98,7 @@
   margin-top: 40px;
   height: 50px;
   color: white;
-  font-family: "Lato Bold";
+  font-family: "Lato Bold", sans-serif;
   text-decoration: none;
   font-size: clamp(1rem, 0.34vw + 0.91rem, 1.19rem);
   display: flex;
