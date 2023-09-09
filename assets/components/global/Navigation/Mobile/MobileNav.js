@@ -101,6 +101,7 @@ export const MobileNav = (props) => {
                   onClick={() => {
                     ToggleMobileNav();
                   }}
+                  name="mobileNavToggler"
                 >
                   <span className="half-second" />
                   <span className="half-second" />
