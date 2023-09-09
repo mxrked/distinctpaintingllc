@@ -71,15 +71,15 @@ export const IndexAbout = () => {
               </h2>
 
               <p className="orientation-change-element half-second">
-                Welcome to Distinct Painting LLC, where homes become captivating
-                works of art. Our house painting breathes life into rooms,
-                infusing vibrant colors that set the mood. Meticulous drywall
-                repair ensures flawless surfaces, providing a seamless backdrop.
-                Skilled carpentry merges form and function seamlessly. Unlock
-                your home's potential through our diverse services that inspire
-                and enhance daily life. Embark on a journey where creativity
-                meets precision, and your home becomes a canvas for
-                transformation.
+                Located in Greensboro NC, Distinct Painting LLC is where homes
+                become captivating works of art. Our house painting breathes
+                life into rooms, infusing vibrant colors that set the mood.
+                Meticulous drywall repair ensures flawless surfaces, providing a
+                seamless backdrop. Skilled carpentry merges form and function
+                seamlessly. Unlock your home's potential through our diverse
+                services that inspire and enhance daily life. Embark on a
+                journey where creativity meets precision, and your home becomes
+                a canvas for transformation.
               </p>
 
               <a
