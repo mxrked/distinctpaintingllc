@@ -119,6 +119,7 @@
 .index_about .index_about_box .index_about_row .index_about_side {
   padding: 0;
   height: 950px;
+  overflow: hidden;
 }
 .index_about .index_about_box .index_about_row .index_about_L .index_about_side_cnt {
   width: 100%;
@@ -394,6 +395,7 @@
 .index_contact .index_contact_box .index_contact_row .index_contact_side {
   padding: 0;
   height: 950px;
+  overflow: hidden;
 }
 .index_contact .index_contact_box .index_contact_row .index_contact_L {
   display: flex;
