@@ -120,6 +120,7 @@ export default function Home({
     <div id="PAGE" className="overrides_Index full-second">
       <PageHead />
 
+      {/**
       {ON_LOCAL_HOST && (
         <div
           id="websitesVisitCounter"
@@ -142,6 +143,7 @@ export default function Home({
           </span>
         </div>
       )}
+      */}
 
       <NavTop disableLink="/" />
       <DesktopNav disableLink="/" />
