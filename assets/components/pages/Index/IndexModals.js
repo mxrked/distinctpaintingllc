@@ -7,7 +7,8 @@
 import { useEffect } from "react";
 import { useRouter } from "next/router";
 
-import { BackgroundImage } from "react-image-and-background-image-fade";
+// import { BackgroundImage } from "react-image-and-background-image-fade";
+import { LazyLoadImage } from "react-lazy-load-image-component";
 
 import RemoveStorageVariable from "@/assets/functions/data/storage/RemoveStorageVariable";
 
@@ -34,7 +35,16 @@ export const IndexModals = (props) => {
 
           <div className={`${styles.modal_inner} modal-inner`}>
             <div className={`${styles.bg_holder}`}>
+              {/**
               <BackgroundImage
+                src={item._itemImgSrc}
+                className={`${styles.bg}`}
+                width="100%"
+                height="100%"
+              />
+              */}
+
+              <LazyLoadImage
                 src={item._itemImgSrc}
                 className={`${styles.bg}`}
                 width="100%"

@@ -7,7 +7,8 @@
 import { useEffect } from "react";
 import { useRouter } from "next/router";
 
-import { BackgroundImage } from "react-image-and-background-image-fade";
+// import { BackgroundImage } from "react-image-and-background-image-fade";
+import { LazyLoadImage } from "react-lazy-load-image-component";
 import { useAnimation, motion } from "framer-motion";
 import { useInView } from "react-intersection-observer";
 
@@ -70,7 +71,16 @@ export const IndexServices = () => {
                 className={`${styles.index_services_inner_main_side} ${styles.painting} col-lg-3 col-md-3 col-sm-6 col-xs-12`}
               >
                 <div className={`${styles.index_services_inner_main_side_cnt}`}>
+                  {/**
                   <BackgroundImage
+                    src={INDEX_PAINTING_BG}
+                    className={`${styles.bg}`}
+                    width="100%"
+                    height="100%"
+                  />
+                  */}
+
+                  <LazyLoadImage
                     src={INDEX_PAINTING_BG}
                     className={`${styles.bg}`}
                     width="100%"
@@ -92,7 +102,16 @@ export const IndexServices = () => {
                 className={`${styles.index_services_inner_main_side} ${styles.pressure_washing} col-lg-3 col-md-3 col-sm-6 col-xs-12`}
               >
                 <div className={`${styles.index_services_inner_main_side_cnt}`}>
+                  {/**
                   <BackgroundImage
+                    src={INDEX_PRESSURE_WASHING_BG}
+                    className={`${styles.bg}`}
+                    width="100%"
+                    height="100%"
+                  />
+                  */}
+
+                  <LazyLoadImage
                     src={INDEX_PRESSURE_WASHING_BG}
                     className={`${styles.bg}`}
                     width="100%"
@@ -114,7 +133,16 @@ export const IndexServices = () => {
                 className={`${styles.index_services_inner_main_side} ${styles.dry_wall} col-lg-3 col-md-3 col-sm-6 col-xs-12`}
               >
                 <div className={`${styles.index_services_inner_main_side_cnt}`}>
+                  {/**
                   <BackgroundImage
+                    src={INDEX_DRY_WALL_REPAIR_BG}
+                    className={`${styles.bg}`}
+                    width="100%"
+                    height="100%"
+                  />
+                  */}
+
+                  <LazyLoadImage
                     src={INDEX_DRY_WALL_REPAIR_BG}
                     className={`${styles.bg}`}
                     width="100%"
@@ -136,7 +164,16 @@ export const IndexServices = () => {
                 className={`${styles.index_services_inner_main_side} ${styles.carpentry} col-lg-3 col-md-3 col-sm-6 col-xs-12`}
               >
                 <div className={`${styles.index_services_inner_main_side_cnt}`}>
-                  <BackgroundImage
+                  {/**
+                    <BackgroundImage
+                    src={INDEX_CARPENTRY_BG}
+                    className={`${styles.bg}`}
+                    width="100%"
+                    height="100%"
+                  />
+                  */}
+
+                  <LazyLoadImage
                     src={INDEX_CARPENTRY_BG}
                     className={`${styles.bg}`}
                     width="100%"

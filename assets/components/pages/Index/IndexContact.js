@@ -7,7 +7,8 @@
 import { useEffect } from "react";
 import { useRouter } from "next/router";
 
-import { BackgroundImage } from "react-image-and-background-image-fade";
+// import { BackgroundImage } from "react-image-and-background-image-fade";
+import { LazyLoadImage } from "react-lazy-load-image-component";
 import { useAnimation, motion } from "framer-motion";
 import { useInView } from "react-intersection-observer";
 
@@ -77,12 +78,21 @@ export const IndexContact = () => {
               variants={FADE_LEFT}
               className={`${styles.index_contact_side_cnt} fm-motion fade-left fade-left-fix full-second`}
             >
+              <LazyLoadImage
+                src={INDEX_CONTACT_BG}
+                className={`${styles.bg}`}
+                width="100%"
+                height="100%"
+              />
+
+              {/**
               <BackgroundImage
                 src={INDEX_CONTACT_BG}
                 className={`${styles.bg}`}
                 width="100%"
                 height="100%"
               />
+              */}
             </motion.div>
           </div>
         </div>

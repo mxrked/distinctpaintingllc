@@ -7,7 +7,8 @@
 import { useEffect } from "react";
 import { useRouter } from "next/router";
 
-import { BackgroundImage } from "react-image-and-background-image-fade";
+// import { BackgroundImage } from "react-image-and-background-image-fade";
+import { LazyLoadImage } from "react-lazy-load-image-component";
 import { useAnimation, motion } from "framer-motion";
 import { useInView } from "react-intersection-observer";
 
@@ -37,7 +38,16 @@ export const ContactTop = () => {
       id="contactTop"
       className={`${styles.contact_top} overrides_ContactTop fm-motion fade-in fade-in-fix full-second`}
     >
+      {/**
       <BackgroundImage
+        src={CONTACT_TOP_BG}
+        className={`${styles.bg}`}
+        width="100%"
+        height="100%"
+      />
+      */}
+
+      <LazyLoadImage
         src={CONTACT_TOP_BG}
         className={`${styles.bg}`}
         width="100%"

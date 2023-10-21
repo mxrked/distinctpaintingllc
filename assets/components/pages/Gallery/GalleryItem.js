@@ -10,7 +10,8 @@
 
 import { useEffect } from "react";
 
-import { BackgroundImage } from "react-image-and-background-image-fade";
+// import { BackgroundImage } from "react-image-and-background-image-fade";
+import { LazyLoadImage } from "react-lazy-load-image-component";
 import { FaHandPointer } from "react-icons/fa";
 
 import DeclareStorageVariable from "@/assets/functions/data/storage/DeclareStorageVariable";
@@ -23,7 +24,16 @@ export const GalleryItem = ({ item, type, id, img }) => {
       className={`${styles.gallery_item} item_${type} gallery-item col-lg-4 col-md-4 col-sm-6 col-xs-12`}
     >
       <div className={`${styles.gallery_item_inner}`}>
+        {/**
         <BackgroundImage
+          src={img}
+          className={`${styles.bg}`}
+          width="100%"
+          height="100%"
+        />
+        */}
+
+        <LazyLoadImage
           src={img}
           className={`${styles.bg}`}
           width="100%"

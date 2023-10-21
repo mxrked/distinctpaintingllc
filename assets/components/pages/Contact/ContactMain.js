@@ -9,7 +9,8 @@ import { useRouter } from "next/router";
 
 import { useAnimation, motion } from "framer-motion";
 import { useInView } from "react-intersection-observer";
-import { BackgroundImage } from "react-image-and-background-image-fade";
+import { LazyLoadImage } from "react-lazy-load-image-component";
+// import { BackgroundImage } from "react-image-and-background-image-fade";
 
 import { FADE_IN } from "@/assets/animations/FADES";
 import { CONTACT_MAP_BG } from "@/assets/cdns/CDNBgs";
@@ -485,7 +486,16 @@ const ContactMain = () => {
                   </span>
 
                   <div className={`${styles.map}`}>
-                    <BackgroundImage
+                    {/**
+                                 <BackgroundImage
+                      src={CONTACT_MAP_BG}
+                      className={`${styles.bg}`}
+                      width="100%"
+                      height="100%"
+                    />
+                    */}
+
+                    <LazyLoadImage
                       src={CONTACT_MAP_BG}
                       className={`${styles.bg}`}
                       width="100%"
