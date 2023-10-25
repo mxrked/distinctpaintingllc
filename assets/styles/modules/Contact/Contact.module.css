@@ -303,7 +303,7 @@
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
-  transform: scale(1.4);
+  transform: scale(1);
 }
 .contact_main .contact_main_inner .contact_main_inner_box .contact_main_inner_row .contact_main_R .contact_main_inner_side_cnt .location p {
   font-family: "Lato Bold", sans-serif;
