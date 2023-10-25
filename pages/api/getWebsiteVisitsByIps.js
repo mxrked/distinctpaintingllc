@@ -16,7 +16,7 @@ export default async function handler(req, res) {
     const userAgent = req.headers["user-agent"];
     const isRealUserAgent = checkUserAgent(userAgent);
 
-    // Connect to the database
+    // Connecting to the database
     const DB = await connectDatabase();
 
     if (!DB) {
