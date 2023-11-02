@@ -1,6 +1,8 @@
 // React/Next Imports
 import { useEffect } from "react";
 import { useRouter } from "next/router";
+import fs from "fs";
+import path from "path";
 
 // Library Imports
 
@@ -21,16 +23,27 @@ import { GalleryModals } from "@/assets/components/pages/Gallery/GalleryModals";
 
 // Style Imports
 import "../assets/styles/modules/Gallery/Gallery.module.css";
-export const getStaticProps = async () => {
-  const GALLERY_RES = await fetch(
-    "https://raw.githubusercontent.com/mxrked/freelance_projects_CDN/main/distinct-painting-llc/json/GALLERY.json"
+
+export const getServerSideProps = async () => {
+  // const GALLERY_RES = await fetch(
+  //   "https://raw.githubusercontent.com/mxrked/freelance_projects_CDN/main/distinct-painting-llc/json/GALLERY.json"
+  // );
+
+  // const GALLERY_RES_DATA = await GALLERY_RES.json();
+
+  const GALLERY_FILE_PATH = path.join(
+    process.cwd(),
+    "public/data/json/",
+    "GALLERY.json"
   );
 
-  const GALLERY_RES_DATA = await GALLERY_RES.json();
+  const GALLERY_FILE_CONTENTS = fs.readFileSync(GALLERY_FILE_PATH, "utf-8");
+
+  const GALLERY_DATA = JSON.parse(GALLERY_FILE_CONTENTS);
 
   return {
     props: {
-      gallery_data: GALLERY_RES_DATA,
+      gallery_data: GALLERY_DATA,
     },
   };
 };
