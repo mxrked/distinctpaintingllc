@@ -38,6 +38,10 @@ const OUTSIDE_IMG_25 = CDNImgReturn("gallery", "outside-25", "webp");
 const OUTSIDE_IMG_26 = CDNImgReturn("gallery", "outside-26", "webp");
 const OUTSIDE_IMG_27 = CDNImgReturn("gallery", "porch-1", "webp");
 const OUTSIDE_IMG_28 = CDNImgReturn("gallery", "porch-2", "webp");
+const OUTSIDE_IMG_29 = CDNImgReturn("gallery", "outside-27", "webp");
+const OUTSIDE_IMG_30 = CDNImgReturn("gallery", "outside-28", "webp");
+const OUTSIDE_IMG_31 = CDNImgReturn("gallery", "outside-29", "webp");
+const OUTSIDE_IMG_32 = CDNImgReturn("gallery", "outside-30", "webp");
 
 const ROOM_IMG_1 = CDNImgReturn("gallery", "room-1", "webp");
 const ROOM_IMG_2 = CDNImgReturn("gallery", "room-2", "webp");
@@ -89,6 +93,8 @@ const ROOM_IMG_47 = CDNImgReturn("gallery", "room-47", "webp");
 const ROOM_IMG_48 = CDNImgReturn("gallery", "room-48", "webp");
 const ROOM_IMG_49 = CDNImgReturn("gallery", "room-49", "webp");
 const ROOM_IMG_50 = CDNImgReturn("gallery", "room-50", "webp");
+const ROOM_IMG_51 = CDNImgReturn("gallery", "room-50", "webp");
+const ROOM_IMG_52 = CDNImgReturn("gallery", "room-50", "webp");
 
 export { PLACEHOLDER_GREEN };
 export { PAINTER_ROLLER_404 };
@@ -121,6 +127,10 @@ export {
   OUTSIDE_IMG_26,
   OUTSIDE_IMG_27,
   OUTSIDE_IMG_28,
+  OUTSIDE_IMG_29,
+  OUTSIDE_IMG_30,
+  OUTSIDE_IMG_31,
+  OUTSIDE_IMG_32,
 };
 export {
   ROOM_IMG_1,
@@ -173,4 +183,6 @@ export {
   ROOM_IMG_48,
   ROOM_IMG_49,
   ROOM_IMG_50,
+  ROOM_IMG_51,
+  ROOM_IMG_52,
 };
