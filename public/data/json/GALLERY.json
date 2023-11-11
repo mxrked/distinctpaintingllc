@@ -418,5 +418,20 @@
     "_itemID": "_G0084",
     "_itemType": "Room",
     "_itemImgSrc": "https://raw.githubusercontent.com/mxrked/freelance_projects_CDN/main/distinct-painting-llc/imgs/gallery/room-52.webp"
+  },
+  {
+    "_itemID": "_G0085",
+    "_itemType": "Room",
+    "_itemImgSrc": "https://raw.githubusercontent.com/mxrked/freelance_projects_CDN/main/distinct-painting-llc/imgs/gallery/room-53.webp"
+  },
+  {
+    "_itemID": "_G0086",
+    "_itemType": "Room",
+    "_itemImgSrc": "https://raw.githubusercontent.com/mxrked/freelance_projects_CDN/main/distinct-painting-llc/imgs/gallery/room-54.webp"
+  },
+  {
+    "_itemID": "_G0087",
+    "_itemType": "Outside",
+    "_itemImgSrc": "https://raw.githubusercontent.com/mxrked/freelance_projects_CDN/main/distinct-painting-llc/imgs/gallery/outside-32.webp"
   }
 ]
