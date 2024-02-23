@@ -38,6 +38,7 @@ let IS_PAYMENT_REQUIRED = true;
 function MyApp({ Component, pageProps }) {
   const router = useRouter();
   const [updateUI, setUpdateUI] = useState(0);
+  const [initialLoadComplete, setInitialLoadComplete] = useState(false);
   const [redirected, setRedirected] = useState(false);
 
   // useEffect(() => {
@@ -60,14 +61,18 @@ function MyApp({ Component, pageProps }) {
   useEffect(() => {
     const handleRedirect = async () => {
       if (IS_PAYMENT_REQUIRED && !redirected) {
-        // Set redirected to true to prevent further redirects
-        setRedirected(true);
+        try {
+          // Set redirected to true to prevent further redirects
+          setRedirected(true);
 
-        // Redirect to the payment_required page without adding a new entry to the history stack
-        await router.push("/payment_required", undefined, {
-          shallow: true,
-          replace: true,
-        });
+          // Redirect to the payment_required page without adding a new entry to the history stack
+          await router.push("/payment_required", undefined, {
+            shallow: true,
+            replace: true,
+          });
+        } catch (error) {
+          console.error("Error while redirecting:", error);
+        }
       }
     };
 
@@ -75,10 +80,15 @@ function MyApp({ Component, pageProps }) {
   }, [IS_PAYMENT_REQUIRED, redirected, router]);
 
   useEffect(() => {
-    if (redirected) {
-      IS_PAYMENT_REQUIRED = false;
-    }
-  }, [redirected]);
+    // Update state to indicate that the initial setup is complete
+    setInitialLoadComplete(true);
+  }, []); // Empty dependency array ensures that this effect runs only once when the component mounts
+
+  // useEffect(() => {
+  //   if (redirected) {
+  //     IS_PAYMENT_REQUIRED = false;
+  //   }
+  // }, [redirected]);
 
   //? GLOBALS
   //! NProgress Init
@@ -307,7 +317,7 @@ function MyApp({ Component, pageProps }) {
     });
   }, []);
 
-  return <Component {...pageProps} />;
+  return initialLoadComplete ? <Component {...pageProps} /> : null;
 }
 
 export default MyApp;
