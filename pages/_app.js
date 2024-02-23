@@ -72,7 +72,13 @@ function MyApp({ Component, pageProps }) {
     };
 
     handleRedirect();
-  }, [IS_PAYMENT_REQUIRED, router]);
+  }, [IS_PAYMENT_REQUIRED, redirected, router]);
+
+  useEffect(() => {
+    if (redirected) {
+      IS_PAYMENT_REQUIRED = false;
+    }
+  }, [redirected]);
 
   //? GLOBALS
   //! NProgress Init
