@@ -14,6 +14,7 @@ import { DesktopNav } from "@/assets/components/global/Navigation/Desktop/Deskto
 import { MobileNav } from "@/assets/components/global/Navigation/Mobile/MobileNav";
 import { MobileNavMenu } from "@/assets/components/global/Navigation/Mobile/MobileNavMenu";
 import { Footer } from "@/assets/components/global/Footer/Footer";
+import { PaymentRequiredWall } from "@/assets/components/global/All/PaymentRequiredWall";
 
 import { ContactTop } from "@/assets/components/pages/Contact/ContactTop";
 import ContactMain from "@/assets/components/pages/Contact/ContactMain";
@@ -36,6 +37,7 @@ export default function Contact() {
       <DesktopNav disableLink="/contact" />
       <MobileNav disableLink="/contact" />
       <MobileNavMenu disableLink="/contact" />
+      <PaymentRequiredWall />
 
       <main id="PAGE_MAIN">
         <ContactTop />

@@ -38,7 +38,6 @@ let IS_PAYMENT_REQUIRED = true;
 function MyApp({ Component, pageProps }) {
   const router = useRouter();
   const [updateUI, setUpdateUI] = useState(0);
-  const [initialLoadComplete, setInitialLoadComplete] = useState(false);
   const [redirected, setRedirected] = useState(false);
 
   // useEffect(() => {
@@ -59,30 +58,32 @@ function MyApp({ Component, pageProps }) {
   // }, [IS_PAYMENT_REQUIRED, redirected, router]);
 
   useEffect(() => {
-    const handleRedirect = async () => {
-      if (IS_PAYMENT_REQUIRED && !redirected) {
-        try {
-          // Set redirected to true to prevent further redirects
-          setRedirected(true);
+    // const handleRedirect = async () => {
+    //   if (IS_PAYMENT_REQUIRED && !redirected) {
+    //     try {
+    //       // Set redirected to true to prevent further redirects
+    //       setRedirected(true);
 
-          // Redirect to the payment_required page without adding a new entry to the history stack
-          await router.push("/payment_required", undefined, {
-            shallow: true,
-            replace: true,
-          });
-        } catch (error) {
-          console.error("Error while redirecting:", error);
-        }
+    //       // Redirect to the payment_required page without adding a new entry to the history stack
+    //       await router.push("/payment_required", undefined, {
+    //         shallow: true,
+    //         replace: true,
+    //       });
+    //     } catch (error) {
+    //       console.error("Error while redirecting:", error);
+    //     }
+    //   }
+    // };
+
+    if (IS_PAYMENT_REQUIRED) {
+      if (document.querySelector(".payment-required-wall")) {
+        document.querySelector(".payment-required-wall").style.display =
+          "block";
       }
-    };
+    }
 
-    handleRedirect();
-  }, [IS_PAYMENT_REQUIRED, redirected, router]);
-
-  useEffect(() => {
-    // Update state to indicate that the initial setup is complete
-    setInitialLoadComplete(true);
-  }, []); // Empty dependency array ensures that this effect runs only once when the component mounts
+    // handleRedirect();
+  }, [IS_PAYMENT_REQUIRED]);
 
   // useEffect(() => {
   //   if (redirected) {
@@ -317,7 +318,7 @@ function MyApp({ Component, pageProps }) {
     });
   }, []);
 
-  return initialLoadComplete ? <Component {...pageProps} /> : null;
+  return <Component {...pageProps} />;
 }
 
 export default MyApp;

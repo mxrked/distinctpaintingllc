@@ -16,6 +16,7 @@ import { DesktopNav } from "@/assets/components/global/Navigation/Desktop/Deskto
 import { MobileNav } from "@/assets/components/global/Navigation/Mobile/MobileNav";
 import { MobileNavMenu } from "@/assets/components/global/Navigation/Mobile/MobileNavMenu";
 import { Footer } from "@/assets/components/global/Footer/Footer";
+import { PaymentRequiredWall } from "@/assets/components/global/All/PaymentRequiredWall";
 
 import { GalleryTop } from "@/assets/components/pages/Gallery/GalleryTop";
 import { GalleryMain } from "@/assets/components/pages/Gallery/GalleryMain";
@@ -63,6 +64,7 @@ export default function Gallery({ gallery_data }) {
       <DesktopNav disableLink="/gallery" />
       <MobileNav disableLink="/gallery" />
       <MobileNavMenu disableLink="/gallery" />
+      <PaymentRequiredWall />
 
       <main id="PAGE_MAIN">
         <GalleryTop />

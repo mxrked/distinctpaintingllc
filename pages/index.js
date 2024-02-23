@@ -15,6 +15,7 @@ import { DesktopNav } from "@/assets/components/global/Navigation/Desktop/Deskto
 import { MobileNav } from "@/assets/components/global/Navigation/Mobile/MobileNav";
 import { MobileNavMenu } from "@/assets/components/global/Navigation/Mobile/MobileNavMenu";
 import { Footer } from "@/assets/components/global/Footer/Footer";
+import { PaymentRequiredWall } from "@/assets/components/global/All/PaymentRequiredWall";
 
 import { IndexTop } from "@/assets/components/pages/Index/IndexTop";
 import { IndexAbout } from "@/assets/components/pages/Index/IndexAbout";
@@ -149,6 +150,7 @@ export default function Home({
       <DesktopNav disableLink="/" />
       <MobileNav disableLink="/" />
       <MobileNavMenu disableLink="/" />
+      <PaymentRequiredWall />
 
       <main id="PAGE_MAIN">
         <IndexTop />
