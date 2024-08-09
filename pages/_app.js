@@ -33,7 +33,7 @@ import "../assets/styles/tools/resets/resets.css";
 import "../assets/styles/tools/library_styles/nprogress/nprogress.css";
 
 //TODO: This is used to indicate if the client has not paid for monthly invoice
-let IS_PAYMENT_REQUIRED = true;
+let IS_PAYMENT_REQUIRED = false;
 
 function MyApp({ Component, pageProps }) {
   const router = useRouter();
